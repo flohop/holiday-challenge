@@ -1,0 +1,225 @@
+"use client";
+import {usePathname, useRouter,useSearchParams} from "next/navigation"
+import {useEffect, useState} from "react";
+import {gql, useLazyQuery, useMutation, useQuery} from "@apollo/client";
+import {params} from "bath-es5";
+import {Box, Button, Card, Divider, Grid, LinearProgress, Rating, Stack, Typography} from "@mui/material";
+// @ts-ignore
+import InfiniteScroll from "react-infinite-scroller"
+import StarRating from "@/app/components/Hotel/StarRating";
+import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
+import {ADD_SAVED_OFFERS_MUTATION, calcDuration, generateRandomNumber} from "@/app/page";
+import {useCookies} from "react-cookie";
+
+const HOTEL_QUERY = gql`
+    query Hotel($hotelId: Float!) {
+        hotel(id: $hotelId) {
+            hotelname
+            hotelstars
+            hotelid
+        }
+    }
+`
+
+
+const HOTEL_OFFERS_QUERY_2 = gql`
+    query Offers_by_hotel_by_filter($input: OfferInput!) {
+        offers_by_hotel_by_filter(input: $input) {
+            countadults
+            countchildren
+            hotelid
+            inboundarrivalairport
+            inboundarrivaldatetime
+            inbounddepartureairport
+            inbounddeparturedatetime
+            mealtype
+            oceanview
+            isSaved
+            outboundarrivaldatetime
+            outboundarrivalairport
+            outbounddepartureairport
+            outbounddeparturedatetime
+            price
+            _id
+            roomtype
+        }
+    }
+`
+
+export default function Page() {
+
+    const pathname = usePathname()
+
+    const [pageNumber, setPageNumber] = useState(1)
+
+    const [canLoadMore, setCanLoadMore] = useState(true)
+
+    const [offers, setOffers] = useState<any[]>([])
+
+    const [searchQuery, setSearchQuery] = useState({})
+
+    const [hotelId, setHotelId] = useState<number>()
+
+    const [cookies, setCookie] = useCookies(["queryInput"])
+
+    const {data: hotelData, error: hotelError, loading: hotelLoading} = useQuery(HOTEL_QUERY, {
+        variables: {
+            "hotelId": hotelId,
+
+        }
+    })
+
+    const [getOffers, {data: offerData, error: offerError, loading: offerLoading, fetchMore}] = useLazyQuery(HOTEL_OFFERS_QUERY_2)
+
+
+    useEffect(() => {
+        if (cookies.queryInput === undefined) {
+            // TODO Add add redirect
+        } else {
+             getOffers({
+                variables: {
+                    input: {
+                        hotelId: 702,
+                        pageNumber: 1,
+                        pageSize: 10,
+                        earliestDepartureDate: "2023-05-19T00:00:00+00:00",
+                        countAdults: 2,
+                        departureAirports: ["LEJ", "MUC"],
+                        countChildren: 0,
+                        price: 1305,
+                        duration: 3,
+                        latestReturnDate: "2023-05-30T17:40:00+00:00",
+                        mealType: "NONE",
+                        oceanView: "false",
+                        roomType: "APARTMENT",
+
+                      /*  "countAdults": cookies.queryInput.countAdults,
+                        "countChildren": cookies.queryInput.countChildren,
+                        "duration": cookies.queryInput.duration,
+                        "earliestDepartureDate": cookies.queryInput.earlistReturnDate,
+                        "latestReturnDate": cookies.queryInput.latestReturnDate,
+                        "departureAirports": cookies.queryInput.departureAirports,
+                        "price": cookies.queryInput.price,
+                        "oceanView": cookies.queryInput.oceanView,
+                        "mealType": cookies.queryInput.mealType,
+                        "roomType": cookies.queryInput.roomType*/
+                    }
+                }
+            }).then((response) => {
+                console.log("Got response: ", response)
+
+                if (response.data.offers_by_hotel_by_filter.length < 10) {
+                    setCanLoadMore(false)
+                }
+
+             }).catch((err) => {
+                 console.log("Error: ", err)
+             })
+        }
+    }, [])
+
+
+
+    const [toggleOfferMutation, {data: saveData, loading: saveLoading, error: saveError}] = useMutation(ADD_SAVED_OFFERS_MUTATION)
+
+    useEffect(() => {
+        if (!offerLoading  && offerData) {
+            setOffers(offerData.offers_by_hotel_by_filter)
+        }
+
+    }, [offerLoading, offerData])
+
+    async function loadMore(pageNumber: number) {
+
+        // Only load more if there are already some present
+        if (offers.length == 0 ) {
+            return []
+        }
+
+        const response = await fetchMore({
+            variables: {
+                pageNumber: pageNumber
+            }
+        })
+        const newOffers = response.data.offers_by_hotel_by_filter
+
+        debugger
+
+        if (newOffers.length == 0) {
+            setCanLoadMore(false)
+        }
+
+        setOffers(prevState => [...prevState, ...newOffers])
+    }
+
+
+
+    useEffect(() => {
+        const split = pathname.split("/")
+        setHotelId(Number.parseInt(split[split.length-1]))
+    }, [pathname])
+
+    if (hotelError || hotelLoading) {
+        return <p>Could not get hotel / Loading</p>
+    }
+
+    async function handleToggleOffer(offerId: string): Promise<void> {
+        // Add offer mutation
+        await toggleOfferMutation({variables: {offerId: offerId}})
+
+    }
+
+    // @ts-ignore
+    return <>
+        <Grid container direction="row" justifySelf="center" justifyContent="center" alignItems="center">
+            <Grid item xs={4}>
+                <Typography variant="h4">{hotelData.hotel.hotelname}</Typography>
+            </Grid>
+            <Grid item xs={1}>
+                <Rating value={hotelData.hotel.hotelstars} readOnly />
+            </Grid>
+        </Grid>
+        <Box
+            display="block"
+            marginLeft="auto"
+            marginRight="auto"
+            sx={{backgroundImage: `url("/hotels/${(hotelData.hotel.hotelid % 40) + 1}.jpg")`, width: "711px",height: "400px", backgroundSize: "cover"}}/>
+
+        {/* offers */}
+
+        <InfiniteScroll
+            pageStart={1}
+            loadMore={loadMore}
+            hasMore={canLoadMore}
+            threshold={1000}
+            loader={<LinearProgress key={generateRandomNumber()} />}
+            key={generateRandomNumber()}
+        >
+
+            <Stack gap={3}>
+                {offerData !== undefined && offers.map((offer: any) =>
+                    <HotelOffer key={generateRandomNumber()} onToggleOffer={handleToggleOffer} bookButton={true} offer={{
+                        _id: offer._id,
+                        isSaved: offer.isSaved,
+                        hotelid: offer.hotelid,
+                        price: offer.price,
+                        countAdults: offer.countadults,
+                        countChildren: offer.countchildren,
+                        inboundDepartureAirport: offer.inbounddepartureairport,
+                        inboundDepartureDatetime: offer.inbounddeparturedatetime, // date
+                        inboundArrivalAirport:  offer.inboundarrivalairport,
+                        inboundArrivalDatetime: offer.inboundarrivaldatetime, // datetime
+                        outboundDepartureAirport: offer.outboundarrivalairport,
+                        outboundDepartureDatetime: offer.outbounddeparturedatetime, // date
+                        outboundArrivalAirport: offer.outboundarrivalairport,
+                        outboundArrivalDatetime: offer.outboundarrivaldatetime, // datetime
+                        mealType: offer.mealtype,
+                        oceanView: offer.oceanview == 'true' ,
+                        roomType: offer.roomtype,
+                        duration: calcDuration(offer.outbounddeparturedatetime, offer.inboundarrivaldatetime)
+                    }} />
+                )}
+            </Stack>
+        </InfiniteScroll>
+    </>
+}
