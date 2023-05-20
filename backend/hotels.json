@@ -1,0 +1,4992 @@
+{
+  "1": {
+    "hotelid": "1",
+    "hotelname": "Iberostar Playa de Muro",
+    "hotelstars": "4"
+  },
+  "2": {
+    "hotelname": "Prinsotel La Pineda",
+    "hotelstars": "4.0",
+    "hotelid": "2"
+  },
+  "3": {
+    "hotelname": "BlueSea Gran Playa",
+    "hotelstars": "3.0",
+    "hotelid": "3"
+  },
+  "4": {
+    "hotelname": "Grupotel Gran Vista & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "4"
+  },
+  "5": {
+    "hotelname": "Playa Esperanza Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "5"
+  },
+  "6": {
+    "hotelname": "Hotel Cala d'Or",
+    "hotelstars": "4.0",
+    "hotelid": "6"
+  },
+  "7": {
+    "hotelname": "Valentin Paguera",
+    "hotelstars": "3.0",
+    "hotelid": "7"
+  },
+  "8": {
+    "hotelname": "Hotel Vibra Beverly Playa",
+    "hotelstars": "4.0",
+    "hotelid": "8"
+  },
+  "9": {
+    "hotelname": "Bonsol Hotel Resort & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "9"
+  },
+  "10": {
+    "hotelname": "Bon Aire Apartments",
+    "hotelstars": "1.0",
+    "hotelid": "10"
+  },
+  "11": {
+    "hotelname": "Hotel Carabela",
+    "hotelstars": "3.0",
+    "hotelid": "11"
+  },
+  "12": {
+    "hotelname": "Alua Gran Camp de Mar",
+    "hotelstars": "4.0",
+    "hotelid": "12"
+  },
+  "13": {
+    "hotelname": "Fergus Club Europa",
+    "hotelstars": "4.0",
+    "hotelid": "13"
+  },
+  "14": {
+    "hotelname": "Hilton Mallorca Galatzo",
+    "hotelstars": "4.0",
+    "hotelid": "14"
+  },
+  "15": {
+    "hotelname": "Bahia del Sol",
+    "hotelstars": "4.0",
+    "hotelid": "15"
+  },
+  "16": {
+    "hotelname": "Hotel y Apartamentos Casablanca",
+    "hotelstars": "3.0",
+    "hotelid": "16"
+  },
+  "17": {
+    "hotelname": "Gaya",
+    "hotelstars": "3.0",
+    "hotelid": "17"
+  },
+  "18": {
+    "hotelname": "Holiday Center",
+    "hotelstars": "3.0",
+    "hotelid": "18"
+  },
+  "19": {
+    "hotelname": "Grupotel Nilo & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "19"
+  },
+  "20": {
+    "hotelname": "allsun Hotel Paguera Park",
+    "hotelstars": "4.0",
+    "hotelid": "20"
+  },
+  "21": {
+    "hotelname": "H10 Blue Mar",
+    "hotelstars": "4.0",
+    "hotelid": "21"
+  },
+  "22": {
+    "hotelname": "Globales Pionero",
+    "hotelstars": "4.0",
+    "hotelid": "22"
+  },
+  "23": {
+    "hotelname": "Meli\\u00e1 Palma Marina",
+    "hotelstars": "4.0",
+    "hotelid": "23"
+  },
+  "24": {
+    "hotelname": "Club Santa Ponsa ",
+    "hotelstars": "3.0",
+    "hotelid": "24"
+  },
+  "25": {
+    "hotelname": "BQ Bulevar Peguera Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "25"
+  },
+  "26": {
+    "hotelname": "Roc Illetas Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "26"
+  },
+  "27": {
+    "hotelname": "Iberostar Selection Jard\\u00edn del Sol Suites",
+    "hotelstars": "4.0",
+    "hotelid": "27"
+  },
+  "28": {
+    "hotelname": "Globales Santa Ponsa Park",
+    "hotelstars": "4.0",
+    "hotelid": "28"
+  },
+  "29": {
+    "hotelname": "HSM Solivera Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "29"
+  },
+  "30": {
+    "hotelname": "Hotel Son Caliu Spa Oasis",
+    "hotelstars": "4.0",
+    "hotelid": "30"
+  },
+  "31": {
+    "hotelname": "Tora",
+    "hotelstars": "3.0",
+    "hotelid": "31"
+  },
+  "32": {
+    "hotelname": "Venecia",
+    "hotelstars": "3.0",
+    "hotelid": "32"
+  },
+  "33": {
+    "hotelname": "Secrets Mallorca Villamil Resort & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "33"
+  },
+  "34": {
+    "hotelname": "Villa Columbus",
+    "hotelstars": "2.0",
+    "hotelid": "34"
+  },
+  "35": {
+    "hotelname": "Hostal Residencia Sutimar",
+    "hotelstars": "3.0",
+    "hotelid": "35"
+  },
+  "36": {
+    "hotelname": "Mar Hotels Paguera & Spa and Apartments",
+    "hotelstars": "4.0",
+    "hotelid": "36"
+  },
+  "37": {
+    "hotelname": "Hostal Villa Rosa",
+    "hotelstars": "3.0",
+    "hotelid": "37"
+  },
+  "38": {
+    "hotelname": "Hotel Bonanza Park",
+    "hotelstars": "4.0",
+    "hotelid": "38"
+  },
+  "39": {
+    "hotelname": "Hotel Palace Bonanza Playa & SPA",
+    "hotelstars": "4.0",
+    "hotelid": "39"
+  },
+  "40": {
+    "hotelname": "Ponent Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "40"
+  },
+  "41": {
+    "hotelname": "Ponent Mar",
+    "hotelstars": "4.0",
+    "hotelid": "41"
+  },
+  "42": {
+    "hotelname": "Sentido Fido Punta del Mar",
+    "hotelstars": "4.0",
+    "hotelid": "42"
+  },
+  "43": {
+    "hotelname": "Flor Los Almendros Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "43"
+  },
+  "44": {
+    "hotelname": "Valentin Reina Paguera Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "44"
+  },
+  "45": {
+    "hotelname": "Globales Playa Santa Ponsa",
+    "hotelstars": "3.0",
+    "hotelid": "45"
+  },
+  "46": {
+    "hotelname": "Plazamar Serenity Resort ",
+    "hotelstars": "3.0",
+    "hotelid": "46"
+  },
+  "47": {
+    "hotelname": "Be Live Experience Costa Palma",
+    "hotelstars": "4.0",
+    "hotelid": "47"
+  },
+  "48": {
+    "hotelname": "La P\\u00e9rgola Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "48"
+  },
+  "49": {
+    "hotelname": "HSM Linda Playa",
+    "hotelstars": "3.0",
+    "hotelid": "49"
+  },
+  "50": {
+    "hotelname": "Los Tilos Aparthotel",
+    "hotelstars": "2.0",
+    "hotelid": "50"
+  },
+  "51": {
+    "hotelname": "Hotel Palmira Paguera & Suites",
+    "hotelstars": "4.0",
+    "hotelid": "51"
+  },
+  "52": {
+    "hotelname": "BQ Paguera Boutique Hotel ",
+    "hotelstars": "4.0",
+    "hotelid": "52"
+  },
+  "53": {
+    "hotelname": "Universal Aparthotel Don Camilo",
+    "hotelstars": "4.0",
+    "hotelid": "53"
+  },
+  "54": {
+    "hotelname": "Sol House The Studio - Calvia Beach",
+    "hotelstars": "4.0",
+    "hotelid": "54"
+  },
+  "55": {
+    "hotelname": "Tomir Portals Suites",
+    "hotelstars": "4.0",
+    "hotelid": "55"
+  },
+  "56": {
+    "hotelname": "Hotel Bahia",
+    "hotelstars": "4.0",
+    "hotelid": "56"
+  },
+  "57": {
+    "hotelname": "Bon Repos",
+    "hotelstars": "2.0",
+    "hotelid": "57"
+  },
+  "58": {
+    "hotelname": "Zafiro Palmanova",
+    "hotelstars": "4.0",
+    "hotelid": "58"
+  },
+  "59": {
+    "hotelname": "Sheraton Mallorca Arabella Golf Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "59"
+  },
+  "60": {
+    "hotelname": "Brismar",
+    "hotelstars": "3.0",
+    "hotelid": "60"
+  },
+  "61": {
+    "hotelname": "Globales Cala Vi\\u00f1as",
+    "hotelstars": "4.0",
+    "hotelid": "61"
+  },
+  "62": {
+    "hotelname": "Cupido Boutique Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "62"
+  },
+  "63": {
+    "hotelname": "Paguera Beach",
+    "hotelstars": "4.0",
+    "hotelid": "63"
+  },
+  "64": {
+    "hotelname": "Maria Eugenia Pension",
+    "hotelstars": "5.0",
+    "hotelid": "64"
+  },
+  "65": {
+    "hotelname": "Hotel de Mar Gran Melia",
+    "hotelstars": "5.0",
+    "hotelid": "65"
+  },
+  "66": {
+    "hotelname": "Flor Los Almendros Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "66"
+  },
+  "67": {
+    "hotelname": "Gran Meli\\u00e1 Victoria",
+    "hotelstars": "5.0",
+    "hotelid": "67"
+  },
+  "68": {
+    "hotelname": "Miranda",
+    "hotelstars": "2.0",
+    "hotelid": "68"
+  },
+  "69": {
+    "hotelname": "Hotel Palmira Paradise & Suites",
+    "hotelstars": "4.0",
+    "hotelid": "69"
+  },
+  "70": {
+    "hotelname": "allsun Hotel Bella Paguera",
+    "hotelstars": "5.0",
+    "hotelid": "70"
+  },
+  "71": {
+    "hotelname": "allsun Hotel Cormoran",
+    "hotelstars": "5.0",
+    "hotelid": "71"
+  },
+  "72": {
+    "hotelname": "Sol Wave House All Suites",
+    "hotelstars": "4.0",
+    "hotelid": "72"
+  },
+  "73": {
+    "hotelname": "Zafiro Rey Don Jaime",
+    "hotelstars": "4.0",
+    "hotelid": "73"
+  },
+  "74": {
+    "hotelname": "Grupotel Aguait Resort & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "74"
+  },
+  "75": {
+    "hotelname": "Prinsotel Alba",
+    "hotelstars": "4.0",
+    "hotelid": "75"
+  },
+  "76": {
+    "hotelname": "Alcina",
+    "hotelstars": "1.0",
+    "hotelid": "76"
+  },
+  "77": {
+    "hotelname": "Alondra",
+    "hotelstars": "3.0",
+    "hotelid": "77"
+  },
+  "78": {
+    "hotelname": "Amoros",
+    "hotelstars": "3.0",
+    "hotelid": "78"
+  },
+  "79": {
+    "hotelname": "Globales Am\\u00e9rica",
+    "hotelstars": "4.0",
+    "hotelid": "79"
+  },
+  "80": {
+    "hotelname": "Gavimar Ariel",
+    "hotelstars": "3.0",
+    "hotelid": "80"
+  },
+  "81": {
+    "hotelname": "Protur Atalaya Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "81"
+  },
+  "82": {
+    "hotelname": "allsun Hotel Bahia del Este",
+    "hotelstars": "5.0",
+    "hotelid": "82"
+  },
+  "83": {
+    "hotelname": "Hotel Bella Mar",
+    "hotelstars": "3.0",
+    "hotelid": "83"
+  },
+  "84": {
+    "hotelname": "Bella Playa Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "84"
+  },
+  "85": {
+    "hotelname": "Hotel Cala Gat",
+    "hotelstars": "4.0",
+    "hotelid": "85"
+  },
+  "86": {
+    "hotelname": "Guya Wave Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "86"
+  },
+  "87": {
+    "hotelname": "THB Cala Lliteras",
+    "hotelstars": "4.0",
+    "hotelid": "87"
+  },
+  "88": {
+    "hotelname": "Club Hotel Cala Ratjada",
+    "hotelstars": "3.0",
+    "hotelid": "88"
+  },
+  "89": {
+    "hotelname": "Baviera",
+    "hotelstars": "3.0",
+    "hotelid": "89"
+  },
+  "90": {
+    "hotelname": "Capricho",
+    "hotelstars": "3.0",
+    "hotelid": "90"
+  },
+  "91": {
+    "hotelname": "Singular Cala Ratjada",
+    "hotelstars": "2.0",
+    "hotelid": "91"
+  },
+  "92": {
+    "hotelname": "Clumba",
+    "hotelstars": "3.0",
+    "hotelid": "92"
+  },
+  "93": {
+    "hotelname": "Diamant Hotels",
+    "hotelstars": "3.0",
+    "hotelid": "93"
+  },
+  "94": {
+    "hotelname": "THB Dos Playas",
+    "hotelstars": "3.0",
+    "hotelid": "94"
+  },
+  "95": {
+    "hotelname": "Paradise Residencial",
+    "hotelstars": "3.0",
+    "hotelid": "95"
+  },
+  "96": {
+    "hotelname": "Hostal Gami                   ",
+    "hotelstars": "1.0",
+    "hotelid": "96"
+  },
+  "97": {
+    "hotelname": "THB Guya Playa",
+    "hotelstars": "4.0",
+    "hotelid": "97"
+  },
+  "98": {
+    "hotelname": "allsun Hotel Lux de Mar",
+    "hotelstars": "4.0",
+    "hotelid": "98"
+  },
+  "99": {
+    "hotelname": "Mar Azul Pur Estil Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "99"
+  },
+  "100": {
+    "hotelname": "Bell Port",
+    "hotelstars": "3.0",
+    "hotelid": "100"
+  },
+  "101": {
+    "hotelname": "Parque Nereida Suites Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "101"
+  },
+  "102": {
+    "hotelname": "HSM Regana",
+    "hotelstars": "4.0",
+    "hotelid": "102"
+  },
+  "103": {
+    "hotelname": "Quijote Park",
+    "hotelstars": "3.0",
+    "hotelid": "103"
+  },
+  "104": {
+    "hotelname": "Marbel",
+    "hotelstars": "2.0",
+    "hotelid": "104"
+  },
+  "105": {
+    "hotelname": "Hotel & Spa S'Entrador Playa ",
+    "hotelstars": "4.0",
+    "hotelid": "105"
+  },
+  "106": {
+    "hotelname": "Serrano Palace",
+    "hotelstars": "5.0",
+    "hotelid": "106"
+  },
+  "107": {
+    "hotelname": "Protur Tur\\u00f3 Pins Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "107"
+  },
+  "108": {
+    "hotelname": "Chevy Hotel & Suites",
+    "hotelstars": "3.0",
+    "hotelid": "108"
+  },
+  "109": {
+    "hotelname": "Vistasol",
+    "hotelstars": "2.0",
+    "hotelid": "109"
+  },
+  "110": {
+    "hotelname": "D-H Anba Romani Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "110"
+  },
+  "111": {
+    "hotelname": "Hipotels Bah\\u00eda Grande",
+    "hotelstars": "4.0",
+    "hotelid": "111"
+  },
+  "112": {
+    "hotelname": "Biniamar",
+    "hotelstars": "3.0",
+    "hotelid": "112"
+  },
+  "113": {
+    "hotelname": "allsun Hotel Borneo",
+    "hotelstars": "5.0",
+    "hotelid": "113"
+  },
+  "114": {
+    "hotelname": "Hipotels Cala Millor Park",
+    "hotelstars": "4.0",
+    "hotelid": "114"
+  },
+  "115": {
+    "hotelname": "Marins Beach Club",
+    "hotelstars": "4.0",
+    "hotelid": "115"
+  },
+  "116": {
+    "hotelname": "CM Castell de Mar",
+    "hotelstars": "4.0",
+    "hotelid": "116"
+  },
+  "117": {
+    "hotelname": "Aparthotel Ciudad Laurel",
+    "hotelstars": "3.0",
+    "hotelid": "117"
+  },
+  "118": {
+    "hotelname": "Hipotels Don Juan",
+    "hotelstars": "3.0",
+    "hotelid": "118"
+  },
+  "119": {
+    "hotelname": "Hipotels Dunas Cala Millor",
+    "hotelstars": "4.0",
+    "hotelid": "119"
+  },
+  "120": {
+    "hotelname": "Hipotels Flamenco",
+    "hotelstars": "4.0",
+    "hotelid": "120"
+  },
+  "121": {
+    "hotelname": "Hotel Girasol ",
+    "hotelstars": "4.0",
+    "hotelid": "121"
+  },
+  "122": {
+    "hotelname": "Kyrat Am\\u00e0rac",
+    "hotelstars": "4.0",
+    "hotelid": "122"
+  },
+  "123": {
+    "hotelname": "Hipotels Hipocampo",
+    "hotelstars": "4.0",
+    "hotelid": "123"
+  },
+  "124": {
+    "hotelname": "Hipotels Hipocampo Playa",
+    "hotelstars": "4.0",
+    "hotelid": "124"
+  },
+  "125": {
+    "hotelname": "BlueSea Cala Millor",
+    "hotelstars": "3.0",
+    "hotelid": "125"
+  },
+  "126": {
+    "hotelname": "Hoteles & Apartamentos La Santa Maria",
+    "hotelstars": "3.0",
+    "hotelid": "126"
+  },
+  "127": {
+    "hotelname": "Hotel Marins Playa",
+    "hotelstars": "4.0",
+    "hotelid": "127"
+  },
+  "128": {
+    "hotelname": "Hipotels Mercedes",
+    "hotelstars": "3.0",
+    "hotelid": "128"
+  },
+  "129": {
+    "hotelname": "R2 Cala Millor Beach Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "129"
+  },
+  "130": {
+    "hotelname": "Hotel Ilusion Moreyo",
+    "hotelstars": "1.0",
+    "hotelid": "130"
+  },
+  "131": {
+    "hotelname": "Hotel Apartamentos Morito",
+    "hotelstars": "3.0",
+    "hotelid": "131"
+  },
+  "132": {
+    "hotelname": "CM Playa del Moro",
+    "hotelstars": "4.0",
+    "hotelid": "132"
+  },
+  "133": {
+    "hotelname": "Sabina Playa",
+    "hotelstars": "4.0",
+    "hotelid": "133"
+  },
+  "134": {
+    "hotelname": "Hipotels Said",
+    "hotelstars": "4.0",
+    "hotelid": "134"
+  },
+  "135": {
+    "hotelname": "allsun Hotel Sumba",
+    "hotelstars": "5.0",
+    "hotelid": "135"
+  },
+  "136": {
+    "hotelname": "Ilusion Vista Blava",
+    "hotelstars": "3.0",
+    "hotelid": "136"
+  },
+  "137": {
+    "hotelname": "Voramar",
+    "hotelstars": "3.0",
+    "hotelid": "137"
+  },
+  "138": {
+    "hotelname": "Inturotel Cala Azul",
+    "hotelstars": "3.0",
+    "hotelid": "138"
+  },
+  "139": {
+    "hotelname": "Blue Sea Club Martha\\u00b4s Resort",
+    "hotelstars": "4.0",
+    "hotelid": "139"
+  },
+  "140": {
+    "hotelname": "Inturotel Esmeralda Park",
+    "hotelstars": "3.0",
+    "hotelid": "140"
+  },
+  "141": {
+    "hotelname": "Gavimar La Mirada Club Resort",
+    "hotelstars": "3.0",
+    "hotelid": "141"
+  },
+  "142": {
+    "hotelname": "Barcel\\u00f3 Illetas Albatros",
+    "hotelstars": "4.0",
+    "hotelid": "142"
+  },
+  "143": {
+    "hotelname": "Cupidor",
+    "hotelstars": "3.0",
+    "hotelid": "143"
+  },
+  "144": {
+    "hotelname": "Hotel Morlans",
+    "hotelstars": "5.0",
+    "hotelid": "144"
+  },
+  "145": {
+    "hotelname": "Hotel Diamante",
+    "hotelstars": "2.0",
+    "hotelid": "145"
+  },
+  "146": {
+    "hotelname": "FERGUS Style Cala Blanca Suites",
+    "hotelstars": "5.0",
+    "hotelid": "146"
+  },
+  "147": {
+    "hotelname": "Hostal Neptuno",
+    "hotelstars": "3.0",
+    "hotelid": "147"
+  },
+  "148": {
+    "hotelname": "Be Live Adults Only Marivent",
+    "hotelstars": "4.0",
+    "hotelid": "148"
+  },
+  "149": {
+    "hotelname": "FERGUS Style Tobago",
+    "hotelstars": "5.0",
+    "hotelid": "149"
+  },
+  "150": {
+    "hotelname": "Villa Cati",
+    "hotelstars": "2.0",
+    "hotelid": "150"
+  },
+  "151": {
+    "hotelname": "JS Yate",
+    "hotelstars": "4.0",
+    "hotelid": "151"
+  },
+  "152": {
+    "hotelname": "Hotel Morlans Garden",
+    "hotelstars": "3.0",
+    "hotelid": "152"
+  },
+  "153": {
+    "hotelname": "allsun Hotel Paguera ",
+    "hotelstars": "4.0",
+    "hotelid": "153"
+  },
+  "154": {
+    "hotelname": "Sol Palmanova",
+    "hotelstars": "4.0",
+    "hotelid": "154"
+  },
+  "155": {
+    "hotelname": "Sol Guadalupe",
+    "hotelstars": "4.0",
+    "hotelid": "155"
+  },
+  "156": {
+    "hotelname": "Grupotel Acapulco Playa",
+    "hotelstars": "4.0",
+    "hotelid": "156"
+  },
+  "157": {
+    "hotelname": "Indico Rock",
+    "hotelstars": "4.0",
+    "hotelid": "157"
+  },
+  "158": {
+    "hotelname": "HM Balanguera Beach",
+    "hotelstars": "4.0",
+    "hotelid": "158"
+  },
+  "159": {
+    "hotelname": "BQ Hotel Amfora Beach Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "159"
+  },
+  "160": {
+    "hotelname": "Hotel BQ Apolo",
+    "hotelstars": "4.0",
+    "hotelid": "160"
+  },
+  "161": {
+    "hotelname": "Hotel Aya",
+    "hotelstars": "4.0",
+    "hotelid": "161"
+  },
+  "162": {
+    "hotelname": "HM Ayron Park",
+    "hotelstars": "5.0",
+    "hotelid": "162"
+  },
+  "163": {
+    "hotelname": "azuline Hotel Bahamas & Bahamas II",
+    "hotelstars": "3.0",
+    "hotelid": "163"
+  },
+  "164": {
+    "hotelname": "Balear",
+    "hotelstars": "3.0",
+    "hotelid": "164"
+  },
+  "165": {
+    "hotelname": "Ipanema Beach",
+    "hotelstars": "3.0",
+    "hotelid": "165"
+  },
+  "166": {
+    "hotelname": "Hotel Vibra Palma Cactus",
+    "hotelstars": "3.0",
+    "hotelid": "166"
+  },
+  "167": {
+    "hotelname": "tent Capi Playa",
+    "hotelstars": "3.0",
+    "hotelid": "167"
+  },
+  "168": {
+    "hotelname": "BQ Carmen Playa Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "168"
+  },
+  "169": {
+    "hotelname": "Villa Chiquita",
+    "hotelstars": "4.0",
+    "hotelid": "169"
+  },
+  "170": {
+    "hotelname": "Nura Condor",
+    "hotelstars": "3.0",
+    "hotelid": "170"
+  },
+  "171": {
+    "hotelname": "Hotel Cosmopolitan",
+    "hotelstars": "4.0",
+    "hotelid": "171"
+  },
+  "172": {
+    "hotelname": "allsun Hotel Cristobal Colon",
+    "hotelstars": "4.0",
+    "hotelid": "172"
+  },
+  "173": {
+    "hotelname": "Universal Grand Le\\u00f3n & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "173"
+  },
+  "174": {
+    "hotelname": "Don Miguel Playa Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "174"
+  },
+  "175": {
+    "hotelname": "HM Dunas Blancas",
+    "hotelstars": "4.0",
+    "hotelid": "175"
+  },
+  "176": {
+    "hotelname": "THB El Cid",
+    "hotelstars": "4.0",
+    "hotelid": "176"
+  },
+  "177": {
+    "hotelname": "El Coto",
+    "hotelstars": "4.0",
+    "hotelid": "177"
+  },
+  "178": {
+    "hotelname": "Hotel Pr\\u00edncipe",
+    "hotelstars": "4.0",
+    "hotelid": "178"
+  },
+  "179": {
+    "hotelname": "allsun Hotel Marena Beach",
+    "hotelstars": "4.0",
+    "hotelid": "179"
+  },
+  "180": {
+    "hotelname": "Apartments Es Trenc",
+    "hotelstars": "3.0",
+    "hotelid": "180"
+  },
+  "181": {
+    "hotelname": "MySeaHouse Hotel Flamingo",
+    "hotelstars": "5.0",
+    "hotelid": "181"
+  },
+  "182": {
+    "hotelname": "Aparthotel Fontanellas Playa",
+    "hotelstars": "4.0",
+    "hotelid": "182"
+  },
+  "183": {
+    "hotelname": "Pure Salt Garonda",
+    "hotelstars": "5.0",
+    "hotelid": "183"
+  },
+  "184": {
+    "hotelname": "tent Playa de Palma",
+    "hotelstars": "3.0",
+    "hotelid": "184"
+  },
+  "185": {
+    "hotelname": "HSM Golden Playa",
+    "hotelstars": "4.0",
+    "hotelid": "185"
+  },
+  "186": {
+    "hotelname": "HM Gran Fiesta",
+    "hotelstars": "4.0",
+    "hotelid": "186"
+  },
+  "187": {
+    "hotelname": "Hispania",
+    "hotelstars": "4.0",
+    "hotelid": "187"
+  },
+  "188": {
+    "hotelname": "Hotel Foners",
+    "hotelstars": "3.0",
+    "hotelid": "188"
+  },
+  "189": {
+    "hotelname": "Ipanema Park",
+    "hotelstars": "3.0",
+    "hotelid": "189"
+  },
+  "190": {
+    "hotelname": "Isla de Cabrera Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "190"
+  },
+  "191": {
+    "hotelname": "Jade",
+    "hotelstars": "3.0",
+    "hotelid": "191"
+  },
+  "192": {
+    "hotelname": "Kilimanjaro",
+    "hotelstars": "3.0",
+    "hotelid": "192"
+  },
+  "193": {
+    "hotelname": "allsun Hotel Kontiki Playa",
+    "hotelstars": "4.0",
+    "hotelid": "193"
+  },
+  "194": {
+    "hotelname": "Cook's Club Palma Beach",
+    "hotelstars": "3.0",
+    "hotelid": "194"
+  },
+  "195": {
+    "hotelname": "Leblon",
+    "hotelstars": "1.0",
+    "hotelid": "195"
+  },
+  "196": {
+    "hotelname": "Leman",
+    "hotelstars": "4.0",
+    "hotelid": "196"
+  },
+  "197": {
+    "hotelname": "Alua Leo",
+    "hotelstars": "4.0",
+    "hotelid": "197"
+  },
+  "198": {
+    "hotelname": "Seramar Luna Park",
+    "hotelstars": "3.0",
+    "hotelid": "198"
+  },
+  "199": {
+    "hotelname": "Hotel Luxor",
+    "hotelstars": "4.0",
+    "hotelid": "199"
+  },
+  "200": {
+    "hotelname": "AluaSoul Palma",
+    "hotelstars": "4.0",
+    "hotelid": "200"
+  },
+  "201": {
+    "hotelname": "Manaus",
+    "hotelstars": "3.0",
+    "hotelid": "201"
+  },
+  "202": {
+    "hotelname": "Hotel Marbel",
+    "hotelstars": "3.0",
+    "hotelid": "202"
+  },
+  "203": {
+    "hotelname": "THB Maria Isabel",
+    "hotelstars": "4.0",
+    "hotelid": "203"
+  },
+  "204": {
+    "hotelname": "Martorell",
+    "hotelstars": "3.0",
+    "hotelid": "204"
+  },
+  "205": {
+    "hotelname": "BLUESEA Mediodia",
+    "hotelstars": "3.0",
+    "hotelid": "205"
+  },
+  "206": {
+    "hotelname": "Hotel Marina Playa",
+    "hotelstars": "3.0",
+    "hotelid": "206"
+  },
+  "207": {
+    "hotelname": "Metropolitan Playa Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "207"
+  },
+  "208": {
+    "hotelname": "whala!fun",
+    "hotelstars": "4.0",
+    "hotelid": "208"
+  },
+  "209": {
+    "hotelname": "Hotel Negresco",
+    "hotelstars": "4.0",
+    "hotelid": "209"
+  },
+  "210": {
+    "hotelname": "Universal Hotel Neptuno",
+    "hotelstars": "4.0",
+    "hotelid": "210"
+  },
+  "211": {
+    "hotelname": "Niagara",
+    "hotelstars": "4.0",
+    "hotelid": "211"
+  },
+  "212": {
+    "hotelname": "Hotel Oleander",
+    "hotelstars": "3.0",
+    "hotelid": "212"
+  },
+  "213": {
+    "hotelname": "MLL Mediterranean Bay",
+    "hotelstars": "4.0",
+    "hotelid": "213"
+  },
+  "214": {
+    "hotelname": "Grupotel Orient",
+    "hotelstars": "4.0",
+    "hotelid": "214"
+  },
+  "215": {
+    "hotelname": "Pabisa Orlando  ",
+    "hotelstars": "3.0",
+    "hotelid": "215"
+  },
+  "216": {
+    "hotelname": "JS Palma Stay",
+    "hotelstars": "4.0",
+    "hotelid": "216"
+  },
+  "217": {
+    "hotelname": "Paradiso Garden Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "217"
+  },
+  "218": {
+    "hotelname": "allsun Hotel Pil\\u00b7lar\\u00ed Playa",
+    "hotelstars": "5.0",
+    "hotelid": "218"
+  },
+  "219": {
+    "hotelname": "Hotel Playa Golf",
+    "hotelstars": "4.0",
+    "hotelid": "219"
+  },
+  "220": {
+    "hotelname": "Planet One Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "220"
+  },
+  "221": {
+    "hotelname": "HSM Reina del Mar",
+    "hotelstars": "3.0",
+    "hotelid": "221"
+  },
+  "222": {
+    "hotelname": "HSM Son Veri",
+    "hotelstars": "3.0",
+    "hotelid": "222"
+  },
+  "223": {
+    "hotelname": "Pabisa Bali Tower",
+    "hotelstars": "4.0",
+    "hotelid": "223"
+  },
+  "224": {
+    "hotelname": "Hotel Riu Bravo",
+    "hotelstars": "4.0",
+    "hotelid": "224"
+  },
+  "225": {
+    "hotelname": "Hotel BG Caballero",
+    "hotelstars": "4.0",
+    "hotelid": "225"
+  },
+  "226": {
+    "hotelname": "Hotel Pabisa Chico",
+    "hotelstars": "4.0",
+    "hotelid": "226"
+  },
+  "227": {
+    "hotelname": "Hotel Riu Concordia",
+    "hotelstars": "4.0",
+    "hotelid": "227"
+  },
+  "228": {
+    "hotelname": "Hotel Riu Festival",
+    "hotelstars": "4.0",
+    "hotelid": "228"
+  },
+  "229": {
+    "hotelname": "Obelisco",
+    "hotelstars": "4.0",
+    "hotelid": "229"
+  },
+  "230": {
+    "hotelname": "Hotel Riu Playa Park",
+    "hotelstars": "3.0",
+    "hotelid": "230"
+  },
+  "231": {
+    "hotelname": "Hotel Riu San Francisco",
+    "hotelstars": "4.0",
+    "hotelid": "231"
+  },
+  "232": {
+    "hotelname": "Pabisa Sofia",
+    "hotelstars": "5.0",
+    "hotelid": "232"
+  },
+  "233": {
+    "hotelname": "Riutort",
+    "hotelstars": "3.0",
+    "hotelid": "233"
+  },
+  "234": {
+    "hotelname": "allsun Hotel Riviera Playa",
+    "hotelstars": "4.0",
+    "hotelid": "234"
+  },
+  "235": {
+    "hotelname": "Iberostar Cristina",
+    "hotelstars": "4.0",
+    "hotelid": "235"
+  },
+  "236": {
+    "hotelname": "Iberostar Bah\\u00eda de Palma",
+    "hotelstars": "4.0",
+    "hotelid": "236"
+  },
+  "237": {
+    "hotelname": "Iberostar Selection Playa de Palma",
+    "hotelstars": "5.0",
+    "hotelid": "237"
+  },
+  "238": {
+    "hotelname": "MLL Caribbean Bay",
+    "hotelstars": "0.0",
+    "hotelid": "238"
+  },
+  "239": {
+    "hotelname": "Cassandra",
+    "hotelstars": "2.0",
+    "hotelid": "239"
+  },
+  "240": {
+    "hotelname": "Hotel Java",
+    "hotelstars": "4.0",
+    "hotelid": "240"
+  },
+  "241": {
+    "hotelname": "Hotel Timor",
+    "hotelstars": "4.0",
+    "hotelid": "241"
+  },
+  "242": {
+    "hotelname": "HM Tropical",
+    "hotelstars": "4.0",
+    "hotelid": "242"
+  },
+  "243": {
+    "hotelname": "THB Sur Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "243"
+  },
+  "244": {
+    "hotelname": "Grupotel Taurus Park",
+    "hotelstars": "4.0",
+    "hotelid": "244"
+  },
+  "245": {
+    "hotelname": "Houm Nets Hotel",
+    "hotelstars": "2.0",
+    "hotelid": "245"
+  },
+  "246": {
+    "hotelname": "BlueSea Arenal Tower",
+    "hotelstars": "3.0",
+    "hotelid": "246"
+  },
+  "247": {
+    "hotelname": "Torre Azul",
+    "hotelstars": "4.0",
+    "hotelid": "247"
+  },
+  "248": {
+    "hotelname": "Tres Torres",
+    "hotelstars": "2.0",
+    "hotelid": "248"
+  },
+  "249": {
+    "hotelname": "HSM Venus Playa",
+    "hotelstars": "3.0",
+    "hotelid": "249"
+  },
+  "250": {
+    "hotelname": "Vista Odin",
+    "hotelstars": "3.0",
+    "hotelid": "250"
+  },
+  "251": {
+    "hotelname": "Best Delta",
+    "hotelstars": "4.0",
+    "hotelid": "251"
+  },
+  "252": {
+    "hotelname": "Globales Maioris",
+    "hotelstars": "4.0",
+    "hotelid": "252"
+  },
+  "253": {
+    "hotelname": "BQ Belvedere Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "253"
+  },
+  "254": {
+    "hotelname": "Club Cala Romani ",
+    "hotelstars": "3.0",
+    "hotelid": "254"
+  },
+  "255": {
+    "hotelname": "Beach Club Font de Sa Cala",
+    "hotelstars": "4.0",
+    "hotelid": "255"
+  },
+  "256": {
+    "hotelname": "Playa Blanca Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "256"
+  },
+  "257": {
+    "hotelname": "Iberostar Club Cala Barca",
+    "hotelstars": "4.0",
+    "hotelid": "257"
+  },
+  "258": {
+    "hotelname": "Hotel Cala d\\u2019Or Gardens Mallorca",
+    "hotelstars": "3.0",
+    "hotelid": "258"
+  },
+  "259": {
+    "hotelname": "Hotel Cala Ferrera",
+    "hotelstars": "3.0",
+    "hotelid": "259"
+  },
+  "260": {
+    "hotelname": "Gavimar Cala Gran Costa del Sur",
+    "hotelstars": "3.0",
+    "hotelid": "260"
+  },
+  "261": {
+    "hotelname": "Hotel Club Cala Marsal",
+    "hotelstars": "4.0",
+    "hotelid": "261"
+  },
+  "262": {
+    "hotelname": "Zafiro Cala Mesquida",
+    "hotelstars": "4.0",
+    "hotelid": "262"
+  },
+  "263": {
+    "hotelname": "HSM Calas Park",
+    "hotelstars": "3.0",
+    "hotelid": "263"
+  },
+  "264": {
+    "hotelname": "Canyamel Park Hotel & Appartements",
+    "hotelstars": "4.0",
+    "hotelid": "264"
+  },
+  "265": {
+    "hotelname": "Universal Apartamentos Laguna Garden",
+    "hotelstars": "3.0",
+    "hotelid": "265"
+  },
+  "266": {
+    "hotelname": "Iberostar Pinos Park",
+    "hotelstars": "4.0",
+    "hotelid": "266"
+  },
+  "267": {
+    "hotelname": "BLUESEA Ses Cases d\\u2019Or",
+    "hotelstars": "3.0",
+    "hotelid": "267"
+  },
+  "268": {
+    "hotelname": "Pierre & Vacances Apartamentos Mallorca Cecilia",
+    "hotelstars": "3.0",
+    "hotelid": "268"
+  },
+  "269": {
+    "hotelname": "Insotel Cala Mand\\u00eda Resort & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "269"
+  },
+  "270": {
+    "hotelname": "Ferrer Lime Isabel",
+    "hotelstars": "3.0",
+    "hotelid": "270"
+  },
+  "271": {
+    "hotelname": "Condemar",
+    "hotelstars": "1.0",
+    "hotelid": "271"
+  },
+  "272": {
+    "hotelname": "JS Portocolom Suites",
+    "hotelstars": "4.0",
+    "hotelid": "272"
+  },
+  "273": {
+    "hotelname": "Hotel Club Es Talaial",
+    "hotelstars": "3.0",
+    "hotelid": "273"
+  },
+  "274": {
+    "hotelname": "HYB Eurocalas",
+    "hotelstars": "3.0",
+    "hotelid": "274"
+  },
+  "275": {
+    "hotelname": "Hipotels Eurotel Punta Rotja",
+    "hotelstars": "4.0",
+    "hotelid": "275"
+  },
+  "276": {
+    "hotelname": "THB Felip",
+    "hotelstars": "4.0",
+    "hotelid": "276"
+  },
+  "277": {
+    "hotelname": "MarSenses Ferrera Blanca",
+    "hotelstars": "4.0",
+    "hotelid": "277"
+  },
+  "278": {
+    "hotelname": "Protur Floriana Resort Aparthotel",
+    "hotelstars": "3.0",
+    "hotelid": "278"
+  },
+  "279": {
+    "hotelname": "Alua Suites Las Rocas",
+    "hotelstars": "4.0",
+    "hotelid": "279"
+  },
+  "280": {
+    "hotelname": "Lliteras Appartements",
+    "hotelstars": "2.0",
+    "hotelid": "280"
+  },
+  "281": {
+    "hotelname": "Hotel La Santa Maria Playa",
+    "hotelstars": "3.0",
+    "hotelid": "281"
+  },
+  "282": {
+    "hotelname": "Protur Vista Bad\\u00eda Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "282"
+  },
+  "283": {
+    "hotelname": "Hotel Na Taconera Sport & Relax",
+    "hotelstars": "3.0",
+    "hotelid": "283"
+  },
+  "284": {
+    "hotelname": "Hotel Baluma Porto Petro",
+    "hotelstars": "3.0",
+    "hotelid": "284"
+  },
+  "285": {
+    "hotelname": "Peymar",
+    "hotelstars": "3.0",
+    "hotelid": "285"
+  },
+  "286": {
+    "hotelname": "Pinomar",
+    "hotelstars": "2.0",
+    "hotelid": "286"
+  },
+  "287": {
+    "hotelname": "Pinos Playa",
+    "hotelstars": "3.0",
+    "hotelid": "287"
+  },
+  "288": {
+    "hotelname": "Playa Dorada",
+    "hotelstars": "3.0",
+    "hotelid": "288"
+  },
+  "289": {
+    "hotelname": "Inturotel Esmeralda Park",
+    "hotelstars": "3.0",
+    "hotelid": "289"
+  },
+  "290": {
+    "hotelname": "Playamar Hotel & Apartamentos",
+    "hotelstars": "2.0",
+    "hotelid": "290"
+  },
+  "291": {
+    "hotelname": "Playa Mondrago",
+    "hotelstars": "3.0",
+    "hotelid": "291"
+  },
+  "292": {
+    "hotelname": "Playa Moreya",
+    "hotelstars": "5.0",
+    "hotelid": "292"
+  },
+  "293": {
+    "hotelname": "Barcel\\u00f3 Aguamarina",
+    "hotelstars": "4.0",
+    "hotelid": "293"
+  },
+  "294": {
+    "hotelname": "Hotel Palia Puerto del Sol",
+    "hotelstars": "3.0",
+    "hotelid": "294"
+  },
+  "295": {
+    "hotelname": "MiM Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "295"
+  },
+  "296": {
+    "hotelname": "Blau Punta Reina Resort",
+    "hotelstars": "4.0",
+    "hotelid": "296"
+  },
+  "297": {
+    "hotelname": "Protur Sa Coma Playa Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "297"
+  },
+  "298": {
+    "hotelname": "THB Sa Coma Platja",
+    "hotelstars": "4.0",
+    "hotelid": "298"
+  },
+  "299": {
+    "hotelname": "Hipotels Mediterr\\u00e1neo",
+    "hotelstars": "4.0",
+    "hotelid": "299"
+  },
+  "300": {
+    "hotelname": "Sabina Hotel & Suites",
+    "hotelstars": "4.0",
+    "hotelid": "300"
+  },
+  "301": {
+    "hotelname": "Globales Samoa",
+    "hotelstars": "3.0",
+    "hotelid": "301"
+  },
+  "302": {
+    "hotelname": "Sinfony Apartamentos",
+    "hotelstars": "5.0",
+    "hotelid": "302"
+  },
+  "303": {
+    "hotelname": "Monsuau Cala D\\u00b4Or Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "303"
+  },
+  "304": {
+    "hotelname": "Sentido Fido Tucan",
+    "hotelstars": "4.0",
+    "hotelid": "304"
+  },
+  "305": {
+    "hotelname": "Apartamentos Massanet",
+    "hotelstars": "5.0",
+    "hotelid": "305"
+  },
+  "306": {
+    "hotelname": "Hotel Mariant",
+    "hotelstars": "3.0",
+    "hotelid": "306"
+  },
+  "307": {
+    "hotelname": "Hotel Mariant Park",
+    "hotelstars": "4.0",
+    "hotelid": "307"
+  },
+  "308": {
+    "hotelname": "Oasis d'Or",
+    "hotelstars": "2.0",
+    "hotelid": "308"
+  },
+  "309": {
+    "hotelname": "Inturotel Cala Esmeralda Beach Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "309"
+  },
+  "310": {
+    "hotelname": "Marfil Playa",
+    "hotelstars": "4.0",
+    "hotelid": "310"
+  },
+  "311": {
+    "hotelname": "Parque Mar",
+    "hotelstars": "3.0",
+    "hotelid": "311"
+  },
+  "312": {
+    "hotelname": "ROBINSON Cala Serena",
+    "hotelstars": "4.0",
+    "hotelid": "312"
+  },
+  "313": {
+    "hotelname": "Boutique Hostal Ventura",
+    "hotelstars": "2.0",
+    "hotelid": "313"
+  },
+  "314": {
+    "hotelname": "R2 Ver\\u00f3nica Beach Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "314"
+  },
+  "315": {
+    "hotelname": "Apartamentos Sureda",
+    "hotelstars": "2.0",
+    "hotelid": "315"
+  },
+  "316": {
+    "hotelname": "HSM Canarios Park",
+    "hotelstars": "3.0",
+    "hotelid": "316"
+  },
+  "317": {
+    "hotelname": "Sol y Mar",
+    "hotelstars": "3.0",
+    "hotelid": "317"
+  },
+  "318": {
+    "hotelname": "S'Olivera Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "318"
+  },
+  "319": {
+    "hotelname": "Iberostar Selection Albufera Park",
+    "hotelstars": "4.0",
+    "hotelid": "319"
+  },
+  "320": {
+    "hotelname": "Iberostar Selection Albufera Playa",
+    "hotelstars": "4.0",
+    "hotelid": "320"
+  },
+  "321": {
+    "hotelname": "Eix Alcudia Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "321"
+  },
+  "322": {
+    "hotelname": "Alcudia Beach Aparthotel",
+    "hotelstars": "3.0",
+    "hotelid": "322"
+  },
+  "323": {
+    "hotelname": "Innside by Melia Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "323"
+  },
+  "324": {
+    "hotelname": "Iberostar Alcudia Park",
+    "hotelstars": "4.0",
+    "hotelid": "324"
+  },
+  "325": {
+    "hotelname": "Grupotel Alcudia Suite",
+    "hotelstars": "4.0",
+    "hotelid": "325"
+  },
+  "326": {
+    "hotelname": "BQ Alcudia Sun Village ",
+    "hotelstars": "3.0",
+    "hotelid": "326"
+  },
+  "327": {
+    "hotelname": "Grupotel Amapola",
+    "hotelstars": "3.0",
+    "hotelid": "327"
+  },
+  "328": {
+    "hotelname": "Hotel Astoria Playa",
+    "hotelstars": "4.0",
+    "hotelid": "328"
+  },
+  "329": {
+    "hotelname": "Bahia de Alcudia Hotel & Spa ",
+    "hotelstars": "4.0",
+    "hotelid": "329"
+  },
+  "330": {
+    "hotelname": "Bahia Pollensa",
+    "hotelstars": "3.0",
+    "hotelid": "330"
+  },
+  "331": {
+    "hotelname": "Es Baul\\u00f3 Petit Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "331"
+  },
+  "332": {
+    "hotelname": "BelleVue Club",
+    "hotelstars": "3.0",
+    "hotelid": "332"
+  },
+  "333": {
+    "hotelname": "Alua Boccaccio",
+    "hotelstars": "4.0",
+    "hotelid": "333"
+  },
+  "334": {
+    "hotelname": "Cala Sant Vicen\\u00e7",
+    "hotelstars": "5.0",
+    "hotelid": "334"
+  },
+  "335": {
+    "hotelname": "JS Sol de Can Picafort",
+    "hotelstars": "3.0",
+    "hotelid": "335"
+  },
+  "336": {
+    "hotelname": "Capri",
+    "hotelstars": "3.0",
+    "hotelid": "336"
+  },
+  "337": {
+    "hotelname": "Carlos V Apartments",
+    "hotelstars": "5.0",
+    "hotelid": "337"
+  },
+  "338": {
+    "hotelname": "Iberostar Ciudad Blanca",
+    "hotelstars": "4.0",
+    "hotelid": "338"
+  },
+  "339": {
+    "hotelname": "BQ Can Picafort Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "339"
+  },
+  "340": {
+    "hotelname": "Ferrer Concord Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "340"
+  },
+  "341": {
+    "hotelname": "Globales Condes de Alc\\u00fadia",
+    "hotelstars": "3.0",
+    "hotelid": "341"
+  },
+  "342": {
+    "hotelname": "Hotel Condesa",
+    "hotelstars": "4.0",
+    "hotelid": "342"
+  },
+  "343": {
+    "hotelname": "Hotel Hoposa Daina",
+    "hotelstars": "4.0",
+    "hotelid": "343"
+  },
+  "344": {
+    "hotelname": "BQ Delf\\u00edn Azul Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "344"
+  },
+  "345": {
+    "hotelname": "Olive Beach Apartamentos",
+    "hotelstars": "2.0",
+    "hotelid": "345"
+  },
+  "346": {
+    "hotelname": "Globales Don Pedro",
+    "hotelstars": "4.0",
+    "hotelid": "346"
+  },
+  "347": {
+    "hotelname": "VIVA Eden Lago",
+    "hotelstars": "4.0",
+    "hotelid": "347"
+  },
+  "348": {
+    "hotelname": "allsun Hotel Eden Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "348"
+  },
+  "349": {
+    "hotelname": "Universal Aparthotel Elisa",
+    "hotelstars": "4.0",
+    "hotelid": "349"
+  },
+  "350": {
+    "hotelname": "Hotel Es Mol\\u00ed",
+    "hotelstars": "4.0",
+    "hotelid": "350"
+  },
+  "351": {
+    "hotelname": "Hotel Es Port",
+    "hotelstars": "4.0",
+    "hotelid": "351"
+  },
+  "352": {
+    "hotelname": "Exagon Park",
+    "hotelstars": "4.0",
+    "hotelid": "352"
+  },
+  "353": {
+    "hotelname": "Grupotel Farrutx",
+    "hotelstars": "4.0",
+    "hotelid": "353"
+  },
+  "354": {
+    "hotelname": "Flora",
+    "hotelstars": "3.0",
+    "hotelid": "354"
+  },
+  "355": {
+    "hotelname": "Galaxia Boutique Hotel",
+    "hotelstars": "1.0",
+    "hotelid": "355"
+  },
+  "356": {
+    "hotelname": "FERGUS Style Soller Beach",
+    "hotelstars": "4.0",
+    "hotelid": "356"
+  },
+  "357": {
+    "hotelname": "VIVA Golf",
+    "hotelstars": "5.0",
+    "hotelid": "357"
+  },
+  "358": {
+    "hotelname": "THB Gran Bah\\u00eda",
+    "hotelstars": "4.0",
+    "hotelid": "358"
+  },
+  "359": {
+    "hotelname": "THB Gran Playa",
+    "hotelstars": "4.0",
+    "hotelid": "359"
+  },
+  "360": {
+    "hotelname": "Habitat Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "360"
+  },
+  "361": {
+    "hotelname": "Illa d'Or Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "361"
+  },
+  "362": {
+    "hotelname": "Ivory Playa",
+    "hotelstars": "3.0",
+    "hotelid": "362"
+  },
+  "363": {
+    "hotelname": "Ferrer Janeiro Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "363"
+  },
+  "364": {
+    "hotelname": "Zafiro Bah\\u00eda",
+    "hotelstars": "4.0",
+    "hotelid": "364"
+  },
+  "365": {
+    "hotelname": "La Residencia",
+    "hotelstars": "5.0",
+    "hotelid": "365"
+  },
+  "366": {
+    "hotelname": "EIX Lagotel Holiday Resort",
+    "hotelstars": "4.0",
+    "hotelid": "366"
+  },
+  "367": {
+    "hotelname": "Hotel Las Gaviotas Suites Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "367"
+  },
+  "368": {
+    "hotelname": "L'Hermitage Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "368"
+  },
+  "369": {
+    "hotelname": "Grupotel Los Principes & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "369"
+  },
+  "370": {
+    "hotelname": "Prinsotel Mal Pas",
+    "hotelstars": "4.0",
+    "hotelid": "370"
+  },
+  "371": {
+    "hotelname": "Aparthotel Maracaibo",
+    "hotelstars": "3.0",
+    "hotelid": "371"
+  },
+  "372": {
+    "hotelname": "Pure Salt Port de S\\u00f3ller",
+    "hotelstars": "4.0",
+    "hotelid": "372"
+  },
+  "373": {
+    "hotelname": "Alcudia Port Suites",
+    "hotelstars": "5.0",
+    "hotelid": "373"
+  },
+  "374": {
+    "hotelname": "Grupotel Maritimo",
+    "hotelstars": "4.0",
+    "hotelid": "374"
+  },
+  "375": {
+    "hotelname": "Ilusion Markus & Spa",
+    "hotelstars": "3.0",
+    "hotelid": "375"
+  },
+  "376": {
+    "hotelname": "Miramar",
+    "hotelstars": "2.0",
+    "hotelid": "376"
+  },
+  "377": {
+    "hotelname": "Nordeste Playa",
+    "hotelstars": "3.0",
+    "hotelid": "377"
+  },
+  "378": {
+    "hotelname": "JS Miramar",
+    "hotelstars": "3.0",
+    "hotelid": "378"
+  },
+  "379": {
+    "hotelname": "Hotel Niu",
+    "hotelstars": "4.0",
+    "hotelid": "379"
+  },
+  "380": {
+    "hotelname": "Grupotel Molins",
+    "hotelstars": "5.0",
+    "hotelid": "380"
+  },
+  "381": {
+    "hotelname": "Eden Nord",
+    "hotelstars": "3.0",
+    "hotelid": "381"
+  },
+  "382": {
+    "hotelname": "Grupotel Montecarlo",
+    "hotelstars": "4.0",
+    "hotelid": "382"
+  },
+  "383": {
+    "hotelname": "Grupotel Picafort Beach",
+    "hotelstars": "4.0",
+    "hotelid": "383"
+  },
+  "384": {
+    "hotelname": "Eix Platja Daurada Hotel & SPA",
+    "hotelstars": "4.0",
+    "hotelid": "384"
+  },
+  "385": {
+    "hotelname": "Hoposa Hotel Pollentia",
+    "hotelstars": "4.0",
+    "hotelid": "385"
+  },
+  "386": {
+    "hotelname": "Grupotel Port d'Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "386"
+  },
+  "387": {
+    "hotelname": "Bikini Island & Mountain Hotel Port de S\\u00f3ller",
+    "hotelstars": "3.0",
+    "hotelid": "387"
+  },
+  "388": {
+    "hotelname": "Inmood Aucanada",
+    "hotelstars": "4.0",
+    "hotelid": "388"
+  },
+  "389": {
+    "hotelname": "BG Hotel Rei del Mediterrani Palace",
+    "hotelstars": "4.0",
+    "hotelid": "389"
+  },
+  "390": {
+    "hotelname": "Romantic",
+    "hotelstars": "3.0",
+    "hotelid": "390"
+  },
+  "391": {
+    "hotelname": "Hotel Sa Coma",
+    "hotelstars": "3.0",
+    "hotelid": "391"
+  },
+  "392": {
+    "hotelname": "The Sea Hotel by Grupotel ",
+    "hotelstars": "4.0",
+    "hotelid": "392"
+  },
+  "393": {
+    "hotelname": "BQ Sarah Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "393"
+  },
+  "394": {
+    "hotelname": "Sea Club Alc\\u00fadia Mediterranean Resort",
+    "hotelstars": "3.0",
+    "hotelid": "394"
+  },
+  "395": {
+    "hotelname": "JS Sol de Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "395"
+  },
+  "396": {
+    "hotelname": "Soller Garden",
+    "hotelstars": "5.0",
+    "hotelid": "396"
+  },
+  "397": {
+    "hotelname": "Hotel Son Baul\\u00f3",
+    "hotelstars": "3.0",
+    "hotelid": "397"
+  },
+  "398": {
+    "hotelname": "Sultan Hotel",
+    "hotelstars": "2.0",
+    "hotelid": "398"
+  },
+  "399": {
+    "hotelname": "VIVA Sunrise",
+    "hotelstars": "4.0",
+    "hotelid": "399"
+  },
+  "400": {
+    "hotelname": "Zafiro Tropic",
+    "hotelstars": "4.0",
+    "hotelid": "400"
+  },
+  "401": {
+    "hotelname": "Hoposa Hotel Uyal",
+    "hotelstars": "4.0",
+    "hotelid": "401"
+  },
+  "402": {
+    "hotelname": "Villa Barbara",
+    "hotelstars": "1.0",
+    "hotelid": "402"
+  },
+  "403": {
+    "hotelname": "Vista Park Hotel & Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "403"
+  },
+  "404": {
+    "hotelname": "Bordoy Continental Valldemossa",
+    "hotelstars": "3.0",
+    "hotelid": "404"
+  },
+  "405": {
+    "hotelname": "Finca Ca N'ai",
+    "hotelstars": "4.0",
+    "hotelid": "405"
+  },
+  "406": {
+    "hotelname": "Grupotel Dunamar",
+    "hotelstars": "4.0",
+    "hotelid": "406"
+  },
+  "407": {
+    "hotelname": "HSM Lago Park",
+    "hotelstars": "3.0",
+    "hotelid": "407"
+  },
+  "408": {
+    "hotelname": "Citric Hotel Soller",
+    "hotelstars": "5.0",
+    "hotelid": "408"
+  },
+  "409": {
+    "hotelname": "Hotel Eden",
+    "hotelstars": "4.0",
+    "hotelid": "409"
+  },
+  "410": {
+    "hotelname": "Hotel Marina & Wellness Spa",
+    "hotelstars": "3.0",
+    "hotelid": "410"
+  },
+  "411": {
+    "hotelname": "Occidental Playa de Palma",
+    "hotelstars": "4.0",
+    "hotelid": "411"
+  },
+  "412": {
+    "hotelname": "Hotel Helios Mallorca",
+    "hotelstars": "3.0",
+    "hotelid": "412"
+  },
+  "413": {
+    "hotelname": "Hotel Rural Monnaber Nou & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "413"
+  },
+  "414": {
+    "hotelname": "Son Sama",
+    "hotelstars": "5.0",
+    "hotelid": "414"
+  },
+  "415": {
+    "hotelname": "Finca Hotel Predio Son Serra",
+    "hotelstars": "3.0",
+    "hotelid": "415"
+  },
+  "416": {
+    "hotelname": "Aumallia Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "416"
+  },
+  "417": {
+    "hotelname": "INNSIDE Palma Center",
+    "hotelstars": "4.0",
+    "hotelid": "417"
+  },
+  "418": {
+    "hotelname": "FERGUS Style Palmanova",
+    "hotelstars": "4.0",
+    "hotelid": "418"
+  },
+  "419": {
+    "hotelname": "Sol Katmand\\u00fa Park & Resort",
+    "hotelstars": "4.0",
+    "hotelid": "419"
+  },
+  "420": {
+    "hotelname": "Vistasol Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "420"
+  },
+  "421": {
+    "hotelname": "Innside Cala Blanca",
+    "hotelstars": "4.0",
+    "hotelid": "421"
+  },
+  "422": {
+    "hotelname": "Aparthotel Novo Mar",
+    "hotelstars": "3.0",
+    "hotelid": "422"
+  },
+  "423": {
+    "hotelname": "UR Portofino ",
+    "hotelstars": "4.0",
+    "hotelid": "423"
+  },
+  "424": {
+    "hotelname": "TRH Jardin del Mar",
+    "hotelstars": "3.0",
+    "hotelid": "424"
+  },
+  "425": {
+    "hotelname": "Hotel GPRO Valpara\\u00edso Palace & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "425"
+  },
+  "426": {
+    "hotelname": "Universal Hotel Cabo Blanco",
+    "hotelstars": "4.0",
+    "hotelid": "426"
+  },
+  "427": {
+    "hotelname": "Andreas Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "427"
+  },
+  "428": {
+    "hotelname": "Bahia Suites",
+    "hotelstars": "4.0",
+    "hotelid": "428"
+  },
+  "429": {
+    "hotelname": "Europe Playa Marina",
+    "hotelstars": "4.0",
+    "hotelid": "429"
+  },
+  "430": {
+    "hotelname": "Bahia Principe Sunlight Coral Playa",
+    "hotelstars": "4.0",
+    "hotelid": "430"
+  },
+  "431": {
+    "hotelname": "BelleVue Belsana",
+    "hotelstars": "3.0",
+    "hotelid": "431"
+  },
+  "432": {
+    "hotelname": "Amazonas Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "432"
+  },
+  "433": {
+    "hotelname": "Gavimar Ariel Chico",
+    "hotelstars": "3.0",
+    "hotelid": "433"
+  },
+  "434": {
+    "hotelname": "BelleVue Lagomonte",
+    "hotelstars": "3.0",
+    "hotelid": "434"
+  },
+  "435": {
+    "hotelname": "allsun Hotel Eden Playa",
+    "hotelstars": "5.0",
+    "hotelid": "435"
+  },
+  "436": {
+    "hotelname": "Aparthotel Cap de Mar",
+    "hotelstars": "4.0",
+    "hotelid": "436"
+  },
+  "437": {
+    "hotelname": "best FAMILY Protur Safari Park",
+    "hotelstars": "4.0",
+    "hotelid": "437"
+  },
+  "438": {
+    "hotelname": "Globales Cala Bona Suites",
+    "hotelstars": "4.0",
+    "hotelid": "438"
+  },
+  "439": {
+    "hotelname": "ICON Valparaiso",
+    "hotelstars": "3.0",
+    "hotelid": "439"
+  },
+  "440": {
+    "hotelname": "HM Alma Beach",
+    "hotelstars": "4.0",
+    "hotelid": "440"
+  },
+  "441": {
+    "hotelname": "Hotel Seramar Comodoro Playa",
+    "hotelstars": "4.0",
+    "hotelid": "441"
+  },
+  "442": {
+    "hotelname": "Sun Club Eldorado",
+    "hotelstars": "2.0",
+    "hotelid": "442"
+  },
+  "443": {
+    "hotelname": "Los Geranios",
+    "hotelstars": "4.0",
+    "hotelid": "443"
+  },
+  "444": {
+    "hotelname": "Catalonia Majorica",
+    "hotelstars": "4.0",
+    "hotelid": "444"
+  },
+  "445": {
+    "hotelname": "Garden Holiday Village",
+    "hotelstars": "4.0",
+    "hotelid": "445"
+  },
+  "446": {
+    "hotelname": "AluaSun Continental Park Hotel & Apartments",
+    "hotelstars": "4.0",
+    "hotelid": "446"
+  },
+  "447": {
+    "hotelname": "HSM Club Torre Blanca ",
+    "hotelstars": "3.0",
+    "hotelid": "447"
+  },
+  "448": {
+    "hotelname": "BlueSea Costa Verde",
+    "hotelstars": "3.0",
+    "hotelid": "448"
+  },
+  "449": {
+    "hotelname": "Hotel Sant Jordi",
+    "hotelstars": "3.0",
+    "hotelid": "449"
+  },
+  "450": {
+    "hotelname": "JS Cape Colom",
+    "hotelstars": "3.0",
+    "hotelid": "450"
+  },
+  "451": {
+    "hotelname": "BlueSea Piscis",
+    "hotelstars": "3.0",
+    "hotelid": "451"
+  },
+  "452": {
+    "hotelname": "Hotel Iris",
+    "hotelstars": "3.0",
+    "hotelid": "452"
+  },
+  "453": {
+    "hotelname": "Playas de Paguera",
+    "hotelstars": "2.0",
+    "hotelid": "453"
+  },
+  "454": {
+    "hotelname": "Hotel Cala Fornells",
+    "hotelstars": "4.0",
+    "hotelid": "454"
+  },
+  "455": {
+    "hotelname": "Playa Sol",
+    "hotelstars": "2.0",
+    "hotelid": "455"
+  },
+  "456": {
+    "hotelname": "Raxa",
+    "hotelstars": "1.0",
+    "hotelid": "456"
+  },
+  "457": {
+    "hotelname": "Aldea 2 Cala Fornells",
+    "hotelstars": "3.0",
+    "hotelid": "457"
+  },
+  "458": {
+    "hotelname": "Hotel Linda Mallorca",
+    "hotelstars": "3.0",
+    "hotelid": "458"
+  },
+  "459": {
+    "hotelname": "Sa Bassa Plana",
+    "hotelstars": "3.0",
+    "hotelid": "459"
+  },
+  "460": {
+    "hotelname": "Meli\\u00e1 South Beach",
+    "hotelstars": "4.0",
+    "hotelid": "460"
+  },
+  "461": {
+    "hotelname": "Iberostar Cala Domingos",
+    "hotelstars": "4.0",
+    "hotelid": "461"
+  },
+  "462": {
+    "hotelname": "AluaSun Torrenova",
+    "hotelstars": "4.0",
+    "hotelid": "462"
+  },
+  "463": {
+    "hotelname": "Hotel Petit Cala Fornells",
+    "hotelstars": "5.0",
+    "hotelid": "463"
+  },
+  "464": {
+    "hotelname": "Maristel Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "464"
+  },
+  "465": {
+    "hotelname": "Cook\\u2019s Club Calvia Beach",
+    "hotelstars": "3.0",
+    "hotelid": "465"
+  },
+  "466": {
+    "hotelname": "Apartamentos Roc Portonova",
+    "hotelstars": "3.0",
+    "hotelid": "466"
+  },
+  "467": {
+    "hotelname": "Portals Hills Boutique Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "467"
+  },
+  "468": {
+    "hotelname": "JS Alcudi Mar",
+    "hotelstars": "4.0",
+    "hotelid": "468"
+  },
+  "469": {
+    "hotelname": "Grupotel Parc Natural & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "469"
+  },
+  "470": {
+    "hotelname": "BG Tonga Tower Design Hotel & Suites",
+    "hotelstars": "5.0",
+    "hotelid": "470"
+  },
+  "471": {
+    "hotelname": "Hotel Seasun Siurell",
+    "hotelstars": "3.0",
+    "hotelid": "471"
+  },
+  "472": {
+    "hotelname": "allsun Hotel Lago Playa Park",
+    "hotelstars": "4.0",
+    "hotelid": "472"
+  },
+  "473": {
+    "hotelname": "Playa Garden Selection Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "473"
+  },
+  "474": {
+    "hotelname": "More",
+    "hotelstars": "3.0",
+    "hotelid": "474"
+  },
+  "475": {
+    "hotelname": "Posada de's Moli",
+    "hotelstars": "4.0",
+    "hotelid": "475"
+  },
+  "476": {
+    "hotelname": "Morlans Suites",
+    "hotelstars": "2.0",
+    "hotelid": "476"
+  },
+  "477": {
+    "hotelname": "Petit Hotel Rural Son Jord\\u00e0 - Hotel Rural Restaurant",
+    "hotelstars": "5.0",
+    "hotelid": "477"
+  },
+  "478": {
+    "hotelname": "Plaza Santa Ponsa Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "478"
+  },
+  "479": {
+    "hotelname": "D'Or Hotel",
+    "hotelstars": "2.0",
+    "hotelid": "479"
+  },
+  "480": {
+    "hotelname": "Eurostars Marivent",
+    "hotelstars": "3.0",
+    "hotelid": "480"
+  },
+  "481": {
+    "hotelname": "Flamboyan Caribe",
+    "hotelstars": "4.0",
+    "hotelid": "481"
+  },
+  "482": {
+    "hotelname": "Tropico Playa Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "482"
+  },
+  "483": {
+    "hotelname": "Oberoy Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "483"
+  },
+  "484": {
+    "hotelname": "Paguera Treff Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "484"
+  },
+  "485": {
+    "hotelname": "Leonardo Royal Hotel Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "485"
+  },
+  "486": {
+    "hotelname": "Embat",
+    "hotelstars": "2.0",
+    "hotelid": "486"
+  },
+  "487": {
+    "hotelname": "BlueSea Don Jaime",
+    "hotelstars": "3.0",
+    "hotelid": "487"
+  },
+  "488": {
+    "hotelname": "Atalaya Bosque",
+    "hotelstars": "2.0",
+    "hotelid": "488"
+  },
+  "489": {
+    "hotelname": "Hotel Teide",
+    "hotelstars": "2.0",
+    "hotelid": "489"
+  },
+  "490": {
+    "hotelname": "BQ Augusta Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "490"
+  },
+  "491": {
+    "hotelname": "Agroturisme Perola",
+    "hotelstars": "3.0",
+    "hotelid": "491"
+  },
+  "492": {
+    "hotelname": "Hotel Amic Horizonte",
+    "hotelstars": "3.0",
+    "hotelid": "492"
+  },
+  "493": {
+    "hotelname": "Blau Colonia Sant Jordi Resort & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "493"
+  },
+  "494": {
+    "hotelname": "Inturotel Azul Garden",
+    "hotelstars": "3.0",
+    "hotelid": "494"
+  },
+  "495": {
+    "hotelname": "Hotel Vistamar Portocolom",
+    "hotelstars": "4.0",
+    "hotelid": "495"
+  },
+  "496": {
+    "hotelname": "Hotel La Concha Soul",
+    "hotelstars": "2.0",
+    "hotelid": "496"
+  },
+  "497": {
+    "hotelname": "Hotel Millor Sol",
+    "hotelstars": "3.0",
+    "hotelid": "497"
+  },
+  "498": {
+    "hotelname": "Prinsotel La Dorada",
+    "hotelstars": "4.0",
+    "hotelid": "498"
+  },
+  "499": {
+    "hotelname": "Virrey Finca Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "499"
+  },
+  "500": {
+    "hotelname": "Bendinat",
+    "hotelstars": "4.0",
+    "hotelid": "500"
+  },
+  "501": {
+    "hotelname": "Apartamentos Europa",
+    "hotelstars": "2.0",
+    "hotelid": "501"
+  },
+  "502": {
+    "hotelname": "Hotel Costa Mediterraneo",
+    "hotelstars": "2.0",
+    "hotelid": "502"
+  },
+  "503": {
+    "hotelname": "Meli\\u00e1 Cala d'Or Boutique Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "503"
+  },
+  "504": {
+    "hotelname": "Atolon",
+    "hotelstars": "3.0",
+    "hotelid": "504"
+  },
+  "505": {
+    "hotelname": "Pula Golf Resort",
+    "hotelstars": "4.0",
+    "hotelid": "505"
+  },
+  "506": {
+    "hotelname": "Casal Santa Eulalia",
+    "hotelstars": "4.0",
+    "hotelid": "506"
+  },
+  "507": {
+    "hotelname": "Finca Can Quatre",
+    "hotelstars": "4.0",
+    "hotelid": "507"
+  },
+  "508": {
+    "hotelname": "Hotel Agua Beach",
+    "hotelstars": "4.0",
+    "hotelid": "508"
+  },
+  "509": {
+    "hotelname": "Hotel Panorama",
+    "hotelstars": "2.0",
+    "hotelid": "509"
+  },
+  "510": {
+    "hotelname": "JS Can Picafort",
+    "hotelstars": "3.0",
+    "hotelid": "510"
+  },
+  "511": {
+    "hotelname": "Universal Hotel Perla",
+    "hotelstars": "4.0",
+    "hotelid": "511"
+  },
+  "512": {
+    "hotelname": "JS Paradise Sport",
+    "hotelstars": "3.0",
+    "hotelid": "512"
+  },
+  "513": {
+    "hotelname": "Hotel Amic Miraflores",
+    "hotelstars": "3.0",
+    "hotelid": "513"
+  },
+  "514": {
+    "hotelname": "Castillo Hotel Son Vida",
+    "hotelstars": "5.0",
+    "hotelid": "514"
+  },
+  "515": {
+    "hotelname": "Hipotels Hipocampo Palace & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "515"
+  },
+  "516": {
+    "hotelname": "Hipotels Bah\\u00eda Cala Millor",
+    "hotelstars": "4.0",
+    "hotelid": "516"
+  },
+  "517": {
+    "hotelname": "Hipotels Mediterr\\u00e1neo Club",
+    "hotelstars": "4.0",
+    "hotelid": "517"
+  },
+  "518": {
+    "hotelname": "La Reserva Rotana",
+    "hotelstars": "5.0",
+    "hotelid": "518"
+  },
+  "519": {
+    "hotelname": "Grupotel Mallorca Mar",
+    "hotelstars": "4.0",
+    "hotelid": "519"
+  },
+  "520": {
+    "hotelname": "Canyamel Classic",
+    "hotelstars": "4.0",
+    "hotelid": "520"
+  },
+  "521": {
+    "hotelname": "Hotel Playa",
+    "hotelstars": "3.0",
+    "hotelid": "521"
+  },
+  "522": {
+    "hotelname": "ALEGRIA Alzinar Mar Suites",
+    "hotelstars": "4.0",
+    "hotelid": "522"
+  },
+  "523": {
+    "hotelname": "Finca Monn\\u00e0ber Vell",
+    "hotelstars": "4.0",
+    "hotelid": "523"
+  },
+  "524": {
+    "hotelname": "Son Marge",
+    "hotelstars": "4.0",
+    "hotelid": "524"
+  },
+  "525": {
+    "hotelname": "Hotel Can Moragues Healthy & Wellness",
+    "hotelstars": "4.0",
+    "hotelid": "525"
+  },
+  "526": {
+    "hotelname": "JS Horitz\\u00f3",
+    "hotelstars": "3.0",
+    "hotelid": "526"
+  },
+  "527": {
+    "hotelname": "Green Garden Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "527"
+  },
+  "528": {
+    "hotelname": "Nixe Palace",
+    "hotelstars": "5.0",
+    "hotelid": "528"
+  },
+  "529": {
+    "hotelname": "Finca Son Menut",
+    "hotelstars": "3.0",
+    "hotelid": "529"
+  },
+  "530": {
+    "hotelname": "Finca es Rafal",
+    "hotelstars": "3.0",
+    "hotelid": "530"
+  },
+  "531": {
+    "hotelname": "Finca Hotel Rural Es Tur\\u00f3",
+    "hotelstars": "4.0",
+    "hotelid": "531"
+  },
+  "532": {
+    "hotelname": "Hesperia Ciudad de Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "532"
+  },
+  "533": {
+    "hotelname": "Universal Hotel Romantica",
+    "hotelstars": "3.0",
+    "hotelid": "533"
+  },
+  "534": {
+    "hotelname": "Sall\\u00e9s Hotel Marina Portals",
+    "hotelstars": "4.0",
+    "hotelid": "534"
+  },
+  "535": {
+    "hotelname": "Pula Suites Boutique Resort",
+    "hotelstars": "5.0",
+    "hotelid": "535"
+  },
+  "536": {
+    "hotelname": "Costa Azul",
+    "hotelstars": "4.0",
+    "hotelid": "536"
+  },
+  "537": {
+    "hotelname": "Possessi\\u00f3 Binicomprat",
+    "hotelstars": "4.0",
+    "hotelid": "537"
+  },
+  "538": {
+    "hotelname": "Bakour Garbi Cala Millor",
+    "hotelstars": "4.0",
+    "hotelid": "538"
+  },
+  "539": {
+    "hotelname": "Dunes Platja",
+    "hotelstars": "4.0",
+    "hotelid": "539"
+  },
+  "540": {
+    "hotelname": "S'Antigor Petit Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "540"
+  },
+  "541": {
+    "hotelname": "Club del Sol Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "541"
+  },
+  "542": {
+    "hotelname": "Bluewater Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "542"
+  },
+  "543": {
+    "hotelname": "CM Mallorca Palace",
+    "hotelstars": "5.0",
+    "hotelid": "543"
+  },
+  "544": {
+    "hotelname": "Duva Aparthotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "544"
+  },
+  "545": {
+    "hotelname": "Saratoga",
+    "hotelstars": "4.0",
+    "hotelid": "545"
+  },
+  "546": {
+    "hotelname": "allsun Hotel Illot Park",
+    "hotelstars": "5.0",
+    "hotelid": "546"
+  },
+  "547": {
+    "hotelname": "Sa Bassa Rotja Ecoturisme",
+    "hotelstars": "4.0",
+    "hotelid": "547"
+  },
+  "548": {
+    "hotelname": "Alcudia Garden Aparthotel",
+    "hotelstars": "3.0",
+    "hotelid": "548"
+  },
+  "549": {
+    "hotelname": "Steigenberger Hotel & Resort Camp de Mar",
+    "hotelstars": "5.0",
+    "hotelid": "549"
+  },
+  "550": {
+    "hotelname": "Es Puig de Ros d'Alt",
+    "hotelstars": "4.0",
+    "hotelid": "550"
+  },
+  "551": {
+    "hotelname": "Catalonia Del Mar",
+    "hotelstars": "4.0",
+    "hotelid": "551"
+  },
+  "552": {
+    "hotelname": "Globales Palmanova Palace",
+    "hotelstars": "4.0",
+    "hotelid": "552"
+  },
+  "553": {
+    "hotelname": "Houm Plaza Son Rigo",
+    "hotelstars": "3.0",
+    "hotelid": "553"
+  },
+  "554": {
+    "hotelname": "Protur Bad\\u00eda Park Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "554"
+  },
+  "555": {
+    "hotelname": "Lago Garden Hotel & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "555"
+  },
+  "556": {
+    "hotelname": "Hacienda Son Antem",
+    "hotelstars": "5.0",
+    "hotelid": "556"
+  },
+  "557": {
+    "hotelname": "Alcudiamar Botel",
+    "hotelstars": "4.0",
+    "hotelid": "557"
+  },
+  "558": {
+    "hotelname": "Be Live Collection Palace de Muro",
+    "hotelstars": "5.0",
+    "hotelid": "558"
+  },
+  "559": {
+    "hotelname": "Universal Hotel Aquamarin",
+    "hotelstars": "4.0",
+    "hotelid": "559"
+  },
+  "560": {
+    "hotelname": "Zafiro Can Picafort",
+    "hotelstars": "4.0",
+    "hotelid": "560"
+  },
+  "561": {
+    "hotelname": "Finca Son Pieras",
+    "hotelstars": "5.0",
+    "hotelid": "561"
+  },
+  "562": {
+    "hotelname": "Hotel Rural S'Olivaret",
+    "hotelstars": "4.0",
+    "hotelid": "562"
+  },
+  "563": {
+    "hotelname": "BLUESEA Es Bolero",
+    "hotelstars": "3.0",
+    "hotelid": "563"
+  },
+  "564": {
+    "hotelname": "Universal Casa Marquesa",
+    "hotelstars": "3.0",
+    "hotelid": "564"
+  },
+  "565": {
+    "hotelname": "allsun App.-Hotel Orient Beach",
+    "hotelstars": "5.0",
+    "hotelid": "565"
+  },
+  "566": {
+    "hotelname": "Fergus Barracuda",
+    "hotelstars": "3.0",
+    "hotelid": "566"
+  },
+  "567": {
+    "hotelname": "Hotel Bordoy Don Antonio",
+    "hotelstars": "4.0",
+    "hotelid": "567"
+  },
+  "568": {
+    "hotelname": "Valentin Park Club Hotel & Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "568"
+  },
+  "569": {
+    "hotelname": "Fenix Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "569"
+  },
+  "570": {
+    "hotelname": "Lindner Golf Resort Portals Nous",
+    "hotelstars": "4.0",
+    "hotelid": "570"
+  },
+  "571": {
+    "hotelname": "Son Siurana",
+    "hotelstars": "4.0",
+    "hotelid": "571"
+  },
+  "572": {
+    "hotelname": "H10 Casa del Mar",
+    "hotelstars": "3.0",
+    "hotelid": "572"
+  },
+  "573": {
+    "hotelname": "BQ Aguamarina Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "573"
+  },
+  "574": {
+    "hotelname": "Ca'n Canals",
+    "hotelstars": "3.0",
+    "hotelid": "574"
+  },
+  "575": {
+    "hotelname": "Globales Panama",
+    "hotelstars": "4.0",
+    "hotelid": "575"
+  },
+  "576": {
+    "hotelname": "VIVA Blue & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "576"
+  },
+  "577": {
+    "hotelname": "Dalt Muntanya",
+    "hotelstars": "3.0",
+    "hotelid": "577"
+  },
+  "578": {
+    "hotelname": "Grupotel Natura Playa",
+    "hotelstars": "4.0",
+    "hotelid": "578"
+  },
+  "579": {
+    "hotelname": "HM Mar Blau",
+    "hotelstars": "4.0",
+    "hotelid": "579"
+  },
+  "580": {
+    "hotelname": "Universal Hotel Castell Royal",
+    "hotelstars": "4.0",
+    "hotelid": "580"
+  },
+  "581": {
+    "hotelname": "Son Trobat Wellness & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "581"
+  },
+  "582": {
+    "hotelname": "Son Sant Jordi",
+    "hotelstars": "4.0",
+    "hotelid": "582"
+  },
+  "583": {
+    "hotelname": "Club S'Illot",
+    "hotelstars": "3.0",
+    "hotelid": "583"
+  },
+  "584": {
+    "hotelname": "Nord",
+    "hotelstars": "3.0",
+    "hotelid": "584"
+  },
+  "585": {
+    "hotelname": "Hotel Artmadams",
+    "hotelstars": "4.0",
+    "hotelid": "585"
+  },
+  "586": {
+    "hotelname": "Hotel Mirador",
+    "hotelstars": "4.0",
+    "hotelid": "586"
+  },
+  "587": {
+    "hotelname": "Hotel Sa Galera",
+    "hotelstars": "4.0",
+    "hotelid": "587"
+  },
+  "588": {
+    "hotelname": "Palladium",
+    "hotelstars": "3.0",
+    "hotelid": "588"
+  },
+  "589": {
+    "hotelname": "Hotel HM Jaime III",
+    "hotelstars": "4.0",
+    "hotelid": "589"
+  },
+  "590": {
+    "hotelname": "Valentin Park Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "590"
+  },
+  "591": {
+    "hotelname": "Cala Millor Garden Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "591"
+  },
+  "592": {
+    "hotelname": "Mon Port Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "592"
+  },
+  "593": {
+    "hotelname": "Finca Hotel Son Palou",
+    "hotelstars": "4.0",
+    "hotelid": "593"
+  },
+  "594": {
+    "hotelname": "Ca'l Bisbe",
+    "hotelstars": "4.0",
+    "hotelid": "594"
+  },
+  "595": {
+    "hotelname": "Pure Salt Port Adriano",
+    "hotelstars": "5.0",
+    "hotelid": "595"
+  },
+  "596": {
+    "hotelname": "The St. Regis Mardavall Mallorca Resort ",
+    "hotelstars": "5.0",
+    "hotelid": "596"
+  },
+  "597": {
+    "hotelname": "Son Cleda",
+    "hotelstars": "5.0",
+    "hotelid": "597"
+  },
+  "598": {
+    "hotelname": "Sa Rota d'en Palerm",
+    "hotelstars": "4.0",
+    "hotelid": "598"
+  },
+  "599": {
+    "hotelname": "Be Live Adults Only La Cala Boutique",
+    "hotelstars": "4.0",
+    "hotelid": "599"
+  },
+  "600": {
+    "hotelname": "Vell Mar\\u00ed Hotel & Resort",
+    "hotelstars": "4.0",
+    "hotelid": "600"
+  },
+  "601": {
+    "hotelname": "Araxa",
+    "hotelstars": "3.0",
+    "hotelid": "601"
+  },
+  "602": {
+    "hotelname": "Isla Mallorca Urban Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "602"
+  },
+  "603": {
+    "hotelname": "Samos",
+    "hotelstars": "3.0",
+    "hotelid": "603"
+  },
+  "604": {
+    "hotelname": "Alfabia Nou Agroturismo",
+    "hotelstars": "4.0",
+    "hotelid": "604"
+  },
+  "605": {
+    "hotelname": "Sa Taqueta de Fornalutx",
+    "hotelstars": "4.0",
+    "hotelid": "605"
+  },
+  "606": {
+    "hotelname": "Na Forana",
+    "hotelstars": "4.0",
+    "hotelid": "606"
+  },
+  "607": {
+    "hotelname": "Grupotel Playa de Palma Suites & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "607"
+  },
+  "608": {
+    "hotelname": "Universal Hotel Marqu\\u00e9s",
+    "hotelstars": "4.0",
+    "hotelid": "608"
+  },
+  "609": {
+    "hotelname": "Aparthotel Can Picafort Palace",
+    "hotelstars": "4.0",
+    "hotelid": "609"
+  },
+  "610": {
+    "hotelname": "Can Sim\\u00f3 Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "610"
+  },
+  "611": {
+    "hotelname": "Globales Mimosa",
+    "hotelstars": "4.0",
+    "hotelid": "611"
+  },
+  "612": {
+    "hotelname": "INNSIDE Palma Bosque",
+    "hotelstars": "4.0",
+    "hotelid": "612"
+  },
+  "613": {
+    "hotelname": "Zafiro Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "613"
+  },
+  "614": {
+    "hotelname": "Palma Bay Club Resort & Sahara-Nubia-Gobi Bay",
+    "hotelstars": "3.0",
+    "hotelid": "614"
+  },
+  "615": {
+    "hotelname": "Aimia Hotel Port de S\\u00f3ller",
+    "hotelstars": "4.0",
+    "hotelid": "615"
+  },
+  "616": {
+    "hotelname": "Universal Hotel Lido Park & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "616"
+  },
+  "617": {
+    "hotelname": "Gran Hotel Soller",
+    "hotelstars": "5.0",
+    "hotelid": "617"
+  },
+  "618": {
+    "hotelname": "Convent de la Missi\\u00f3 Art & Urban Live",
+    "hotelstars": "5.0",
+    "hotelid": "618"
+  },
+  "619": {
+    "hotelname": "Palm Garden Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "619"
+  },
+  "620": {
+    "hotelname": "Occidental Cala Vi\\u00f1as",
+    "hotelstars": "4.0",
+    "hotelid": "620"
+  },
+  "621": {
+    "hotelname": "Valentin Playa de Muro",
+    "hotelstars": "3.0",
+    "hotelid": "621"
+  },
+  "622": {
+    "hotelname": "BelleVue Vistanova",
+    "hotelstars": "3.0",
+    "hotelid": "622"
+  },
+  "623": {
+    "hotelname": "tent Palmanova",
+    "hotelstars": "3.0",
+    "hotelid": "623"
+  },
+  "624": {
+    "hotelname": "Petit Caimari",
+    "hotelstars": "3.0",
+    "hotelid": "624"
+  },
+  "625": {
+    "hotelname": "Puro Hotel Palma",
+    "hotelstars": "4.0",
+    "hotelid": "625"
+  },
+  "626": {
+    "hotelname": "Petit Palace Tres",
+    "hotelstars": "4.0",
+    "hotelid": "626"
+  },
+  "627": {
+    "hotelname": "AC Hotel Ciutat de Palma",
+    "hotelstars": "4.0",
+    "hotelid": "627"
+  },
+  "628": {
+    "hotelname": "Hotel Joan Mir\\u00f3 Museum",
+    "hotelstars": "4.0",
+    "hotelid": "628"
+  },
+  "629": {
+    "hotelname": "Hotel Hospes Maricel & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "629"
+  },
+  "630": {
+    "hotelname": "Carabela II Appertments",
+    "hotelstars": "5.0",
+    "hotelid": "630"
+  },
+  "631": {
+    "hotelname": "Ikos Porto Petro",
+    "hotelstars": "5.0",
+    "hotelid": "631"
+  },
+  "632": {
+    "hotelname": "Apartamentos Vista Alegre",
+    "hotelstars": "5.0",
+    "hotelid": "632"
+  },
+  "633": {
+    "hotelname": "Aparthotel Club Sim\\u00f3",
+    "hotelstars": "3.0",
+    "hotelid": "633"
+  },
+  "634": {
+    "hotelname": "Hoposa Costa d'Or",
+    "hotelstars": "4.0",
+    "hotelid": "634"
+  },
+  "635": {
+    "hotelname": "VIVA Cala Mesquida Resort & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "635"
+  },
+  "636": {
+    "hotelname": "VIVA Cala Mesquida Suites & Spa Adults only 16+",
+    "hotelstars": "5.0",
+    "hotelid": "636"
+  },
+  "637": {
+    "hotelname": "Hotel Mix Per\\u00fa Playa",
+    "hotelstars": "2.0",
+    "hotelid": "637"
+  },
+  "638": {
+    "hotelname": "Na Martina",
+    "hotelstars": "5.0",
+    "hotelid": "638"
+  },
+  "639": {
+    "hotelname": "Finca Son Roig",
+    "hotelstars": "4.0",
+    "hotelid": "639"
+  },
+  "640": {
+    "hotelname": "Hotel Can Simoneta",
+    "hotelstars": "5.0",
+    "hotelid": "640"
+  },
+  "641": {
+    "hotelname": "Sant Salvador",
+    "hotelstars": "5.0",
+    "hotelid": "641"
+  },
+  "642": {
+    "hotelname": "MarSenses Rosa del Mar Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "642"
+  },
+  "643": {
+    "hotelname": "Sol Cala d'Or Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "643"
+  },
+  "644": {
+    "hotelname": "MLL Blue Bay",
+    "hotelstars": "3.0",
+    "hotelid": "644"
+  },
+  "645": {
+    "hotelname": "Apartamentos Villa Real",
+    "hotelstars": "2.0",
+    "hotelid": "645"
+  },
+  "646": {
+    "hotelname": "Amic Can Pastilla",
+    "hotelstars": "2.0",
+    "hotelid": "646"
+  },
+  "647": {
+    "hotelname": "Hotel Amic Gala",
+    "hotelstars": "3.0",
+    "hotelid": "647"
+  },
+  "648": {
+    "hotelname": "PortBlue Club Pollentia Resort & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "648"
+  },
+  "649": {
+    "hotelname": "Chevy Hotel & Hostal Montesol",
+    "hotelstars": "5.0",
+    "hotelid": "649"
+  },
+  "650": {
+    "hotelname": "BLUESEA Club Marthas",
+    "hotelstars": "4.0",
+    "hotelid": "650"
+  },
+  "651": {
+    "hotelname": "Ipanema Park & Beach",
+    "hotelstars": "3.0",
+    "hotelid": "651"
+  },
+  "652": {
+    "hotelname": "Isla de Cabrera Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "652"
+  },
+  "653": {
+    "hotelname": "Son Penya Petit",
+    "hotelstars": "3.0",
+    "hotelid": "653"
+  },
+  "654": {
+    "hotelname": "Hotel Sercotel Zurbar\\u00e1n ",
+    "hotelstars": "3.0",
+    "hotelid": "654"
+  },
+  "655": {
+    "hotelname": "Iberostar Selection Playa de Muro Village",
+    "hotelstars": "5.0",
+    "hotelid": "655"
+  },
+  "656": {
+    "hotelname": "Mar Hotels Playa de Muro Suites",
+    "hotelstars": "4.0",
+    "hotelid": "656"
+  },
+  "657": {
+    "hotelname": "Hotel Illot Suites & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "657"
+  },
+  "658": {
+    "hotelname": "Hotel Club Palia Dolce Farniente",
+    "hotelstars": "3.0",
+    "hotelid": "658"
+  },
+  "659": {
+    "hotelname": "Globales Apartotel Bouganvilla",
+    "hotelstars": "3.0",
+    "hotelid": "659"
+  },
+  "660": {
+    "hotelname": "Apartamentos Casa Vida",
+    "hotelstars": "3.0",
+    "hotelid": "660"
+  },
+  "661": {
+    "hotelname": "Martha\\u00b4s Imagine Suite",
+    "hotelstars": "3.0",
+    "hotelid": "661"
+  },
+  "662": {
+    "hotelname": "Club Mac Alcudia",
+    "hotelstars": "3.0",
+    "hotelid": "662"
+  },
+  "663": {
+    "hotelname": "Reverence Mare Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "663"
+  },
+  "664": {
+    "hotelname": "Pierre & Vacances Apartamentos Mallorca Deya",
+    "hotelstars": "3.0",
+    "hotelid": "664"
+  },
+  "665": {
+    "hotelname": "Hotel Club Palia Maria Eugenia",
+    "hotelstars": "4.0",
+    "hotelid": "665"
+  },
+  "666": {
+    "hotelname": "HSM Don Juan",
+    "hotelstars": "3.0",
+    "hotelid": "666"
+  },
+  "667": {
+    "hotelname": "Hotel Florida Magaluf",
+    "hotelstars": "4.0",
+    "hotelid": "667"
+  },
+  "668": {
+    "hotelname": "HM Martinique",
+    "hotelstars": "4.0",
+    "hotelid": "668"
+  },
+  "669": {
+    "hotelname": "Fergus Club Palmanova Park",
+    "hotelstars": "4.0",
+    "hotelid": "669"
+  },
+  "670": {
+    "hotelname": "THB Bamboo Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "670"
+  },
+  "671": {
+    "hotelname": "Hotel Santa Ponsa Pins",
+    "hotelstars": "3.0",
+    "hotelid": "671"
+  },
+  "672": {
+    "hotelname": "Palmanova Beach Apartments by TRH",
+    "hotelstars": "4.0",
+    "hotelid": "672"
+  },
+  "673": {
+    "hotelname": "La Vila",
+    "hotelstars": "4.0",
+    "hotelid": "673"
+  },
+  "674": {
+    "hotelname": "Golf Beach",
+    "hotelstars": "2.0",
+    "hotelid": "674"
+  },
+  "675": {
+    "hotelname": "Almudaina",
+    "hotelstars": "5.0",
+    "hotelid": "675"
+  },
+  "676": {
+    "hotelname": "Bordoy Continental Palma",
+    "hotelstars": "4.0",
+    "hotelid": "676"
+  },
+  "677": {
+    "hotelname": "Hotel BG Pamplona",
+    "hotelstars": "4.0",
+    "hotelid": "677"
+  },
+  "678": {
+    "hotelname": "Son Julia Country House",
+    "hotelstars": "5.0",
+    "hotelid": "678"
+  },
+  "679": {
+    "hotelname": "HSM Sandalo Beach",
+    "hotelstars": "3.0",
+    "hotelid": "679"
+  },
+  "680": {
+    "hotelname": "Dreams Calvi\\u00e1 Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "680"
+  },
+  "681": {
+    "hotelname": "HSM Atlantic Park",
+    "hotelstars": "4.0",
+    "hotelid": "681"
+  },
+  "682": {
+    "hotelname": "Inturotel Esmeralda Garden",
+    "hotelstars": "3.0",
+    "hotelid": "682"
+  },
+  "683": {
+    "hotelname": "M House Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "683"
+  },
+  "684": {
+    "hotelname": "AluaSoul Mallorca Resort",
+    "hotelstars": "4.0",
+    "hotelid": "684"
+  },
+  "685": {
+    "hotelname": "Hotel Abelux",
+    "hotelstars": "2.0",
+    "hotelid": "685"
+  },
+  "686": {
+    "hotelname": "OLA Apartamentos Cala d' Or",
+    "hotelstars": "3.0",
+    "hotelid": "686"
+  },
+  "687": {
+    "hotelname": "Aparthotel Aquasol",
+    "hotelstars": "3.0",
+    "hotelid": "687"
+  },
+  "688": {
+    "hotelname": "AluaSoul Alcudia Bay",
+    "hotelstars": "4.0",
+    "hotelid": "688"
+  },
+  "689": {
+    "hotelname": "Cabot Pollensa Park Spa",
+    "hotelstars": "5.0",
+    "hotelid": "689"
+  },
+  "690": {
+    "hotelname": "Globales Apartamentos Cala Vi\\u00f1as",
+    "hotelstars": "3.0",
+    "hotelid": "690"
+  },
+  "691": {
+    "hotelname": "MarSenses Puerto Pollensa Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "691"
+  },
+  "692": {
+    "hotelname": "Niu d'Aus Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "692"
+  },
+  "693": {
+    "hotelname": "Pirates Village Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "693"
+  },
+  "694": {
+    "hotelname": "Jutlandia Family Resort",
+    "hotelstars": "3.0",
+    "hotelid": "694"
+  },
+  "695": {
+    "hotelname": "Econotel Las Palomas",
+    "hotelstars": "2.0",
+    "hotelid": "695"
+  },
+  "696": {
+    "hotelname": "Elba Sunset Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "696"
+  },
+  "697": {
+    "hotelname": "Palmanova Suites by TRH Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "697"
+  },
+  "698": {
+    "hotelname": "FERGUS Bermudas",
+    "hotelstars": "4.0",
+    "hotelid": "698"
+  },
+  "699": {
+    "hotelname": "Hoposa Hotel Bahia",
+    "hotelstars": "3.0",
+    "hotelid": "699"
+  },
+  "700": {
+    "hotelname": "Montel\\u00edn",
+    "hotelstars": "5.0",
+    "hotelid": "700"
+  },
+  "701": {
+    "hotelname": "Apartamentos Massol",
+    "hotelstars": "2.0",
+    "hotelid": "701"
+  },
+  "702": {
+    "hotelname": "Arcos Playa",
+    "hotelstars": "5.0",
+    "hotelid": "702"
+  },
+  "703": {
+    "hotelname": "Globales Torrenova",
+    "hotelstars": "3.0",
+    "hotelid": "703"
+  },
+  "704": {
+    "hotelname": "Sol Lunamar Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "704"
+  },
+  "705": {
+    "hotelname": "Alua Palmanova Bay",
+    "hotelstars": "4.0",
+    "hotelid": "705"
+  },
+  "706": {
+    "hotelname": "Apartamentos Marina - Palmanova",
+    "hotelstars": "2.0",
+    "hotelid": "706"
+  },
+  "707": {
+    "hotelname": "Apartamentos Don Miguel",
+    "hotelstars": "2.0",
+    "hotelid": "707"
+  },
+  "708": {
+    "hotelname": "Globales Costa de la Calma",
+    "hotelstars": "3.0",
+    "hotelid": "708"
+  },
+  "709": {
+    "hotelname": "Mac Surfing Playa",
+    "hotelstars": "5.0",
+    "hotelid": "709"
+  },
+  "710": {
+    "hotelname": "Apartamentos Siesta 1",
+    "hotelstars": "5.0",
+    "hotelid": "710"
+  },
+  "711": {
+    "hotelname": "Hotel Ilusion Calma & Spa",
+    "hotelstars": "3.0",
+    "hotelid": "711"
+  },
+  "712": {
+    "hotelname": "Aparthotel Ona Cala Pi Club",
+    "hotelstars": "3.0",
+    "hotelid": "712"
+  },
+  "713": {
+    "hotelname": "Nautic Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "713"
+  },
+  "714": {
+    "hotelname": "Globales Palmanova",
+    "hotelstars": "4.0",
+    "hotelid": "714"
+  },
+  "715": {
+    "hotelname": "Mix BR (Bah\\u00eda Real) Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "715"
+  },
+  "716": {
+    "hotelname": "Hoposa Apartments Pollensamar",
+    "hotelstars": "3.0",
+    "hotelid": "716"
+  },
+  "717": {
+    "hotelname": "Universal Hotel Laguna",
+    "hotelstars": "4.0",
+    "hotelid": "717"
+  },
+  "718": {
+    "hotelname": "Santa Clara Urban Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "718"
+  },
+  "719": {
+    "hotelname": "Zo\\u00ebtry Mallorca",
+    "hotelstars": "5.0",
+    "hotelid": "719"
+  },
+  "720": {
+    "hotelname": "Zhero Palma",
+    "hotelstars": "3.0",
+    "hotelid": "720"
+  },
+  "721": {
+    "hotelname": "UR Palacio Avenida",
+    "hotelstars": "4.0",
+    "hotelid": "721"
+  },
+  "722": {
+    "hotelname": "Globales Verdemar Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "722"
+  },
+  "723": {
+    "hotelname": "Tacande Portals Wellness & Relax",
+    "hotelstars": "4.0",
+    "hotelid": "723"
+  },
+  "724": {
+    "hotelname": "Isla del Sol",
+    "hotelstars": "2.0",
+    "hotelid": "724"
+  },
+  "725": {
+    "hotelname": "Apartamentos Inn",
+    "hotelstars": "2.0",
+    "hotelid": "725"
+  },
+  "726": {
+    "hotelname": "Mar Brava",
+    "hotelstars": "3.0",
+    "hotelid": "726"
+  },
+  "727": {
+    "hotelname": "Playas Ca's Saboners",
+    "hotelstars": "3.0",
+    "hotelid": "727"
+  },
+  "728": {
+    "hotelname": "Hotel Bellavista & Spa",
+    "hotelstars": "3.0",
+    "hotelid": "728"
+  },
+  "729": {
+    "hotelname": "Hotel Las Arenas",
+    "hotelstars": "4.0",
+    "hotelid": "729"
+  },
+  "730": {
+    "hotelname": "Sol Romantica",
+    "hotelstars": "3.0",
+    "hotelid": "730"
+  },
+  "731": {
+    "hotelname": "Sun Beach",
+    "hotelstars": "2.0",
+    "hotelid": "731"
+  },
+  "732": {
+    "hotelname": "Es Blau Hotel Des Nord",
+    "hotelstars": "4.0",
+    "hotelid": "732"
+  },
+  "733": {
+    "hotelname": "Vista Club",
+    "hotelstars": "3.0",
+    "hotelid": "733"
+  },
+  "734": {
+    "hotelname": "Holiday Park",
+    "hotelstars": "2.0",
+    "hotelid": "734"
+  },
+  "735": {
+    "hotelname": "Playas del Rey",
+    "hotelstars": "3.0",
+    "hotelid": "735"
+  },
+  "736": {
+    "hotelname": "Ca'n Bonico",
+    "hotelstars": "4.0",
+    "hotelid": "736"
+  },
+  "737": {
+    "hotelname": "Hostal HPC Portocolom",
+    "hotelstars": "1.0",
+    "hotelid": "737"
+  },
+  "738": {
+    "hotelname": "Sol Calas de Mallorca",
+    "hotelstars": "4.0",
+    "hotelid": "738"
+  },
+  "739": {
+    "hotelname": "Sotavento",
+    "hotelstars": "3.0",
+    "hotelid": "739"
+  },
+  "740": {
+    "hotelname": "Apartments Econotel Kensington ",
+    "hotelstars": "1.0",
+    "hotelid": "740"
+  },
+  "741": {
+    "hotelname": "Oriola",
+    "hotelstars": "2.0",
+    "hotelid": "741"
+  },
+  "742": {
+    "hotelname": "Hostal Blanca",
+    "hotelstars": "1.0",
+    "hotelid": "742"
+  },
+  "743": {
+    "hotelname": "Universal Hotel Bikini",
+    "hotelstars": "3.0",
+    "hotelid": "743"
+  },
+  "744": {
+    "hotelname": "Naika Studios & Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "744"
+  },
+  "745": {
+    "hotelname": "Martinez Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "745"
+  },
+  "746": {
+    "hotelname": "Sa Franquesa Nova Hotel Rural",
+    "hotelstars": "4.0",
+    "hotelid": "746"
+  },
+  "747": {
+    "hotelname": "Hoposa Villaconcha",
+    "hotelstars": "4.0",
+    "hotelid": "747"
+  },
+  "748": {
+    "hotelname": "Finca Hotel Can Estades",
+    "hotelstars": "3.0",
+    "hotelid": "748"
+  },
+  "749": {
+    "hotelname": "Apartamentos Mallorca Portofino",
+    "hotelstars": "3.0",
+    "hotelid": "749"
+  },
+  "750": {
+    "hotelname": "Principal Son Amoixa",
+    "hotelstars": "4.0",
+    "hotelid": "750"
+  },
+  "751": {
+    "hotelname": "Puerto Azul Suite Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "751"
+  },
+  "752": {
+    "hotelname": "Africamar",
+    "hotelstars": "3.0",
+    "hotelid": "752"
+  },
+  "753": {
+    "hotelname": "Inturotel Sa Marina",
+    "hotelstars": "4.0",
+    "hotelid": "753"
+  },
+  "754": {
+    "hotelname": "Valentin Paguera Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "754"
+  },
+  "755": {
+    "hotelname": "Valentin Paguera Suites",
+    "hotelstars": "3.0",
+    "hotelid": "755"
+  },
+  "756": {
+    "hotelname": "Cabot Hobby Club Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "756"
+  },
+  "757": {
+    "hotelname": "Hotel Palia Sa Coma Playa",
+    "hotelstars": "4.0",
+    "hotelid": "757"
+  },
+  "758": {
+    "hotelname": "allsun App.-Hotel Estrella & Coral de Mar",
+    "hotelstars": "5.0",
+    "hotelid": "758"
+  },
+  "759": {
+    "hotelname": "Cabot Las Velas Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "759"
+  },
+  "760": {
+    "hotelname": "Hotel Alea",
+    "hotelstars": "3.0",
+    "hotelid": "760"
+  },
+  "761": {
+    "hotelname": "Don Pepe",
+    "hotelstars": "3.0",
+    "hotelid": "761"
+  },
+  "762": {
+    "hotelname": "BH Mallorca Resort Affiliated by FERGUS",
+    "hotelstars": "3.0",
+    "hotelid": "762"
+  },
+  "763": {
+    "hotelname": "Mar Hotels Playa Mar & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "763"
+  },
+  "764": {
+    "hotelname": "Canyamel Sunrise Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "764"
+  },
+  "765": {
+    "hotelname": "Cap Rocat",
+    "hotelstars": "5.0",
+    "hotelid": "765"
+  },
+  "766": {
+    "hotelname": "Villa Singala",
+    "hotelstars": "3.0",
+    "hotelid": "766"
+  },
+  "767": {
+    "hotelname": "Globales Apartamentos Nova",
+    "hotelstars": "3.0",
+    "hotelid": "767"
+  },
+  "768": {
+    "hotelname": "Cala d'Or Playa",
+    "hotelstars": "3.0",
+    "hotelid": "768"
+  },
+  "769": {
+    "hotelname": "Solecito Apartamentos",
+    "hotelstars": "2.0",
+    "hotelid": "769"
+  },
+  "770": {
+    "hotelname": "Hostal Lido",
+    "hotelstars": "1.0",
+    "hotelid": "770"
+  },
+  "771": {
+    "hotelname": "Sol de Alcudia Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "771"
+  },
+  "772": {
+    "hotelname": "Sant Salvador Hostatgeria",
+    "hotelstars": "3.0",
+    "hotelid": "772"
+  },
+  "773": {
+    "hotelname": "Marins Playa Suites",
+    "hotelstars": "4.0",
+    "hotelid": "773"
+  },
+  "774": {
+    "hotelname": "Colon Palma",
+    "hotelstars": "3.0",
+    "hotelid": "774"
+  },
+  "775": {
+    "hotelname": "Can Cera",
+    "hotelstars": "5.0",
+    "hotelid": "775"
+  },
+  "776": {
+    "hotelname": "Es Riquers",
+    "hotelstars": "3.0",
+    "hotelid": "776"
+  },
+  "777": {
+    "hotelname": "Villa Palmer",
+    "hotelstars": "3.0",
+    "hotelid": "777"
+  },
+  "778": {
+    "hotelname": "Fontsanta Hotel Thermal Spa & Wellness",
+    "hotelstars": "5.0",
+    "hotelid": "778"
+  },
+  "779": {
+    "hotelname": "Jumeirah Port Soller Hotel & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "779"
+  },
+  "780": {
+    "hotelname": "Predi Son Jaumell Hotel Rural",
+    "hotelstars": "5.0",
+    "hotelid": "780"
+  },
+  "781": {
+    "hotelname": "Hotel Diamant",
+    "hotelstars": "4.0",
+    "hotelid": "781"
+  },
+  "782": {
+    "hotelname": "La Santa Maria Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "782"
+  },
+  "783": {
+    "hotelname": "Mirador & Artmadams",
+    "hotelstars": "4.0",
+    "hotelid": "783"
+  },
+  "784": {
+    "hotelname": "Mar Calma",
+    "hotelstars": "4.0",
+    "hotelid": "784"
+  },
+  "785": {
+    "hotelname": "La Victoria Hostatgeria",
+    "hotelstars": "3.0",
+    "hotelid": "785"
+  },
+  "786": {
+    "hotelname": "Can Vent Alcudia",
+    "hotelstars": "4.0",
+    "hotelid": "786"
+  },
+  "787": {
+    "hotelname": "Alcudia Petit",
+    "hotelstars": "3.0",
+    "hotelid": "787"
+  },
+  "788": {
+    "hotelname": "HM Balanguera",
+    "hotelstars": "4.0",
+    "hotelid": "788"
+  },
+  "789": {
+    "hotelname": "Playa Esperanza Resort Affiliated by Melia",
+    "hotelstars": "4.0",
+    "hotelid": "789"
+  },
+  "790": {
+    "hotelname": "Palma Suites",
+    "hotelstars": "4.0",
+    "hotelid": "790"
+  },
+  "791": {
+    "hotelname": "Calatrava Boutique",
+    "hotelstars": "5.0",
+    "hotelid": "791"
+  },
+  "792": {
+    "hotelname": "Sol Port Soller",
+    "hotelstars": "2.0",
+    "hotelid": "792"
+  },
+  "793": {
+    "hotelname": "Gavimar Ariel Chico Club & Resort",
+    "hotelstars": "3.0",
+    "hotelid": "793"
+  },
+  "794": {
+    "hotelname": "Cort",
+    "hotelstars": "4.0",
+    "hotelid": "794"
+  },
+  "795": {
+    "hotelname": "Castell Son Claret",
+    "hotelstars": "5.0",
+    "hotelid": "795"
+  },
+  "796": {
+    "hotelname": "Hostal Cuba",
+    "hotelstars": "4.0",
+    "hotelid": "796"
+  },
+  "797": {
+    "hotelname": "Hotel Coronado Thalasso & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "797"
+  },
+  "798": {
+    "hotelname": "Whala Beach",
+    "hotelstars": "3.0",
+    "hotelid": "798"
+  },
+  "799": {
+    "hotelname": "Apartamentos Club Sa Coma",
+    "hotelstars": "3.0",
+    "hotelid": "799"
+  },
+  "800": {
+    "hotelname": "Ferrer Tamarindos Apartamentos",
+    "hotelstars": "2.0",
+    "hotelid": "800"
+  },
+  "801": {
+    "hotelname": "Son Moll Sentits Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "801"
+  },
+  "802": {
+    "hotelname": "Hotel Brisa Marina",
+    "hotelstars": "3.0",
+    "hotelid": "802"
+  },
+  "803": {
+    "hotelname": "Melbeach Hotel & Spa",
+    "hotelstars": "3.0",
+    "hotelid": "803"
+  },
+  "804": {
+    "hotelname": "Trendhotel Alcudia",
+    "hotelstars": "3.0",
+    "hotelid": "804"
+  },
+  "805": {
+    "hotelname": "Aparthotel Portodrach",
+    "hotelstars": "4.0",
+    "hotelid": "805"
+  },
+  "806": {
+    "hotelname": "Ona Garden Lago",
+    "hotelstars": "3.0",
+    "hotelid": "806"
+  },
+  "807": {
+    "hotelname": "Es Convent",
+    "hotelstars": "5.0",
+    "hotelid": "807"
+  },
+  "808": {
+    "hotelname": "Leonardo Boutique Hotel Mallorca Port Portals",
+    "hotelstars": "4.0",
+    "hotelid": "808"
+  },
+  "809": {
+    "hotelname": "Son Cosmet",
+    "hotelstars": "4.0",
+    "hotelid": "809"
+  },
+  "810": {
+    "hotelname": "Sa Cabana Hotel Rural & SPA",
+    "hotelstars": "4.0",
+    "hotelid": "810"
+  },
+  "811": {
+    "hotelname": "Jupiter Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "811"
+  },
+  "812": {
+    "hotelname": "Sis Pins",
+    "hotelstars": "3.0",
+    "hotelid": "812"
+  },
+  "813": {
+    "hotelname": "Cristina Apartamentos",
+    "hotelstars": "2.0",
+    "hotelid": "813"
+  },
+  "814": {
+    "hotelname": "Apartamentos Llevant",
+    "hotelstars": "5.0",
+    "hotelid": "814"
+  },
+  "815": {
+    "hotelname": "Ona Aucanada Club Aparthotel",
+    "hotelstars": "3.0",
+    "hotelid": "815"
+  },
+  "816": {
+    "hotelname": "Ben Hur",
+    "hotelstars": "3.0",
+    "hotelid": "816"
+  },
+  "817": {
+    "hotelname": "Nura Boreal",
+    "hotelstars": "3.0",
+    "hotelid": "817"
+  },
+  "818": {
+    "hotelname": "BH Mallorca Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "818"
+  },
+  "819": {
+    "hotelname": "Globales Simar",
+    "hotelstars": "3.0",
+    "hotelid": "819"
+  },
+  "820": {
+    "hotelname": "Can Alomar Luxury Boutique",
+    "hotelstars": "5.0",
+    "hotelid": "820"
+  },
+  "821": {
+    "hotelname": "allsun App.-Hotel Orquidea Playa",
+    "hotelstars": "5.0",
+    "hotelid": "821"
+  },
+  "822": {
+    "hotelname": "Born",
+    "hotelstars": "2.0",
+    "hotelid": "822"
+  },
+  "823": {
+    "hotelname": "S'Hort de son Caulelles",
+    "hotelstars": "4.0",
+    "hotelid": "823"
+  },
+  "824": {
+    "hotelname": "Fincahotel Binibona Parc Natural",
+    "hotelstars": "4.0",
+    "hotelid": "824"
+  },
+  "825": {
+    "hotelname": "Albellons Parc Natural",
+    "hotelstars": "4.0",
+    "hotelid": "825"
+  },
+  "826": {
+    "hotelname": "Iberostar Ciudad Blanca Alcudia Apartamentos",
+    "hotelstars": "4.0",
+    "hotelid": "826"
+  },
+  "827": {
+    "hotelname": "Finca Son Mercadal",
+    "hotelstars": "3.0",
+    "hotelid": "827"
+  },
+  "828": {
+    "hotelname": "Ca's Papa Sweet Hotel Valldemossa",
+    "hotelstars": "4.0",
+    "hotelid": "828"
+  },
+  "829": {
+    "hotelname": "Duvabitat Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "829"
+  },
+  "830": {
+    "hotelname": "Stil Bonsai",
+    "hotelstars": "3.0",
+    "hotelid": "830"
+  },
+  "831": {
+    "hotelname": "Segles",
+    "hotelstars": "5.0",
+    "hotelid": "831"
+  },
+  "832": {
+    "hotelname": "Castell Dels Hams",
+    "hotelstars": "4.0",
+    "hotelid": "832"
+  },
+  "833": {
+    "hotelname": "Hotel Honucai",
+    "hotelstars": "4.0",
+    "hotelid": "833"
+  },
+  "834": {
+    "hotelname": "Ona Village Cala D'Or",
+    "hotelstars": "3.0",
+    "hotelid": "834"
+  },
+  "835": {
+    "hotelname": "Posada Terra Santa",
+    "hotelstars": "4.0",
+    "hotelid": "835"
+  },
+  "836": {
+    "hotelname": "Santuari de Cura",
+    "hotelstars": "3.0",
+    "hotelid": "836"
+  },
+  "837": {
+    "hotelname": "Zafiro Palace Alcudia",
+    "hotelstars": "5.0",
+    "hotelid": "837"
+  },
+  "838": {
+    "hotelname": "Iberostar Cala Millor",
+    "hotelstars": "5.0",
+    "hotelid": "838"
+  },
+  "839": {
+    "hotelname": "Apartamentos Venecia",
+    "hotelstars": "5.0",
+    "hotelid": "839"
+  },
+  "840": {
+    "hotelname": "Hotel Triton Beach",
+    "hotelstars": "4.0",
+    "hotelid": "840"
+  },
+  "841": {
+    "hotelname": "LoftOtel Canet",
+    "hotelstars": "4.0",
+    "hotelid": "841"
+  },
+  "842": {
+    "hotelname": "R2 Bahia Cala Ratjada Design Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "842"
+  },
+  "843": {
+    "hotelname": "Sant Francesc Hotel Singular",
+    "hotelstars": "5.0",
+    "hotelid": "843"
+  },
+  "844": {
+    "hotelname": "The Hostal",
+    "hotelstars": "1.0",
+    "hotelid": "844"
+  },
+  "845": {
+    "hotelname": "Hotel Ver\\u00f3nica & Apartaments Midas",
+    "hotelstars": "3.0",
+    "hotelid": "845"
+  },
+  "846": {
+    "hotelname": "Apartamentos Balear Beach",
+    "hotelstars": "1.0",
+    "hotelid": "846"
+  },
+  "847": {
+    "hotelname": "Hotel Mix Colombo",
+    "hotelstars": "3.0",
+    "hotelid": "847"
+  },
+  "848": {
+    "hotelname": "Vintage Hotel Bella Colina est. 1953",
+    "hotelstars": "3.0",
+    "hotelid": "848"
+  },
+  "849": {
+    "hotelname": "Es Revellar Art Resort",
+    "hotelstars": "5.0",
+    "hotelid": "849"
+  },
+  "850": {
+    "hotelname": "Isla de Cabrera Aparthotel & Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "850"
+  },
+  "851": {
+    "hotelname": "Hoposa Cultural Boutique",
+    "hotelstars": "2.0",
+    "hotelid": "851"
+  },
+  "852": {
+    "hotelname": "Son Perdiu",
+    "hotelstars": "3.0",
+    "hotelid": "852"
+  },
+  "853": {
+    "hotelname": "Mar Hotels Paguera & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "853"
+  },
+  "854": {
+    "hotelname": "COOEE Cala Ratjada",
+    "hotelstars": "4.0",
+    "hotelid": "854"
+  },
+  "855": {
+    "hotelname": "Iberostar Selection Llaut Palma - Adults Only",
+    "hotelstars": "5.0",
+    "hotelid": "855"
+  },
+  "856": {
+    "hotelname": "Art Hotel Palma",
+    "hotelstars": "4.0",
+    "hotelid": "856"
+  },
+  "857": {
+    "hotelname": "Cap Vermell Grand Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "857"
+  },
+  "858": {
+    "hotelname": "Can Feliu Ecoagroturismo",
+    "hotelstars": "4.0",
+    "hotelid": "858"
+  },
+  "859": {
+    "hotelname": "Hotel Club Cala Murada",
+    "hotelstars": "3.0",
+    "hotelid": "859"
+  },
+  "860": {
+    "hotelname": "AluaSun Cala Antena",
+    "hotelstars": "3.0",
+    "hotelid": "860"
+  },
+  "861": {
+    "hotelname": "Lla\\u00fct Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "861"
+  },
+  "862": {
+    "hotelname": "Marriott's Club Son Antem",
+    "hotelstars": "5.0",
+    "hotelid": "862"
+  },
+  "863": {
+    "hotelname": "Sol Barbados",
+    "hotelstars": "4.0",
+    "hotelid": "863"
+  },
+  "864": {
+    "hotelname": "Playamar Apartments",
+    "hotelstars": "2.0",
+    "hotelid": "864"
+  },
+  "865": {
+    "hotelname": "PlayaMar Hotel",
+    "hotelstars": "2.0",
+    "hotelid": "865"
+  },
+  "866": {
+    "hotelname": "Hotel Garbada & Complex",
+    "hotelstars": "2.0",
+    "hotelid": "866"
+  },
+  "867": {
+    "hotelname": "Seasun Far",
+    "hotelstars": "3.0",
+    "hotelid": "867"
+  },
+  "868": {
+    "hotelname": "Canyamel Park Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "868"
+  },
+  "869": {
+    "hotelname": "Illa d'Or Hotel & Illa d'Or Club",
+    "hotelstars": "4.0",
+    "hotelid": "869"
+  },
+  "870": {
+    "hotelname": "MLL Palma Bay Club Resort",
+    "hotelstars": "3.0",
+    "hotelid": "870"
+  },
+  "871": {
+    "hotelname": "Meli\\u00e1 Calvi\\u00e1 Beach",
+    "hotelstars": "4.0",
+    "hotelid": "871"
+  },
+  "872": {
+    "hotelname": "Nakar Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "872"
+  },
+  "873": {
+    "hotelname": "Zafiro Palace Palmanova",
+    "hotelstars": "5.0",
+    "hotelid": "873"
+  },
+  "874": {
+    "hotelname": "Hipotels Gran Playa De Palma",
+    "hotelstars": "4.0",
+    "hotelid": "874"
+  },
+  "875": {
+    "hotelname": "Hipotels Playa de Palma Palace Hotel & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "875"
+  },
+  "876": {
+    "hotelname": "Caleia Talayot & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "876"
+  },
+  "877": {
+    "hotelname": "AluaSoul Carolina",
+    "hotelstars": "4.0",
+    "hotelid": "877"
+  },
+  "878": {
+    "hotelname": "Hotel Creta Paguera",
+    "hotelstars": "3.0",
+    "hotelid": "878"
+  },
+  "879": {
+    "hotelname": "Pleta De Mar Luxury Hotel by Nature",
+    "hotelstars": "5.0",
+    "hotelid": "879"
+  },
+  "880": {
+    "hotelname": "Kyrat Am\\u00e0rac Suites",
+    "hotelstars": "4.0",
+    "hotelid": "880"
+  },
+  "881": {
+    "hotelname": "Yourhouse Alcudia",
+    "hotelstars": "2.0",
+    "hotelid": "881"
+  },
+  "882": {
+    "hotelname": "Yourhouse Acapulco Apartamentos",
+    "hotelstars": "1.0",
+    "hotelid": "882"
+  },
+  "883": {
+    "hotelname": "Es Corte Vell Inland Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "883"
+  },
+  "884": {
+    "hotelname": "Grupotel Los Principes & Spa  Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "884"
+  },
+  "885": {
+    "hotelname": "Agroturismo Ca'n Gaia",
+    "hotelstars": "3.0",
+    "hotelid": "885"
+  },
+  "886": {
+    "hotelname": "Boutique Hotel Sant Jaume",
+    "hotelstars": "5.0",
+    "hotelid": "886"
+  },
+  "887": {
+    "hotelname": "BO Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "887"
+  },
+  "888": {
+    "hotelname": "Brick Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "888"
+  },
+  "889": {
+    "hotelname": "Meli\\u00e1 Palma Bay",
+    "hotelstars": "4.0",
+    "hotelid": "889"
+  },
+  "890": {
+    "hotelname": "Hotel Turixant",
+    "hotelstars": "4.0",
+    "hotelid": "890"
+  },
+  "891": {
+    "hotelname": "Hotel Es Princep",
+    "hotelstars": "5.0",
+    "hotelid": "891"
+  },
+  "892": {
+    "hotelname": "Hotel El Gu\\u00eda",
+    "hotelstars": "2.0",
+    "hotelid": "892"
+  },
+  "893": {
+    "hotelname": "Mirabo de Valldemossa",
+    "hotelstars": "4.0",
+    "hotelid": "893"
+  },
+  "894": {
+    "hotelname": "Hotel Sa Vall Valldemossa",
+    "hotelstars": "3.0",
+    "hotelid": "894"
+  },
+  "895": {
+    "hotelname": "Agroturismo Ses Vistes",
+    "hotelstars": "5.0",
+    "hotelid": "895"
+  },
+  "896": {
+    "hotelname": "Embat Hostel",
+    "hotelstars": "2.0",
+    "hotelid": "896"
+  },
+  "897": {
+    "hotelname": "Ca'n Abril",
+    "hotelstars": "4.0",
+    "hotelid": "897"
+  },
+  "898": {
+    "hotelname": "Hostal Bona Vista",
+    "hotelstars": "5.0",
+    "hotelid": "898"
+  },
+  "899": {
+    "hotelname": "Metropolitan Playa JUKA Aparthotel",
+    "hotelstars": "4.0",
+    "hotelid": "899"
+  },
+  "900": {
+    "hotelname": "Can Ribera by Zafiro",
+    "hotelstars": "4.0",
+    "hotelid": "900"
+  },
+  "901": {
+    "hotelname": "INNSiDE Calvi\\u00e1 Beach",
+    "hotelstars": "4.0",
+    "hotelid": "901"
+  },
+  "902": {
+    "hotelname": "Sa Torre",
+    "hotelstars": "5.0",
+    "hotelid": "902"
+  },
+  "903": {
+    "hotelname": "whala!isabela",
+    "hotelstars": "3.0",
+    "hotelid": "903"
+  },
+  "904": {
+    "hotelname": "Iberostar Grand Portals Nous",
+    "hotelstars": "5.0",
+    "hotelid": "904"
+  },
+  "905": {
+    "hotelname": "Miramar",
+    "hotelstars": "4.0",
+    "hotelid": "905"
+  },
+  "906": {
+    "hotelname": "Protur Palmeras Playa Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "906"
+  },
+  "907": {
+    "hotelname": "Saul\\u00f3 Beach Hotel",
+    "hotelstars": "2.0",
+    "hotelid": "907"
+  },
+  "908": {
+    "hotelname": "Ses Fotges",
+    "hotelstars": "3.0",
+    "hotelid": "908"
+  },
+  "909": {
+    "hotelname": "Ses Roquetes",
+    "hotelstars": "2.0",
+    "hotelid": "909"
+  },
+  "910": {
+    "hotelname": "Hipotels Cala Bona Club",
+    "hotelstars": "4.0",
+    "hotelid": "910"
+  },
+  "911": {
+    "hotelname": "Aparthotel Marina Drach",
+    "hotelstars": "2.0",
+    "hotelid": "911"
+  },
+  "912": {
+    "hotelname": "Alqueria Blanca",
+    "hotelstars": "4.0",
+    "hotelid": "912"
+  },
+  "913": {
+    "hotelname": "TUI BLUE Alcudia Pins",
+    "hotelstars": "4.0",
+    "hotelid": "913"
+  },
+  "914": {
+    "hotelname": "Stil Mar y Paz",
+    "hotelstars": "2.0",
+    "hotelid": "914"
+  },
+  "915": {
+    "hotelname": "Hostal Diana",
+    "hotelstars": "1.0",
+    "hotelid": "915"
+  },
+  "916": {
+    "hotelname": "Mon Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "916"
+  },
+  "917": {
+    "hotelname": "Es Quatre Cantons",
+    "hotelstars": "4.0",
+    "hotelid": "917"
+  },
+  "918": {
+    "hotelname": "Hipotels Coma Gran",
+    "hotelstars": "4.0",
+    "hotelid": "918"
+  },
+  "919": {
+    "hotelname": "Son Galceran",
+    "hotelstars": "4.0",
+    "hotelid": "919"
+  },
+  "920": {
+    "hotelname": "Torre Playa",
+    "hotelstars": "3.0",
+    "hotelid": "920"
+  },
+  "921": {
+    "hotelname": "Apartamentos Don Miguel & Hotel Panorama",
+    "hotelstars": "2.0",
+    "hotelid": "921"
+  },
+  "922": {
+    "hotelname": "Hotel Fonda Llabres",
+    "hotelstars": "2.0",
+    "hotelid": "922"
+  },
+  "923": {
+    "hotelname": "Hostal Apuntadores",
+    "hotelstars": "2.0",
+    "hotelid": "923"
+  },
+  "924": {
+    "hotelname": "Levante",
+    "hotelstars": "4.0",
+    "hotelid": "924"
+  },
+  "925": {
+    "hotelname": "Vista Park Hotel",
+    "hotelstars": "3.0",
+    "hotelid": "925"
+  },
+  "926": {
+    "hotelname": "The Lis",
+    "hotelstars": "2.0",
+    "hotelid": "926"
+  },
+  "927": {
+    "hotelname": "THB Gran Bah\\u00eda Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "927"
+  },
+  "928": {
+    "hotelname": "Forn Nou",
+    "hotelstars": "3.0",
+    "hotelid": "928"
+  },
+  "929": {
+    "hotelname": "HSM Solivera",
+    "hotelstars": "4.0",
+    "hotelid": "929"
+  },
+  "930": {
+    "hotelname": "Flor Los Almendros",
+    "hotelstars": "5.0",
+    "hotelid": "930"
+  },
+  "931": {
+    "hotelname": "Hotel Son Ametler",
+    "hotelstars": "4.0",
+    "hotelid": "931"
+  },
+  "932": {
+    "hotelname": "Fleming Hostel",
+    "hotelstars": "2.0",
+    "hotelid": "932"
+  },
+  "933": {
+    "hotelname": "EIX Lagotel Apartamentos",
+    "hotelstars": "4.0",
+    "hotelid": "933"
+  },
+  "934": {
+    "hotelname": "Apartamentos Alborada",
+    "hotelstars": "1.0",
+    "hotelid": "934"
+  },
+  "935": {
+    "hotelname": "Rafa Nadal Sport Residence",
+    "hotelstars": "5.0",
+    "hotelid": "935"
+  },
+  "936": {
+    "hotelname": "Hotel Casablanca",
+    "hotelstars": "3.0",
+    "hotelid": "936"
+  },
+  "937": {
+    "hotelname": "Agroturisme Es Picot",
+    "hotelstars": "3.0",
+    "hotelid": "937"
+  },
+  "938": {
+    "hotelname": "Hotel The Sky",
+    "hotelstars": "4.0",
+    "hotelid": "938"
+  },
+  "939": {
+    "hotelname": "Singular Hostel By Eurotels",
+    "hotelstars": "2.0",
+    "hotelid": "939"
+  },
+  "940": {
+    "hotelname": "Hotel Gloria De Sant Jaume",
+    "hotelstars": "5.0",
+    "hotelid": "940"
+  },
+  "941": {
+    "hotelname": "Senator Cala Millor",
+    "hotelstars": "4.0",
+    "hotelid": "941"
+  },
+  "942": {
+    "hotelname": "New Can Furios",
+    "hotelstars": "4.0",
+    "hotelid": "942"
+  },
+  "943": {
+    "hotelname": "Palma Beach Hotel & Apt",
+    "hotelstars": "2.0",
+    "hotelid": "943"
+  },
+  "944": {
+    "hotelname": "Cases de Son Barbassa",
+    "hotelstars": "4.0",
+    "hotelid": "944"
+  },
+  "945": {
+    "hotelname": "EIX Lagotel Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "945"
+  },
+  "946": {
+    "hotelname": "Santuari de Lluc",
+    "hotelstars": "1.0",
+    "hotelid": "946"
+  },
+  "947": {
+    "hotelname": "azuLine Hotel Palmanova Garden",
+    "hotelstars": "2.0",
+    "hotelid": "947"
+  },
+  "948": {
+    "hotelname": "Son Caliu Apartamentos",
+    "hotelstars": "1.0",
+    "hotelid": "948"
+  },
+  "949": {
+    "hotelname": "S'Estelrica Finca Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "949"
+  },
+  "950": {
+    "hotelname": "Summum Prime Boutique Hotel",
+    "hotelstars": "5.0",
+    "hotelid": "950"
+  },
+  "951": {
+    "hotelname": "ICON Roset\\u00f3",
+    "hotelstars": "5.0",
+    "hotelid": "951"
+  },
+  "952": {
+    "hotelname": "Hotel Morlans & Morlans Garden & Suites",
+    "hotelstars": "3.0",
+    "hotelid": "952"
+  },
+  "953": {
+    "hotelname": "Inturotel Cala Azul Park & Esmeralda Park",
+    "hotelstars": "3.0",
+    "hotelid": "953"
+  },
+  "954": {
+    "hotelname": "Can Bordoy Gran House & Garden",
+    "hotelstars": "5.0",
+    "hotelid": "954"
+  },
+  "955": {
+    "hotelname": "Protur Naisa Palma",
+    "hotelstars": "4.0",
+    "hotelid": "955"
+  },
+  "956": {
+    "hotelname": "Hotel Creu de Tau Art & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "956"
+  },
+  "957": {
+    "hotelname": "La Santamar\\u00eda Apartamentos",
+    "hotelstars": "3.0",
+    "hotelid": "957"
+  },
+  "958": {
+    "hotelname": "Yartan Boutique Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "958"
+  },
+  "959": {
+    "hotelname": "Petit Hotel Sant Miquel",
+    "hotelstars": "4.0",
+    "hotelid": "959"
+  },
+  "960": {
+    "hotelname": "Hotel The Place",
+    "hotelstars": "4.0",
+    "hotelid": "960"
+  },
+  "961": {
+    "hotelname": "Sol i Vida",
+    "hotelstars": "4.0",
+    "hotelid": "961"
+  },
+  "962": {
+    "hotelname": "Eques Petit Resort",
+    "hotelstars": "2.0",
+    "hotelid": "962"
+  },
+  "963": {
+    "hotelname": "Protur Bonamar",
+    "hotelstars": "4.0",
+    "hotelid": "963"
+  },
+  "964": {
+    "hotelname": "Finca Serena",
+    "hotelstars": "5.0",
+    "hotelid": "964"
+  },
+  "965": {
+    "hotelname": "Fil Suites",
+    "hotelstars": "5.0",
+    "hotelid": "965"
+  },
+  "966": {
+    "hotelname": "Forum Boutique Hotel & Spa",
+    "hotelstars": "4.0",
+    "hotelid": "966"
+  },
+  "967": {
+    "hotelname": "Mar Salada Apartments",
+    "hotelstars": "5.0",
+    "hotelid": "967"
+  },
+  "968": {
+    "hotelname": "Som Ars Magna Bleisure Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "968"
+  },
+  "969": {
+    "hotelname": "Cala Morlanda Estudios",
+    "hotelstars": "3.0",
+    "hotelid": "969"
+  },
+  "970": {
+    "hotelname": "YourHouse Port",
+    "hotelstars": "1.0",
+    "hotelid": "970"
+  },
+  "971": {
+    "hotelname": "Hotel El Llorenc Parc De La Mar",
+    "hotelstars": "5.0",
+    "hotelid": "971"
+  },
+  "972": {
+    "hotelname": "Ca Sa Tieta",
+    "hotelstars": "3.0",
+    "hotelid": "972"
+  },
+  "973": {
+    "hotelname": "Hotel Soller Plaza",
+    "hotelstars": "4.0",
+    "hotelid": "973"
+  },
+  "974": {
+    "hotelname": "Zafiro Palace Andratx",
+    "hotelstars": "5.0",
+    "hotelid": "974"
+  },
+  "975": {
+    "hotelname": "Seasun Aniram",
+    "hotelstars": "4.0",
+    "hotelid": "975"
+  },
+  "976": {
+    "hotelname": "INNER Kompas Studios",
+    "hotelstars": "3.0",
+    "hotelid": "976"
+  },
+  "977": {
+    "hotelname": "THB Gran Bah\\u00eda Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "977"
+  },
+  "978": {
+    "hotelname": "Terreno Studios",
+    "hotelstars": "4.0",
+    "hotelid": "978"
+  },
+  "979": {
+    "hotelname": "Aubamar Suites & Spa",
+    "hotelstars": "5.0",
+    "hotelid": "979"
+  },
+  "980": {
+    "hotelname": "Hotel Rocamarina",
+    "hotelstars": "4.0",
+    "hotelid": "980"
+  },
+  "981": {
+    "hotelname": "Mariner Club Apartments",
+    "hotelstars": "3.0",
+    "hotelid": "981"
+  },
+  "982": {
+    "hotelname": "Grupotel Playa Camp de Mar",
+    "hotelstars": "4.0",
+    "hotelid": "982"
+  },
+  "983": {
+    "hotelname": "Hotel Nou Baleares",
+    "hotelstars": "4.0",
+    "hotelid": "983"
+  },
+  "984": {
+    "hotelname": "Lluna Aqua Hotel",
+    "hotelstars": "4.0",
+    "hotelid": "984"
+  },
+  "985": {
+    "hotelname": "Hotel Ynaira",
+    "hotelstars": "5.0",
+    "hotelid": "985"
+  },
+  "986": {
+    "hotelname": "Hostal Beijuan",
+    "hotelstars": "2.0",
+    "hotelid": "986"
+  },
+  "987": {
+    "hotelname": "Hostal Residencia San Francisco",
+    "hotelstars": "3.0",
+    "hotelid": "987"
+  },
+  "988": {
+    "hotelname": "Palacio Can Marqu\\u00e9s",
+    "hotelstars": "5.0",
+    "hotelid": "988"
+  },
+  "989": {
+    "hotelname": "Senda Caimari Hotel",
+    "hotelstars": "1.0",
+    "hotelid": "989"
+  },
+  "990": {
+    "hotelname": "Ses Cases Noves Finca",
+    "hotelstars": "3.0",
+    "hotelid": "990"
+  },
+  "991": {
+    "hotelname": "Beach Inn",
+    "hotelstars": "1.0",
+    "hotelid": "991"
+  },
+  "992": {
+    "hotelname": "New Art Hostel Albergue Juvenil",
+    "hotelstars": "1.0",
+    "hotelid": "992"
+  },
+  "993": {
+    "hotelname": "Casa Galileo",
+    "hotelstars": "1.0",
+    "hotelid": "993"
+  },
+  "994": {
+    "hotelname": "Edificio Pr\\u00cdncipe",
+    "hotelstars": "1.0",
+    "hotelid": "994"
+  },
+  "995": {
+    "hotelname": "Sofia Alc\\u00fadia Beach",
+    "hotelstars": "4.0",
+    "hotelid": "995"
+  },
+  "996": {
+    "hotelname": "Samaritana Suites",
+    "hotelstars": "4.0",
+    "hotelid": "996"
+  },
+  "997": {
+    "hotelname": "The Boc Suites",
+    "hotelstars": "4.0",
+    "hotelid": "997"
+  },
+  "998": {
+    "hotelname": "Hotel Sabina & Suites",
+    "hotelstars": "4.0",
+    "hotelid": "998"
+  }
+}
