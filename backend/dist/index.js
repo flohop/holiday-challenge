@@ -44,9 +44,9 @@ exports.INDEX_SCHEMA = {
 exports.savedOffers = [];
 exports.dataSource = new typeorm_1.DataSource({
     type: "mongodb",
-    host: "localhost",
-    // port: 27017,
+    host: "mongo",
     port: 27017,
+    // port: 2717,
     database: "test",
     entities: [Hotel_1.Hotel, Offers_1.Offer]
 });
@@ -54,7 +54,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     yield exports.dataSource.initialize().catch((err) => {
         console.log("Error: ", err);
     });
-    yield mongoose_1.default.connect("mongodb://localhost:27017/test");
+    yield mongoose_1.default.connect("mongodb://mongo:27017/test");
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],
