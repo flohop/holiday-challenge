@@ -1,5 +1,5 @@
 0:[[["",{"children":["hotels",{"children":["",{}]}]},null,null,true],"$L1",["$L2",null]]]
-3:I{"id":"7810","chunks":["769:769-ed1f01838d7afa89","899:899-0c945de64f8afb87","185:app/layout-b7bf048e06fe0c20"],"name":"default","async":true}
+3:I{"id":"7810","chunks":["769:769-ed1f01838d7afa89","899:899-0c945de64f8afb87","185:app/layout-6548c814220beb15"],"name":"default","async":true}
 4:I{"id":"8892","chunks":["272:webpack-125f3e7c3749e072","455:455-fa92a71d294b8eed"],"name":"","async":false}
 5:I{"id":"8880","chunks":["272:webpack-125f3e7c3749e072","455:455-fa92a71d294b8eed"],"name":"","async":false}
 6:I{"id":"426","chunks":["769:769-ed1f01838d7afa89","718:718-fbfd7aa9355a2536","961:961-af55d5a47d373ff7","83:83-ed89724b3aa3c72b","887:app/hotels/page-ef4364c74b3d46d2"],"name":"default","async":true}

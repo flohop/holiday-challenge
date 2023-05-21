@@ -63,7 +63,8 @@ var AdapterDayjs = __webpack_require__(53328);
 ;// CONCATENATED MODULE: ./app/utils/gqlClient.ts
 
 let client = null;
-const URI = "http://localhost:4000/graphql";
+// const URI = "http://localhost:4000/graphql"
+const URI = "http://141.95.127.73:4000/graphql";
 const getClient = ()=>{
     // create a new client if there's no existing one
     // or if we are running on the server.
