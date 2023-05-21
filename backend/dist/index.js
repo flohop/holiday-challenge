@@ -85,7 +85,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     const apolloServer = new apollo_server_express_1.ApolloServer({ schema, csrfPrevention: false });
     yield apolloServer.start();
     const corsOptions = {
-        origin: ['http://localhost:3000', "https://studio.apollographql.com"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http:141.95.127.73", "http:141.95.127.73:80"]
     };
     yield apolloServer.applyMiddleware({ app, cors: corsOptions });
     app.listen(4000, () => {

@@ -81,7 +81,7 @@ const startServer = async () => {
     await apolloServer.start()
 
     const corsOptions = {
-        origin: ['http://localhost:3000', "https://studio.apollographql.com"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http:141.95.127.73", "http:141.95.127.73:80"]
     };
 
 
