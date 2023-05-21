@@ -11,6 +11,6 @@ RUN npm install
 COPY . .
 
 #Build the app
-RUN tsc
+CMD ["npm", "run", "build"]
 
 CMD ["npm", "start"]
