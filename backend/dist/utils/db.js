@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
-const URI = "mongodb://localhost:27017";
+const URI = "mongodb://mongo:27017";
 mongoose_1.default.Promise = global.Promise;
 const connection = mongoose_1.default.connect(URI, {});
 connection

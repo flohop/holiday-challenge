@@ -22,12 +22,13 @@ export function GetBestOffersByHotelToQuery(input: Paths.GetBestOffersByHotel.Qu
 
 export function GetBestOffersByHotelFromQuery(query: ReadonlyURLSearchParams): Paths.GetBestOffersByHotel.QueryParameters {
     return {
+        pageNumber: undefined, pageSize: undefined,
         earliestDepartureDate: query.get("earliestDepartureDate") as string,
         latestReturnDate: query.get("latestReturnDate") as string,
         countAdults: parseInt(query.get("countAdults") as string),
         countChildren: parseInt(query.get("countChildren") as string),
         departureAirports: query.getAll("departureAirports"),
-        duration: parseInt(query.get("duration") as string),
+        duration: parseInt(query.get("duration") as string)
     };
 }
 

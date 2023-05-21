@@ -1,15 +1,13 @@
 "use client";
 
-import {OpenAPIClientAxios, Parameters} from "openapi-client-axios";
 import {Client, Components, Paths} from "@/app/types/openapi"
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 import {useSearchParams} from 'next/navigation';
 import {useEffect, useState} from "react";
 import {Box, Rating, Typography} from "@mui/material";
 import {Stack} from "@mui/system";
-import {GetHotelOffersFromQuery} from "@/app/types/converter";
 import {useMutation} from "@apollo/client";
-import {ADD_SAVED_OFFERS_MUTATION} from "@/app/page";
+import {ADD_SAVED_OFFERS_MUTATION} from "@/app/utils/mutations";
 type HotelOffer = Components.Schemas.GetHotelOffersResponse
 
 export default function Page() {

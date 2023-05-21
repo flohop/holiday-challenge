@@ -1,6 +1,6 @@
 {
 "type": "mongodb",
-"host": "localhost",
+"host": "mongo",
 "database": "test",
 "port": "27017",
 "synchronize": true,

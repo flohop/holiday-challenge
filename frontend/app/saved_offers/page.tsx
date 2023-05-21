@@ -6,10 +6,11 @@ import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 import {useSearchParams} from 'next/navigation';
 import {useEffect, useState} from "react";
 import {Box, LinearProgress, Rating, Typography} from "@mui/material";
-import {Stack} from "@mui/system";
-import {GetHotelOffersFromQuery} from "@/app/types/converter";
 import {gql, useMutation, useQuery} from "@apollo/client";
-import {ADD_SAVED_OFFERS_MUTATION, calcDuration, generateRandomNumber} from "@/app/page";
+import {ADD_SAVED_OFFERS_MUTATION} from "../utils/mutations"
+
+
+import {calcDuration} from "../utils/utils"
 
 type HotelOffer = Components.Schemas.GetHotelOffersResponse
 

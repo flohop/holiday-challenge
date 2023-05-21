@@ -1,14 +1,16 @@
 "use client";
-import {usePathname, useRouter,useSearchParams} from "next/navigation"
+import {usePathname} from "next/navigation"
 import {useEffect, useState} from "react";
-import {gql, useLazyQuery, useMutation, useQuery} from "@apollo/client";
-import {params} from "bath-es5";
-import {Box, Button, Card, Divider, Grid, LinearProgress, Rating, Stack, Typography} from "@mui/material";
+import {gql, useMutation, useQuery} from "@apollo/client";
+import {Box, Grid, LinearProgress, Rating, Stack, Typography} from "@mui/material";
 // @ts-ignore
 import InfiniteScroll from "react-infinite-scroller"
-import StarRating from "@/app/components/Hotel/StarRating";
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
-import {ADD_SAVED_OFFERS_MUTATION, calcDuration, generateRandomNumber} from "@/app/page";
+
+import {ADD_SAVED_OFFERS_MUTATION} from "@/app/utils/mutations"
+
+import {generateRandomNumber, calcDuration} from "../../utils/utils"
+
 
 const HOTEL_QUERY = gql`
     query Hotel($hotelId: Float!) {

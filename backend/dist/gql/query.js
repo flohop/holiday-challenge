@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MySchema = exports.hotelQueryType = void 0;
 const graphql_1 = require("graphql");
 const mongoose_1 = __importDefault(require("mongoose"));
-const URI = "mongodb://localhost:27017";
+const URI = "mongodb://mongo:27017";
 mongoose_1.default.connect(URI).catch((err) => {
     console.log("Could not connect to mongoose," + err);
 });

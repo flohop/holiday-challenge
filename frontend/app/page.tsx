@@ -2,12 +2,11 @@
 
 import SearchForm from "@/app/components/SearchForm/SearchForm";
 import {CircularProgress, Stack, Typography, Box, LinearProgress} from "@mui/material";
-import Hotel from "@/app/components/Hotel/Hotel";
-import {Client, Components, Paths} from "@/app/types/openapi";
-import {useEffect, useState} from "react";
-import {useRouter, useSearchParams} from "next/navigation";
-import {useQuery, gql, useLazyQuery, useMutation} from '@apollo/client';
+import { useState} from "react";
+import {gql, useLazyQuery, useMutation} from '@apollo/client';
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
+import {calcDuration, generateRandomNumber} from "./utils/utils"
+import {ADD_SAVED_OFFERS_MUTATION} from "./utils/mutations"
 // @ts-ignore
 import InfiniteScroll from "react-infinite-scroller"
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -50,34 +49,10 @@ const GET_OFFERS = gql`
     } 
 `
 
-export const ADD_SAVED_OFFERS_MUTATION = gql`
-    mutation Mutation($offerId: String!) {
-        toggle_saved_offer(offer_id: $offerId)
-    }
-`
 
 
-export function calcDuration(start: string, end: string): number  {
-    const millisecondsPerDay = 24 * 60 * 60 * 1000; // Number of milliseconds in a day
 
-    const startDate = Date.parse(start);
-    const endDate = Date.parse(end)
 
-    if (isNaN(startDate) || isNaN(endDate)) {
-        throw new Error("Invalid date format")
-    }
-    const differenceMilliseconds = Math.abs(startDate - endDate);
-    const daysDifference = Math.floor(differenceMilliseconds / millisecondsPerDay);
-
-    return daysDifference;
-}
-
-export const generateRandomNumber = () => {
-    const min = Math.pow(10, 4); // Minimum value for 5 digits (10000)
-    const max = Math.pow(10, 5) - 1; // Maximum value for 5 digits (99999)
-    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    return randomNumber;
-};
 
 export default function HomePage() {
     const [offers, setOffers] = useState<any[]>([]);
@@ -188,23 +163,23 @@ export default function HomePage() {
                         {data !== undefined && offers.map((offer: any) =>
                             <HotelOffer key={offer._id} onToggleOffer={handleToggleOffer} offer={{
                                 _id: offer._id,
-                                isSaved: offer.isSaved,
-                                hotelid: offer.hotelid,
-                                price: offer.price,
                                 countAdults: offer.countadults,
                                 countChildren: offer.countchildren,
-                                inboundDepartureAirport: offer.inbounddepartureairport,
-                                inboundDepartureDatetime: offer.inbounddeparturedatetime, // date
-                                inboundArrivalAirport:  offer.inboundarrivalairport,
-                                inboundArrivalDatetime: offer.inboundarrivaldatetime, // datetime
-                                outboundDepartureAirport: offer.outboundarrivalairport,
-                                outboundDepartureDatetime: offer.outbounddeparturedatetime, // date
+                                duration: calcDuration(offer.outbounddeparturedatetime, offer.inboundarrivaldatetime),
+                                hotelid: offer.hotelid,
+                                inboundArrivalAirport: offer.inboundarrivalairport,
+                                inboundArrivalDatetime: offer.inboundarrivaldatetime,
+                                inboundDepartureAirport: offer.inbounddepartureairport, // date
+                                inboundDepartureDatetime: offer.inbounddeparturedatetime,
+                                isSaved: offer.isSaved, // datetime
+                                mealType: offer.mealtype,
+                                oceanView: offer.oceanview == 'true', // date
                                 outboundArrivalAirport: offer.outboundarrivalairport,
                                 outboundArrivalDatetime: offer.outboundarrivaldatetime, // datetime
-                                mealType: offer.mealtype,
-                                oceanView: offer.oceanview == 'true' ,
-                                roomType: offer.roomtype,
-                                duration: calcDuration(offer.outbounddeparturedatetime, offer.inboundarrivaldatetime)
+                                outboundDepartureAirport: offer.outboundarrivalairport,
+                                outboundDepartureDatetime: offer.outbounddeparturedatetime,
+                                price: offer.price,
+                                roomType: offer.roomtype
                             }} />
                         )}
 

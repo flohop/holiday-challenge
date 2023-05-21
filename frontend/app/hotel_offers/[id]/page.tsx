@@ -8,7 +8,8 @@ import {Box, Button, Card, Divider, Grid, LinearProgress, Rating, Stack, Typogra
 import InfiniteScroll from "react-infinite-scroller"
 import StarRating from "@/app/components/Hotel/StarRating";
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
-import {ADD_SAVED_OFFERS_MUTATION, calcDuration, generateRandomNumber} from "@/app/page";
+import {ADD_SAVED_OFFERS_MUTATION} from "../../utils/mutations"
+import {generateRandomNumber, calcDuration} from "../../utils/utils"
 import {useCookies} from "react-cookie";
 
 const HOTEL_QUERY = gql`

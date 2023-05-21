@@ -8,7 +8,6 @@ import {Hotel} from "./entities/Hotel";
 import {Offer, OfferSchema} from "./entities/Offers";
 import {OfferResolver} from "./resolvers/OfferResolver";
 import mongoose from "mongoose";
-import {getModelForClass} from "@typegoose/typegoose";
 
 export const hotels_dict = require("./hotels.json")
 
@@ -43,14 +42,11 @@ export const SMALLER_INDEX_SCHEMA = {
     roomtype: 1
 }
 
-export const savedOffers: string[] = [
-    "64566f726966f5e75bd909a0",
-    "645635256966f5e75bd74972"
-    ]
+export const savedOffers: string[] = []
 
 export const dataSource = new DataSource({
     type: "mongodb",
-    host: "localhost",
+    host: "mongo", // TODO: For local testing change to 'localhost'
     port: 27017,
     database: "test",
     entities: [Hotel, Offer]
@@ -99,7 +95,8 @@ const startServer = async () => {
     await dataSource.initialize().catch((err) => {
         console.log("Error: ", err)
     })
-    await mongoose.connect("mongodb://localhost:27017/test")
+
+    await mongoose.connect("mongodb://mongo:27017/test")
 
     const schema = await buildSchema({
         resolvers: [HotelResolver, OfferResolver],
