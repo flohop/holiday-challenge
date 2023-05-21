@@ -10,4 +10,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+#Build the app
+RUN tsc
+
 CMD ["npm", "start"]
