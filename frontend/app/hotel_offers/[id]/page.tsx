@@ -57,11 +57,14 @@ export default function Page() {
 
     const [offers, setOffers] = useState<any[]>([])
 
+    const router = useRouter()
+
     const [searchQuery, setSearchQuery] = useState({})
 
     const [hotelId, setHotelId] = useState<number>()
 
-    const [cookies, setCookie] = useCookies(["queryInput"])
+    const [cookies, setCookie] = useCookies(["queryInput", "selected_hotelid"])
+
 
     const {data: hotelData, error: hotelError, loading: hotelLoading} = useQuery(HOTEL_QUERY, {
         variables: {
@@ -74,25 +77,32 @@ export default function Page() {
 
 
     useEffect(() => {
-        if (cookies.queryInput === undefined) {
+        if (cookies.queryInput === undefined || cookies.selected_hotelid === undefined) {
             // TODO Add add redirect
+            router.push("/")
         } else {
+            // Since we want to load it instantly, we have to read
+            // the cookies instead of waiting for the path variable
+
+            console.log("Cookies", cookies.queryInput)
+            console.log("HotelId: ", cookies.selected_hotelid)
+
              getOffers({
                 variables: {
                     input: {
-                        hotelId: 702,
+                        hotelId: Number.parseInt(cookies.selected_hotelid),
                         pageNumber: 1,
                         pageSize: 10,
-                        earliestDepartureDate: "2023-05-19T00:00:00+00:00",
-                        countAdults: 2,
-                        departureAirports: ["LEJ", "MUC"],
-                        countChildren: 0,
-                        price: 1305,
-                        duration: 3,
-                        latestReturnDate: "2023-05-30T17:40:00+00:00",
-                        mealType: "NONE",
-                        oceanView: "false",
-                        roomType: "APARTMENT",
+                        earliestDepartureDate: cookies.queryInput.earliestDepartureDate,
+                        countAdults: cookies.queryInput.countAdults,
+                        departureAirports: cookies.queryInput.departureAirports,
+                        countChildren: cookies.queryInput.countChildren,
+                        price: cookies.queryInput.price,
+                        duration: cookies.queryInput.duration,
+                        latestReturnDate: cookies.queryInput.latestReturnDate,
+                        mealType: cookies.queryInput.mealType,
+                        oceanView: cookies.queryInput.oceanView,
+                        roomType: cookies.queryInput.roomType,
 
                       /*  "countAdults": cookies.queryInput.countAdults,
                         "countChildren": cookies.queryInput.countChildren,
@@ -144,8 +154,6 @@ export default function Page() {
         })
         const newOffers = response.data.offers_by_hotel_by_filter
 
-        debugger
-
         if (newOffers.length == 0) {
             setCanLoadMore(false)
         }
@@ -161,7 +169,7 @@ export default function Page() {
     }, [pathname])
 
     if (hotelError || hotelLoading) {
-        return <p>Could not get hotel / Loading</p>
+        return <LinearProgress />
     }
 
     async function handleToggleOffer(offerId: string): Promise<void> {

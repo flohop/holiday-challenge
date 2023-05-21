@@ -21,11 +21,6 @@ export default function Hotel({offer}: Properties) {
                 <Stack direction="column" justifyContent="space-between">
                     <Typography sx={{mr: 2}} variant="h6">{offer.hotel.name}</Typography>
 
-                    <Stack>
-                        <Typography variant="body1">Halfboard</Typography>
-                        <Typography variant="body1">Apartment</Typography>
-                    </Stack>
-
                     <Button variant="contained">View {offer.countAvailableOffers} offers</Button>
                 </Stack>
                 <Stack direction="column" justifyContent="space-between" alignItems="flex-end">

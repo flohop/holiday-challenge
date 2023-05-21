@@ -1,7 +1,7 @@
 "use client";
 
 import SearchForm from "@/app/components/SearchForm/SearchForm";
-import {CircularProgress, Stack, Typography, Box, LinearProgress} from "@mui/material";
+import {CircularProgress, Stack, Typography, Box, LinearProgress, Grid} from "@mui/material";
 import { useState} from "react";
 import {gql, useLazyQuery, useMutation} from '@apollo/client';
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
@@ -95,23 +95,10 @@ export default function HomePage() {
         await toggleOfferMutation({variables: {offerId: offerId}})
     }
 
-    async function onSubmitSearchForm(departureAirports: string[], countAdults: number, countChildren: number, duration: number, earliestDeparture: string, latestReturn: string, requireOceanView: boolean, mealtype: string) {
+    async function onSubmitSearchForm(departureAirports: string[], countAdults: number, countChildren: number, duration: number, earliestDeparture: string, latestReturn: string, oceanView: boolean, mealtype: string, roomtype: string, maxPrice: number) {
 
-        /*
-        const pre_variables = {
-            input: {
-                countAdults: 2,
-                duration: 3,
-                countChildren: 0,
-                latestReturnDate: "2025-05-19T00:00:00+00:00",
-                earliestDepartureDate: "2020-05-19T00:00:00+00:00",
-                departureAirports: ["HERE", "SOME", "LEJ"]
-            }
-        }
-
-         */
-
-        const queryInput = {
+        // Placeholder for testing
+/*         const queryInput = {
             "hotelId": null,
             "countAdults": 2,
             "countChildren": 0,
@@ -125,6 +112,22 @@ export default function HomePage() {
             "oceanView": "false",
             "mealType": "NONE",
             "roomType": "STUDIO"
+        }*/
+
+        const queryInput = {
+            "hotelId": null,
+            "countAdults": countAdults,
+            "countChildren": countChildren,
+            "duration": duration,
+            "earliestDepartureDate": earliestDeparture,
+            "latestReturnDate": latestReturn,
+            "departureAirports": departureAirports,
+            "price": maxPrice,
+            "pageNumber": 1,
+            "pageSize": 10,
+            "oceanView": oceanView ? "true" : "false",
+            "mealType":  mealtype,
+            "roomType": roomtype
         }
 
         // @ts-ignore
@@ -144,12 +147,18 @@ export default function HomePage() {
     // @ts-ignore
     return (
         <Box sx={{height: "100%", width: "100%"}} id="outerBOX">
-            <Typography sx={{mb: "50px", mt: "40px"}} variant="h3">CHECK24 Holiday Challenge</Typography>
-            <SearchForm submitCallback={onSubmitSearchForm} />
+            <Grid container justifyContent={"center"} direction={"column"} alignItems={"center"}>
+                <Grid item xs={7}>
+                    <Typography sx={{mb: "50px", mt: "40px"}} variant="h3">☀️CHECK24 Holiday Challenge☀️</Typography>
+                </Grid>
+                <Grid item xs={7}>
+                    <SearchForm submitCallback={onSubmitSearchForm} />
+                </Grid>
+            </Grid>
 
 
 
-            <Typography variant="h4" sx={{mt: "60px", mb: "30px"}}>Hotels for your Mallorca-Trip:</Typography>
+            <Typography variant="h4" sx={{mt: "60px", mb: "30px"}}>Offers for your Mallorca-Trip🏝:</Typography>
             {loading ? <LinearProgress /> :
 
                 <InfiniteScroll

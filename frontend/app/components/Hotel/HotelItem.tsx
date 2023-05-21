@@ -24,11 +24,6 @@ export default function HotelItem({hotel}: Properties) {
                 <Stack direction="column" justifyContent="space-between">
                     <Typography sx={{mr: 2}} variant="h6">{hotel.hotelname}</Typography>
 
-                    <Stack>
-                        <Typography variant="body1">Halfboard</Typography>
-                        <Typography variant="body1">Apartment</Typography>
-                    </Stack>
-
                     <Button variant="contained">View {hotel.count} offers</Button>
 
                 </Stack>

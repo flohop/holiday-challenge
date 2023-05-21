@@ -56,7 +56,7 @@ class OfferInput {
     @Field()
     oceanView: string
 
-    @Field(() => String)
+    @Field(() => String, )
     mealType: "BREAKFAST" | "NONE" | "ALLINCLUSIVE" | "HALFBOARD"
 
     @Field(() => String)
@@ -81,19 +81,6 @@ export class OfferResolver {
     async offers_by_hotel_by_filter(
         @Arg("input") input: OfferInput,
     ): Promise<Offer[]> {
-
-/*        const result = await OfferModel.find({
-            hotelid: input.hotelId,
-            outbounddeparturedatetime: {$gte: input.earliestDepartureDate},
-            outbounddepartureairport: {$in: input.departureAirports},
-            countadults: input.countAdults,
-            countchildren: input.countChildren,
-            price: {$lte: input.price},
-            inboundarrivaldatetime: {$lte: input.latestReturnDate},
-            mealtype: input.mealType,
-            oceanview: input.oceanView,
-            roomtype: input.roomType
-        }).hint(INDEX_SCHEMA).lean().exec()*/
 
         const result = await OfferModel.aggregate([
             // $match stage using covered index fields
@@ -229,8 +216,6 @@ export class OfferResolver {
                 $limit: input.pageSize
             }
         ]).exec()
-
-        console.log("Got data")
 
         // @ts-ignore
         return result

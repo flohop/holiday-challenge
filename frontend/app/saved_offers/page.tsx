@@ -1,6 +1,5 @@
 "use client";
 
-import {OpenAPIClientAxios, Parameters} from "openapi-client-axios";
 import {Client, Components, Paths} from "@/app/types/openapi"
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 import {useSearchParams} from 'next/navigation';
@@ -58,9 +57,18 @@ export default function Page() {
         return <LinearProgress />
     }
 
+    if (data.saved_offers.length == 0) {
+        return (
+            <Typography
+                variant={"h3"}
+                fontWeight={800}
+                fontFamily={"monospace"}
+
+            >Save some offers and they will appear here</Typography>)
+    }
     return (
         <>
-                {data !== undefined && data.saved_offers.map((offer: any) =>
+                {data.saved_offers.map((offer: any) =>
                     <HotelOffer key={offer._id} onToggleOffer={handleToggleOffer} bookButton={true} offer={{
                         _id: offer._id,
                         isSaved: true,
@@ -70,17 +78,17 @@ export default function Page() {
                         countChildren: offer.countchildren,
                         inboundDepartureAirport: offer.inbounddepartureairport,
                         inboundDepartureDatetime: offer.inbounddeparturedatetime, // date
-                        inboundArrivalAirport:  offer.inboundarrivalairport,
+                        inboundArrivalAirport: offer.inboundarrivalairport,
                         inboundArrivalDatetime: offer.inboundarrivaldatetime, // datetime
                         outboundDepartureAirport: offer.outboundarrivalairport,
                         outboundDepartureDatetime: offer.outbounddeparturedatetime, // date
                         outboundArrivalAirport: offer.outboundarrivalairport,
                         outboundArrivalDatetime: offer.outboundarrivaldatetime, // datetime
                         mealType: offer.mealtype,
-                        oceanView: offer.oceanview == 'true' ,
+                        oceanView: offer.oceanview == 'true',
                         roomType: offer.roomtype,
                         duration: calcDuration(offer.outbounddeparturedatetime, offer.inboundarrivaldatetime)
-                    }} />
+                    }}/>
                 )}
         </>
     )

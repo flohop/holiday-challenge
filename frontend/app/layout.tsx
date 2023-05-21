@@ -19,9 +19,10 @@ type RootLayoutProps = {
 
 const client = getClient()
 
-const RootLayout = ({ children }: RootLayoutProps) => {
+const RootLayout = ({ children}: RootLayoutProps) => {
     return (
         <html id="outerHTML">
+        <head><title>Check24</title></head>
         <body id="outerBody">
         <ApolloProvider client={client}>
             <LocalizationProvider dateAdapter={AdapterDayjs}>

@@ -7,6 +7,7 @@ import { Bed, RestaurantMenu, Water, BookmarkBorderOutlined, BookmarkOutlined  }
 import {useEffect, useState} from "react";
 import { ToastContainer, toast} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css'
+import {useCookies} from "react-cookie";
 
 type Offer = Components.Schemas.Offer
 
@@ -16,7 +17,13 @@ export default function HotelOffer({offer, onToggleOffer, bookButton, isCheapest
 
     const [isSaved, setIsSaved] = useState(offer.isSaved)
 
-    const [bgColor, setBgColor] = useState("#cccccc")
+    const [bgColor, setBgColor] = useState("#ededed")
+
+    // @ts-ignore
+    const [cookies, setCookie] = useCookies('queryInput')
+
+    // @ts-ignore
+    const [hotelIdCookies, setHotelIdCookie] = useCookies("selected_hotelid")
 
     const bookToast = () => toast("Enjoy your trip ☀️", {
         autoClose: 1500,
@@ -43,6 +50,12 @@ export default function HotelOffer({offer, onToggleOffer, bookButton, isCheapest
         setIsSaved(!isSaved)
     }
 
+    function onClickOfferHandler() {
+        setHotelIdCookie("selected_hotelid", offer.hotelid)
+        router.push("hotel_offers/" + offer.hotelid)
+
+    }
+
 
     return (
         <Card>
@@ -59,10 +72,10 @@ export default function HotelOffer({offer, onToggleOffer, bookButton, isCheapest
 
                             {!isSaved ? <>
                             <BookmarkBorderOutlined fontSize={"medium"} color={"warning"}/>
-                                <Typography sx={{color: "white"}}>Save</Typography>
+                                <Typography sx={{color: "black"}}>Save</Typography>
                             </> : <>
                             <BookmarkOutlined fontSize={"medium"} color={"warning"} />
-                                <Typography color={{color: "white"}}>Unsave</Typography>
+                                <Typography color={{color: "black"}}>Unsave</Typography>
                             </>}
                         </Button>
                     </Stack>
@@ -118,7 +131,7 @@ export default function HotelOffer({offer, onToggleOffer, bookButton, isCheapest
                             <ToastContainer />
                             </>
                             :
-                        <Button variant="contained" onClick={() => router.push("hotel_offers/" + offer.hotelid)}>VIEW HOTEL</Button>
+                        <Button variant="contained" onClick={onClickOfferHandler}>VIEW HOTEL</Button>
                         }
                     </Stack>
                 </Stack>
