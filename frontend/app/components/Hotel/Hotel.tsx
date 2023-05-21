@@ -1,4 +1,4 @@
-import {Box, Button, Card, CardMedia, Divider, Rating, Stack, Typography} from "@mui/material";
+import {Box, Button, Card, Divider, Rating, Stack, Typography} from "@mui/material";
 import {Components} from "@/app/types/openapi";
 import BestHotelOffer = Components.Schemas.BestHotelOffer;
 

@@ -9,7 +9,7 @@ import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 
 import {ADD_SAVED_OFFERS_MUTATION} from "@/app/utils/mutations"
 
-import {generateRandomNumber, calcDuration} from "../../utils/utils"
+import {calcDuration, generateRandomNumber} from "../../utils/utils"
 
 
 const HOTEL_QUERY = gql`
@@ -82,8 +82,6 @@ export default function Page() {
     const [canLoadMore, setCanLoadMore] = useState(true)
 
     const [offers, setOffers] = useState<any[]>([])
-
-    const [searchQuery, setSearchQuery] = useState({})
 
     const [hotelId, setHotelId] = useState<number>()
     const {data: hotelData, error: hotelError, loading: hotelLoading} = useQuery(HOTEL_QUERY, {

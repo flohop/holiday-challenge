@@ -1,21 +1,27 @@
 import React, {ChangeEvent, useEffect, useState} from 'react';
 import './SearchForm.css';
 import {
-    Box, Button,
+    Box,
+    Button,
     Checkbox,
     Chip,
-    FormControl, FormControlLabel, InputLabel,
+    FormControl,
+    FormControlLabel,
+    InputLabel,
     ListItemText,
     MenuItem,
     Select,
-    SelectChangeEvent, Stack, Switch,
-    TextField, Typography,
+    SelectChangeEvent,
+    Stack,
+    Switch,
+    TextField,
+    Typography,
 } from "@mui/material";
 import {DatePicker} from "@mui/x-date-pickers";
 import Counter from "@/app/components/Counter/Counter";
-import { useSearchParams } from 'next/navigation';
-import { GetBestOffersByHotelFromQuery } from '@/app/types/converter';
-import dayjs, { Dayjs } from 'dayjs';
+import {useSearchParams} from 'next/navigation';
+import {GetBestOffersByHotelFromQuery} from '@/app/types/converter';
+import dayjs, {Dayjs} from 'dayjs';
 import {styled} from "@mui/system";
 import FlightLandIcon from '@mui/icons-material/FlightLand';
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';

@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.dataSource = exports.savedOffers = exports.SMALLER_INDEX_SCHEMA = exports.INDEX_SCHEMA = exports.hotels_dict = void 0;
+exports.dataSource = exports.savedOffers = exports.INDEX_SCHEMA = exports.hotels_dict = void 0;
 require("reflect-metadata");
 const apollo_server_express_1 = require("apollo-server-express");
 const express_1 = __importDefault(require("express"));
@@ -41,92 +41,28 @@ exports.INDEX_SCHEMA = {
     oceanview: 1,
     roomtype: 1,
 };
-exports.SMALLER_INDEX_SCHEMA = {
-    price: 1,
-    hotelid: 1,
-    countadults: 1,
-    countchildren: 1,
-    inboundarrivaldatetime: 1,
-    outbounddepartureairport: 1,
-    outbounddeparturedatetime: 1,
-    oceanview: 1,
-    mealtype: 1,
-    roomtype: 1
-};
 exports.savedOffers = [];
 exports.dataSource = new typeorm_1.DataSource({
     type: "mongodb",
-    host: "mongo",
-    port: 27017,
+    host: "localhost",
+    // port: 27017,
+    port: 2717,
     database: "test",
     entities: [Hotel_1.Hotel, Offers_1.Offer]
 });
-function addColumn() {
-    return __awaiter(this, void 0, void 0, function* () {
-        console.log("Add column");
-        Offers_1.OfferSchema.statics.updateDuration = function () {
-            return this.updateMany({}, [
-                {
-                    $set: {
-                        duration: {
-                            $abs: {
-                                $trunc: {
-                                    $divide: [
-                                        {
-                                            $subtract: [
-                                                { $toDate: '$outbounddeparturedatetime' },
-                                                { $toDate: '$inboundarrivaldatetime' },
-                                            ]
-                                        },
-                                        1000 * 60 * 60 * 24 // Convert ms to days
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            ]);
-        };
-        // get the model
-        const OfferModel = mongoose_1.default.model("Offer", Offers_1.OfferSchema);
-        // @ts-ignore
-        yield OfferModel.updateDuration().then(() => {
-            console.log("Updated all Offers");
-        }).catch((error) => {
-            console.log("Error updating duration: ", error);
-        });
-    });
-}
 const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     yield exports.dataSource.initialize().catch((err) => {
         console.log("Error: ", err);
     });
-    yield mongoose_1.default.connect("mongodb://mongo:27017/test");
+    yield mongoose_1.default.connect("mongodb://localhost:2717/test");
+    //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],
         validate: { forbidUnknownValues: false }
     });
-    // Uncomment to add the attribute duration to the documents
-    /*
-    addColumn().then((result) => {
-        console.log("Added all columns")
-    })
-     */
-    /*
-    {outbounddeparturedatetime: "2023-06-05T11:15:00+00:00",
-    outbounddepartureairport: "LEJ",
-inboundarrivaldatetime: "2023-06-09T10:55:00+00:00",
-countadults: 2,
-countchildren: 0,
-price: 1350,
-
-
-}
-     */
     // Index the data
     //
     // console.log("Creating index")
-    // TODO: Make sure this index can be used alone
     // @ts-ignore
     /*    OfferSchema.index({
             hotelid: 1,
@@ -149,7 +85,7 @@ price: 1350,
     const apolloServer = new apollo_server_express_1.ApolloServer({ schema, csrfPrevention: false });
     yield apolloServer.start();
     const corsOptions = {
-        origin: ["*", 'http://localhost:3000', "https://studio.apollographql.com"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com"]
     };
     yield apolloServer.applyMiddleware({ app, cors: corsOptions });
     app.listen(4000, () => {

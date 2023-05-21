@@ -1,17 +1,15 @@
 "use client";
 
-import {ApolloProvider, useQuery} from "@apollo/client";
+import {ApolloProvider} from "@apollo/client";
 import {LocalizationProvider} from "@mui/x-date-pickers";
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+import {AdapterDayjs} from '@mui/x-date-pickers/AdapterDayjs'
 
 
 import {getClient} from "@/app/utils/gqlClient";
 import AppBar from "@mui/material/AppBar"
 import {Box, Container} from "@mui/system";
-import {Button, Icon, IconButton, Toolbar, Tooltip, Typography} from "@mui/material";
-import HomeIcon from '@mui/icons-material/Home';
+import {Button, Toolbar, Typography} from "@mui/material";
 import HotelIcon from '@mui/icons-material/Hotel';
-import {createContext, Dispatch, SetStateAction, useContext, useState} from "react";
 
 type RootLayoutProps = {
     children: React.ReactNode;

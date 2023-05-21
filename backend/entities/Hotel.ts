@@ -51,16 +51,4 @@ export class DetailedHotel extends BaseEntity {
     @Column()
         // @ts-ignore
     hotelstars?: number
-
 }
-
-export const HotelSchema = new mongoose.Schema({
-    _id: ObjectId,
-
-    hotelid: Number,
-    hotelname: String,
-    hotelstars: Number,
-    offerCount: Number
-
-
-})

@@ -29,67 +29,16 @@ export const INDEX_SCHEMA = {
     roomtype: 1,
 }
 
-export const SMALLER_INDEX_SCHEMA = {
-    price: 1,
-    hotelid: 1,
-    countadults: 1,
-    countchildren: 1,
-    inboundarrivaldatetime: 1,
-    outbounddepartureairport: 1,
-    outbounddeparturedatetime: 1,
-    oceanview: 1,
-    mealtype: 1,
-    roomtype: 1
-}
-
 export const savedOffers: string[] = []
 
 export const dataSource = new DataSource({
     type: "mongodb",
-    //host: "mongo", // TODO: For local testing change to 'localhost'
     host: "localhost",
-    port: 27017,
+    // port: 27017,
+    port: 2717,
     database: "test",
     entities: [Hotel, Offer]
 })
-
-async function addColumn() {
-    console.log("Add column")
-    OfferSchema.statics.updateDuration = function() {
-        return this.updateMany({}, [
-            {
-                $set: {
-                    duration: {
-                        $abs: {
-                            $trunc: {
-                                $divide: [
-                                    {
-                                        $subtract: [
-                                            {$toDate: '$outbounddeparturedatetime'},
-                                            {$toDate: '$inboundarrivaldatetime'},
-                                        ]
-                                    },
-                                    1000 * 60 * 60 * 24 // Convert ms to days
-                                ]
-                            }
-                        }
-                    }
-                }
-            }
-        ])
-    }
-
-    // get the model
-    const OfferModel = mongoose.model("Offer", OfferSchema)
-
-
-    // @ts-ignore
-    await OfferModel.updateDuration().then(() => {
-        console.log("Updated all Offers")
-    }).catch((error: any) => {
-        console.log("Error updating duration: ", error)
-    })
-}
 
 const startServer = async () => {
 
@@ -97,40 +46,18 @@ const startServer = async () => {
         console.log("Error: ", err)
     })
 
-    // await mongoose.connect("mongodb://mongo:27017/test")
-    await mongoose.connect("mongodb://localhost:27017/test")
+    await mongoose.connect("mongodb://localhost:2717/test")
+    //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
         resolvers: [HotelResolver, OfferResolver],
         validate: {forbidUnknownValues: false}
     })
-    // Uncomment to add the attribute duration to the documents
-    /*
-    addColumn().then((result) => {
-        console.log("Added all columns")
-    })
-     */
-
-    /*
-    {outbounddeparturedatetime: "2023-06-05T11:15:00+00:00",
-	outbounddepartureairport: "LEJ",
-inboundarrivaldatetime: "2023-06-09T10:55:00+00:00",
-countadults: 2,
-countchildren: 0,
-price: 1350,
-
-
-}
-     */
 
     // Index the data
-
-
     //
     // console.log("Creating index")
-    // TODO: Make sure this index can be used alone
     // @ts-ignore
-
 /*    OfferSchema.index({
         hotelid: 1,
         price: 1,
@@ -154,7 +81,7 @@ price: 1350,
     await apolloServer.start()
 
     const corsOptions = {
-        origin: ["*",'http://localhost:3000', "https://studio.apollographql.com"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com"]
     };
 
 

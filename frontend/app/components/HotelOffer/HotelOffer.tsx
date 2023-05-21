@@ -1,11 +1,11 @@
 import {Button, Card, CardContent, CardHeader, Divider, Grid, Typography} from "@mui/material";
 import {useRouter} from "next/navigation"
-import { Stack } from "@mui/system";
+import {Stack} from "@mui/system";
 import Flight from "@/app/components/Flight/Flight";
 import {Components} from "@/app/types/openapi"
-import { Bed, RestaurantMenu, Water, BookmarkBorderOutlined, BookmarkOutlined  } from "@mui/icons-material";
+import {Bed, BookmarkBorderOutlined, BookmarkOutlined, RestaurantMenu, Water} from "@mui/icons-material";
 import {useEffect, useState} from "react";
-import { ToastContainer, toast} from "react-toastify"
+import {toast, ToastContainer} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css'
 import {useCookies} from "react-cookie";
 

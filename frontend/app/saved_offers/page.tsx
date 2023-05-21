@@ -1,17 +1,12 @@
 "use client";
 
-import {Client, Components, Paths} from "@/app/types/openapi"
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
-import {useSearchParams} from 'next/navigation';
-import {useEffect, useState} from "react";
-import {Box, LinearProgress, Rating, Typography} from "@mui/material";
+import {LinearProgress, Typography} from "@mui/material";
 import {gql, useMutation, useQuery} from "@apollo/client";
 import {ADD_SAVED_OFFERS_MUTATION} from "../utils/mutations"
 
 
 import {calcDuration} from "../utils/utils"
-
-type HotelOffer = Components.Schemas.GetHotelOffersResponse
 
 const SAVED_OFFERS_QUERY = gql`
     query Saved_offers {
@@ -38,9 +33,6 @@ const SAVED_OFFERS_QUERY = gql`
 
 
 export default function Page() {
-    const query = useSearchParams()
-    const [savedOffers, setSavedOffers] = useState<HotelOffer>();
-
     const [toggleOfferMutation, {data: saveData, loading: saveLoading, error: saveError}] = useMutation(ADD_SAVED_OFFERS_MUTATION)
 
     const {data, loading, error} = useQuery(SAVED_OFFERS_QUERY, {

@@ -1,11 +1,8 @@
 import {Arg, Field, FieldResolver, InputType, Query, Resolver, Root} from "type-graphql";
-import {Hotel, HotelSchema} from "../entities/Hotel";
+import {Hotel} from "../entities/Hotel";
 import {hotels_dict} from "../index";
 import {OfferModel} from "./OfferResolver";
-import mongoose from "mongoose";
 import {Offer} from "../entities/Offers";
-
-export const HotelModel = mongoose.model('hotels', HotelSchema)
 
 @InputType()
 class HotelsInput {
@@ -24,6 +21,7 @@ export class HotelResolver {
             @Arg("input") input: HotelsInput
     ): Promise<Hotel[]> {
 
+        // Make sure the user does not try to get more hotels  than there are
         let startIndex = 1 + (input.pageNumber-1) * input.pageSize
         let endIndex = (startIndex + input.pageSize) - 1
 
@@ -49,8 +47,6 @@ export class HotelResolver {
 
     }
 
-
-
     @FieldResolver(() => Number)
     async count(@Root() hotel: Hotel): Promise<number> {
         return OfferModel.count({hotelid: hotel.hotelid});
@@ -69,17 +65,11 @@ export class HotelResolver {
         return expensiveOffer[0];
     }
 
-
-
-
-
     @Query(() => Hotel)
     async hotel(
         @Arg("id", ) id: number,
     ): Promise<Hotel> {
         const hotel: Hotel | null = hotels_dict[id.toString()]
-
-        const count = await OfferModel.count({hotelid: id})
 
         if (hotel == null) {
             console.log("Something went wrong getting the hotel")

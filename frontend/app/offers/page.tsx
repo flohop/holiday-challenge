@@ -1,17 +1,16 @@
 "use client";
 
-import {Client, Components, Paths} from "@/app/types/openapi"
+import {Components} from "@/app/types/openapi"
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
-import {useSearchParams} from 'next/navigation';
-import {useEffect, useState} from "react";
-import {Box, Rating, Typography} from "@mui/material";
+import {useState} from "react";
+import {Box, LinearProgress, Rating, Typography} from "@mui/material";
 import {Stack} from "@mui/system";
 import {useMutation} from "@apollo/client";
 import {ADD_SAVED_OFFERS_MUTATION} from "@/app/utils/mutations";
+
 type HotelOffer = Components.Schemas.GetHotelOffersResponse
 
 export default function Page() {
-    const query = useSearchParams()
     const [hotelOffer, setHotelOffer] = useState<HotelOffer>();
 
     const [toggleOfferMutation, {data: saveData, loading: saveLoading, error: saveError}] = useMutation(ADD_SAVED_OFFERS_MUTATION)
@@ -24,7 +23,7 @@ export default function Page() {
 
 
     if (hotelOffer == null) {
-        return <p>Loading offers...</p>
+        return <LinearProgress />
     }
 
     return (

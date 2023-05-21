@@ -1,15 +1,13 @@
 "use client";
-import {usePathname, useRouter,useSearchParams} from "next/navigation"
+import {usePathname, useRouter} from "next/navigation"
 import {useEffect, useState} from "react";
 import {gql, useLazyQuery, useMutation, useQuery} from "@apollo/client";
-import {params} from "bath-es5";
-import {Box, Button, Card, Divider, Grid, LinearProgress, Rating, Stack, Typography} from "@mui/material";
+import {Box, Grid, LinearProgress, Rating, Stack, Typography} from "@mui/material";
 // @ts-ignore
 import InfiniteScroll from "react-infinite-scroller"
-import StarRating from "@/app/components/Hotel/StarRating";
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 import {ADD_SAVED_OFFERS_MUTATION} from "../../utils/mutations"
-import {generateRandomNumber, calcDuration} from "../../utils/utils"
+import {calcDuration, generateRandomNumber} from "../../utils/utils"
 import {useCookies} from "react-cookie";
 
 const HOTEL_QUERY = gql`
@@ -78,7 +76,6 @@ export default function Page() {
 
     useEffect(() => {
         if (cookies.queryInput === undefined || cookies.selected_hotelid === undefined) {
-            // TODO Add add redirect
             router.push("/")
         } else {
             // Since we want to load it instantly, we have to read
@@ -104,16 +101,6 @@ export default function Page() {
                         oceanView: cookies.queryInput.oceanView,
                         roomType: cookies.queryInput.roomType,
 
-                      /*  "countAdults": cookies.queryInput.countAdults,
-                        "countChildren": cookies.queryInput.countChildren,
-                        "duration": cookies.queryInput.duration,
-                        "earliestDepartureDate": cookies.queryInput.earlistReturnDate,
-                        "latestReturnDate": cookies.queryInput.latestReturnDate,
-                        "departureAirports": cookies.queryInput.departureAirports,
-                        "price": cookies.queryInput.price,
-                        "oceanView": cookies.queryInput.oceanView,
-                        "mealType": cookies.queryInput.mealType,
-                        "roomType": cookies.queryInput.roomType*/
                     }
                 }
             }).then((response) => {
@@ -160,8 +147,6 @@ export default function Page() {
 
         setOffers(prevState => [...prevState, ...newOffers])
     }
-
-
 
     useEffect(() => {
         const split = pathname.split("/")

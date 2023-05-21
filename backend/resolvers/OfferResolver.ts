@@ -3,7 +3,7 @@ import {Offer, OfferSchema, SimpleOffer} from "../entities/Offers";
 
 import {Hotel} from "../entities/Hotel";
 import * as mongoose from "mongoose";
-import {hotels_dict, INDEX_SCHEMA, savedOffers, SMALLER_INDEX_SCHEMA} from "../index"
+import {hotels_dict, INDEX_SCHEMA, savedOffers} from "../index"
 
 export const OfferModel = mongoose.model('offers', OfferSchema)
 
@@ -327,7 +327,4 @@ export class OfferResolver {
             _id: {$in: savedOffers}
         }).lean()
     }
-
-
-
 }

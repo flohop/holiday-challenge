@@ -1,12 +1,10 @@
 "use client";
-import {usePathname, useRouter,useSearchParams} from "next/navigation"
 import {useEffect, useState} from "react";
 import {gql, useQuery} from "@apollo/client";
 // @ts-ignore
 import InfiniteScroll from "react-infinite-scroller"
-import {CircularProgress, Grid, LinearProgress, Stack, Typography} from "@mui/material";
+import {LinearProgress, Stack} from "@mui/material";
 import HotelItem from "../components/Hotel/HotelItem"
-
 
 
 const ALL_HOTELS_QUERY = gql`

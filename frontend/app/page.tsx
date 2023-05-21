@@ -1,17 +1,15 @@
 "use client";
 
 import SearchForm from "@/app/components/SearchForm/SearchForm";
-import {CircularProgress, Stack, Typography, Box, LinearProgress, Grid} from "@mui/material";
-import { useState} from "react";
+import {Box, Grid, LinearProgress, Typography} from "@mui/material";
+import {useState} from "react";
 import {gql, useLazyQuery, useMutation} from '@apollo/client';
 import HotelOffer from "@/app/components/HotelOffer/HotelOffer";
 import {calcDuration, generateRandomNumber} from "./utils/utils"
 import {ADD_SAVED_OFFERS_MUTATION} from "./utils/mutations"
 // @ts-ignore
 import InfiniteScroll from "react-infinite-scroller"
-import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import {useCookies} from "react-cookie";
-
 
 
 const GET_HOTELS = gql`
@@ -156,8 +154,6 @@ export default function HomePage() {
                 </Grid>
             </Grid>
 
-
-
             <Typography variant="h4" sx={{mt: "60px", mb: "30px"}}>Offers for your Mallorca-Trip🏝:</Typography>
             {loading ? <LinearProgress /> :
 
@@ -191,14 +187,8 @@ export default function HomePage() {
                                 roomType: offer.roomtype
                             }} />
                         )}
-
-
                 </InfiniteScroll>
             }
-
-
-
-
         </Box>
     )
 }

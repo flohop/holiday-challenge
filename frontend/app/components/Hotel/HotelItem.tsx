@@ -1,5 +1,4 @@
-import {Box, Button, Card, CardMedia, Divider, Rating, Stack, Typography} from "@mui/material";
-import {Components} from "@/app/types/openapi";
+import {Box, Button, Card, Rating, Stack, Typography} from "@mui/material";
 import {useRouter} from "next/navigation";
 
 interface Properties {
