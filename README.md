@@ -34,7 +34,7 @@ Im Abschluss werden noch mögliche Verbesserungen betrachtet, die implementiert 
 
 <p align="center">
   
-  <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2015-2017.png" alt="Docker" width="750" height="562.5">
+  <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2015-2017.png" alt="Docker" width="562.5" height="421.875">
  </p>
 
 Dank der mitgelieferten `docker-compose.yaml` Datei ist die lokale ausführung sehr reibungslos.
@@ -75,8 +75,6 @@ Um einen besseren Überblick über die Laufzeit zu erhalten, können sie das mit
 
 </p>
 
-
-https://pluspng.com/img-png/logo-mongodb-png-mongodb-1600.png
 
 Für das Backend wurde ExpressJs mit Typescript verwendet. <br/>
 Ich habe mich für ExpressJs entschieden, aufgrund des geringen performance overheads. 
