@@ -32,6 +32,11 @@ Im Abschluss werden noch mögliche Verbesserungen betrachtet, die implementiert 
 
 ### Lokal ausführen
 
+<p align="center">
+  
+  <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2015-2017.png" alt="Docker" width="750" height="562.5">
+ </p>
+
 Dank der mitgelieferten `docker-compose.yaml` Datei ist die lokale ausführung sehr reibungslos.
 1. `docker compose build`
 2. `docker compose up`
@@ -63,12 +68,15 @@ Um einen besseren Überblick über die Laufzeit zu erhalten, können sie das mit
 
 
 ## Backend
+<p align="center">
+<img src="https://vectorified.com/images/express-js-icon-20.png" alt="ExpressJs" width="250" height="250">
+<img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/graphql_playground_macos_bigsur_icon_190105.png" alt="GraphQL" width="250" height="250">
+<img src="https://pluspng.com/img-png/logo-mongodb-png-mongodb-1600.png" alt="MongoDB" width="250" height="250">
 
-<img src="https://vectorified.com/images/express-js-icon-20.png" alt="Alt Text" width="250" height="250">
-<img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/graphql_playground_macos_bigsur_icon_190105.png" alt="Alt Text" width="250" height="250">
+</p>
 
 
-
+https://pluspng.com/img-png/logo-mongodb-png-mongodb-1600.png
 
 Für das Backend wurde ExpressJs mit Typescript verwendet. <br/>
 Ich habe mich für ExpressJs entschieden, aufgrund des geringen performance overheads. 
@@ -140,6 +148,12 @@ Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere
  
  
 ## Frontend
+
+<p align="center">
+  <img src="https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2019/01/2000px-React-icon.svg_.png?fit=500%2C1413&ssl=1" alt="React" width="250" height="250">
+  <img src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" alt="NextJs" width="250" height="250">
+  <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/graphql_playground_macos_bigsur_icon_190105.png" alt="GraphQL" width="250" height="250">  
+ </p>
 
 Für das Frontend wurde das zur Verfügung gestellte Projekt mit NextJs (React) und Typescript verwendet und erweitert.
 
