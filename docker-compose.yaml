@@ -6,11 +6,19 @@ services:
     container_name: "check24-frontend_container"
     ports:
       - '80:3000'
+
+    networks:
+      checknet:
+        ipv4_address: 172.41.0.101
+
     depends_on:
       - api
   api:
     build: ./backend
     container_name: "check24-backend_container"
+    networks:
+      checknet:
+        ipv4_address: 172.41.0.102
     ports:
       - 4000:4000
     depends_on:
@@ -23,6 +31,17 @@ services:
       - 27017:27017
     volumes:
       - mongo_db_data2:/data/db
+    networks:
+      checknet:
+        ipv4_address: 172.41.0.103
 
 volumes:
   mongo_db_data2: {}
+
+networks:
+  checknet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.41.0.0/24

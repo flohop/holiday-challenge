@@ -57,7 +57,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     
     */
     //const URI = "mongodb://localhost:2717/"
-    yield mongoose_1.default.connect("mongodb://db:27017");
+    yield mongoose_1.default.connect("mongodb://172.41.0.103:27017");
     // await mongoose.connect(URI, {connectTimeoutMS:99999999999})
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
