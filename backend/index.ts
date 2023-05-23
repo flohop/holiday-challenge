@@ -51,9 +51,8 @@ const startServer = async () => {
     })
 
 */
-    //const URI = "mongodb://localhost:2717/"
-    await mongoose.connect("mongodb://db:27017")
-    // await mongoose.connect(URI, {connectTimeoutMS:99999999999})
+    const URI = "mongodb://db:27107/test"
+    await mongoose.connect(URI)
     //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
@@ -94,7 +93,7 @@ const startServer = async () => {
 
     await apolloServer.applyMiddleware({app, cors: corsOptions});
     app.listen(4000, () => {
-        console.log('server started at port 4000');
+        console.log('server started at port ', 4000);
     })
 }
 startServer();
