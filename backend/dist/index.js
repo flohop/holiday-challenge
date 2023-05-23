@@ -56,9 +56,8 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
         })
     
     */
-    //const URI = "mongodb://localhost:2717/"
-    yield mongoose_1.default.connect("mongodb://db:27017");
-    // await mongoose.connect(URI, {connectTimeoutMS:99999999999})
+    const URI = "mongodb://127.0.0.1:27107/test";
+    yield mongoose_1.default.connect(URI);
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],
@@ -93,7 +92,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     };
     yield apolloServer.applyMiddleware({ app, cors: corsOptions });
     app.listen(4000, () => {
-        console.log('server started at port 4000');
+        console.log('server started at port ', 4000);
     });
 });
 startServer();
