@@ -8,21 +8,34 @@ services:
       - '80:3000'
     depends_on:
       - api
+    networks:
+      - webappnetwork
+
   api:
     build: ./backend
     container_name: "check24-backend_container"
     ports:
       - '4000:4000'
     depends_on:
-      - db
+      - mongodb
+    networks:
+      - webappnetwork
 
-  db:
+  mongodb:
     build: ./database
+    restart: always
+    command: mongod --noauth
     ports:
-      - '27107:27107'
+      - '27017:27017'
     volumes:
-      - mongo_db_data2:/data/db
+      - ./data-node:/data/db
+    networks:
+      - webappnetwork
 
 
 volumes:
   mongo_db_data2: {}
+
+networks:
+  webappnetwork:
+    driver: bridge
