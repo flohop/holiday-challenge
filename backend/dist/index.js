@@ -12,15 +12,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.dataSource = exports.savedOffers = exports.INDEX_SCHEMA = exports.hotels_dict = void 0;
+exports.savedOffers = exports.INDEX_SCHEMA = exports.hotels_dict = void 0;
 require("reflect-metadata");
 const apollo_server_express_1 = require("apollo-server-express");
 const express_1 = __importDefault(require("express"));
 const type_graphql_1 = require("type-graphql");
-const typeorm_1 = require("typeorm");
 const HotelResolver_1 = require("./resolvers/HotelResolver");
-const Hotel_1 = require("./entities/Hotel");
-const Offers_1 = require("./entities/Offers");
 const OfferResolver_1 = require("./resolvers/OfferResolver");
 const mongoose_1 = __importDefault(require("mongoose"));
 exports.hotels_dict = require("./hotels.json");
@@ -42,21 +39,26 @@ exports.INDEX_SCHEMA = {
     roomtype: 1,
 };
 exports.savedOffers = [];
-exports.dataSource = new typeorm_1.DataSource({
+/*export const dataSource = new DataSource({
     type: "mongodb",
     // host: "localhost",
     // host: "mongodb://141.95.127.73",
-    host: "mongo",
-    port: 27017,
-    database: "test",
-    entities: [Hotel_1.Hotel, Offers_1.Offer]
-});
+
+    // host: "mongo",
+    // port: 27017,
+    // database: "test",
+    entities: [Hotel, Offer]
+})*/
 const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
-    yield exports.dataSource.initialize().catch((err) => {
-        console.log("Error: ", err);
-    });
-    //await mongoose.connect("mongodb://141.95.127.73:27017/test")
-    yield mongoose_1.default.connect("mongodb://mongo:27017/test");
+    /*
+        await dataSource.initialize().catch((err) => {
+            console.log("Error: ", err)
+        })
+    
+    */
+    //const URI = "mongodb://localhost:2717/"
+    yield mongoose_1.default.connect("mongodb://141.95.127.73:27017");
+    // await mongoose.connect(URI, {connectTimeoutMS:99999999999})
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],

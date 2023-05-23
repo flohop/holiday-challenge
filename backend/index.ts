@@ -31,24 +31,29 @@ export const INDEX_SCHEMA = {
 
 export const savedOffers: string[] = []
 
-export const dataSource = new DataSource({
+
+/*export const dataSource = new DataSource({
     type: "mongodb",
     // host: "localhost",
     // host: "mongodb://141.95.127.73",
-    host: "mongo",
-    port: 27017,
-    database: "test",
+
+    // host: "mongo",
+    // port: 27017,
+    // database: "test",
     entities: [Hotel, Offer]
-})
+})*/
 
 const startServer = async () => {
 
+/*
     await dataSource.initialize().catch((err) => {
         console.log("Error: ", err)
     })
 
-    //await mongoose.connect("mongodb://141.95.127.73:27017/test")
-    await mongoose.connect("mongodb://mongo:27017/test")
+*/
+    //const URI = "mongodb://localhost:2717/"
+    await mongoose.connect("mongodb://141.95.127.73:27017")
+    // await mongoose.connect(URI, {connectTimeoutMS:99999999999})
     //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
