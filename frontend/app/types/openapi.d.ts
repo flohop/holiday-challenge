@@ -55,6 +55,10 @@ declare namespace Paths {
             export type Duration = number;
             export type EarliestDepartureDate = string; // date
             export type LatestReturnDate = string; // date
+            export type RoomType = string;
+            export type MealType = string;
+            export type MaxPrice = number;
+            export type OceanView = boolean
             export type pageSize = int;
             export type pageNumber = int;
         }
@@ -65,8 +69,12 @@ declare namespace Paths {
             countAdults: Parameters.CountAdults;
             countChildren: Parameters.CountChildren;
             departureAirports: Parameters.DepartureAirports;
-            pageSize : Parameters.pageSize,
-            pageNumber: Parameters.pageNumber
+            mealType: Parameters.MealType;
+            roomType: Parameters.RoomType;
+            maxPrice: Parameters.MaxPrice;
+            oceanView: Parameters.OceanView
+            pageSize : Parameters.pageSize;
+            pageNumber: Parameters.pageNumber;
 
         }
         namespace Responses {

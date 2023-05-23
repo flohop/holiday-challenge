@@ -33,9 +33,9 @@ export const savedOffers: string[] = []
 
 export const dataSource = new DataSource({
     type: "mongodb",
+    // host: "localhost",
     host: "mongo",
     port: 27017,
-    // port: 2717,
     database: "test",
     entities: [Hotel, Offer]
 })

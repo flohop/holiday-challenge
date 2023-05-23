@@ -164,6 +164,11 @@ export default function SearchForm({submitCallback}: Properties) {
         setDurationInput(params.duration ? params.duration.toString() : "");
         setEarliestDepartureDate(params.earliestDepartureDate ? dayjs(params.earliestDepartureDate) : null);
         setLatestReturnDate(params.latestReturnDate ? dayjs(params.latestReturnDate) : null);
+        setOceanView(params.oceanView)
+        setMealType(params.mealType || "")
+        setRoomType(params.roomType || "")
+        setMaxPrice(isNaN(params.maxPrice) ? 0 : params.maxPrice)
+        setMaxPriceInput(isNaN(params.maxPrice) ? "" : params.maxPrice.toString())
     }, [query])
 
     const handleAirportChange = (event: SelectChangeEvent<typeof departureAirports>) => {

@@ -28,7 +28,11 @@ export function GetBestOffersByHotelFromQuery(query: ReadonlyURLSearchParams): P
         countAdults: parseInt(query.get("countAdults") as string),
         countChildren: parseInt(query.get("countChildren") as string),
         departureAirports: query.getAll("departureAirports"),
-        duration: parseInt(query.get("duration") as string)
+        duration: parseInt(query.get("duration") as string),
+        mealType: query.get("mealType") as string,
+        roomType: query.get("roomType") as string,
+        maxPrice: parseInt(query.get("maxPrice") as string),
+        oceanView: query.get("oceanView") === "true"
     };
 }
 

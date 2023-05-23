@@ -44,9 +44,9 @@ exports.INDEX_SCHEMA = {
 exports.savedOffers = [];
 exports.dataSource = new typeorm_1.DataSource({
     type: "mongodb",
+    // host: "localhost",
     host: "mongo",
     port: 27017,
-    // port: 2717,
     database: "test",
     entities: [Hotel_1.Hotel, Offers_1.Offer]
 });
