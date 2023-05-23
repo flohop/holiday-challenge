@@ -51,8 +51,8 @@ const startServer = async () => {
     })
 
 */
-    const URI = "mongodb://127.0.0.1:27107/test"
-    await mongoose.connect(URI)
+    const URI = "mongodb://mongodb:27017/test"
+    // await mongoose.connect(URI)
     //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
