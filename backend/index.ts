@@ -34,7 +34,8 @@ export const savedOffers: string[] = []
 export const dataSource = new DataSource({
     type: "mongodb",
     // host: "localhost",
-    host: "mongo",
+    host: "141.95.127.73",
+    // host: "mongo",
     port: 27017,
     database: "test",
     entities: [Hotel, Offer]
@@ -46,7 +47,8 @@ const startServer = async () => {
         console.log("Error: ", err)
     })
 
-    await mongoose.connect("mongodb://mongo:27017/test")
+    await mongoose.connect("mongodb://141.95.127.73:27017/test")
+    //await mongoose.connect("mongodb://mongo:27017/test")
     //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
