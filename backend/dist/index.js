@@ -19,6 +19,7 @@ const express_1 = __importDefault(require("express"));
 const type_graphql_1 = require("type-graphql");
 const HotelResolver_1 = require("./resolvers/HotelResolver");
 const OfferResolver_1 = require("./resolvers/OfferResolver");
+const mongoose_1 = __importDefault(require("mongoose"));
 exports.hotels_dict = require("./hotels.json");
 exports.INDEX_SCHEMA = {
     hotelid: 1,
@@ -56,7 +57,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     
     */
     const URI = "mongodb://mongodb:27017/test";
-    // await mongoose.connect(URI)
+    yield mongoose_1.default.connect(URI);
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],
@@ -87,7 +88,8 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     const apolloServer = new apollo_server_express_1.ApolloServer({ schema, csrfPrevention: false });
     yield apolloServer.start();
     const corsOptions = {
-        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80",
+            "https://studio.apollographql.com/sandbox/explorer", "*"]
     };
     yield apolloServer.applyMiddleware({ app, cors: corsOptions });
     app.listen(4000, () => {

@@ -52,7 +52,7 @@ const startServer = async () => {
 
 */
     const URI = "mongodb://mongodb:27017/test"
-    // await mongoose.connect(URI)
+    await mongoose.connect(URI)
     //await mongoose.connect("mongodb://localhost:27017/test")
 
     const schema = await buildSchema({
@@ -87,7 +87,8 @@ const startServer = async () => {
     await apolloServer.start()
 
     const corsOptions = {
-        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80"]
+        origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80",
+        "https://studio.apollographql.com/sandbox/explorer", "*"]
     };
 
 
