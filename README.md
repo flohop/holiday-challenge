@@ -24,7 +24,7 @@
 Vielen Dank, dass sie mein Projekt für das **Check24 CodeDev Scholarship** in Betracht ziehen.
 
 Es war hat viel Spaß gemacht, an diesem Projekt zu arbeiten und dabei eine Menge zu lernen. 
-Da ich zum ersten mal mit so einem großen Datensatz arbeitete, konnte ich meine Kenntnisse in diesen Bereich imens erweitert.
+Da ich zum ersten Mal mit so einem großen Datensatz arbeitete, konnte ich meine Kenntnisse in diesen Bereich imens erweitert.
 
 Das Projekt zielt darauf ab, die Wartezeit für Benutzer zu minimieren und ihnen ein reibungsloses Nutzungserlebnis zu bieten. 
 In dieser README-Datei werden nicht nur die Schritte zum Ausführen des Projekts erklärt, sondern auch alle Optimierungen, die implementiert wurden, um die Leistung zu verbessern.
@@ -51,6 +51,8 @@ Um die mitgelieferten `.csv` Dateien in die MongoDb Datei zu laden, sind drei we
 Um die Offers in die Datenbank laden zu können, muss zuvor das ';' als Trennzeichen mit ',' ersetzt werden
 ``
 
+# TODO: Fix command
+
 Offers laden: 
 
 `mongoimport --db test --collection offers --type csv --headerline --file /path/to/your/csv/offers.csv --delimiter ";"`
@@ -61,10 +63,10 @@ Hotels laden:
 
 
 Da jedoch der Import der Daten sehr lange dauert, ist auch eine [Live Website](http://141.95.127.73/) bereit gestellt, wo die Anwendung genutzt werden kann.
-Jedoch sind hier die Ladegeschwindigkeiten langsamer als bei der lokalen Ausführung, da der gemietete Server geringere Specs hat als die meisten Arbeitslaptops.
+Die Ladegeschwindigkeiten sind hier langsamer als bei der lokalen Ausführung, da der gemietete Server geringere Specs hat als die meisten Arbeitslaptops.
 
 
-Um einen besseren Überblick über die Laufzeit zu erhalten, können sie das mit abgegebene Video betrachten, wo das Projekt vorgestellt wird.
+Um einen besseren Überblick über die Laufzeit zu erhalten, können Sie das mit abgegebene Video betrachten, wo das Projekt vorgestellt wird.
 
 
 ## Backend
@@ -75,9 +77,8 @@ Um einen besseren Überblick über die Laufzeit zu erhalten, können sie das mit
 
 </p>
 
-
-Für das Backend wurde ExpressJs mit Typescript verwendet. <br/>
-Ich habe mich für ExpressJs entschieden, aufgrund des geringen performance overheads. 
+Für das Backend wurde ExpressJs mit Typescript verwendet. <br/> 
+Ich habe mich aufgrund des geringen performance overheads für ExpressJs entschieden.
 
 Kombiniert wurde das mit GraphQL um die API möglichst typesafe zu machen. Außerdem kann dadurch der Client entscheiden welche Attribute er vom Server benötigt. 
 Dies wurde für diese Anwendung zwar nicht sehr häufig verwendet, jedoch kann dies bei einer möglichen Weiterentwicklung der Seite nützlich sein.
@@ -86,12 +87,12 @@ Es wurde sich für MongoDb anstatt einer SQL Datenbank entschieden, da es in die
 
 ### Endpoints:
 
-Alle angebotenen Queries können unter [`/graphql`](http://141.95.127.73:4000/graphql) betrachtet werden. Dies zwei wichtigsten für diese Anwendung sind:
+Alle angebotenen Queries können unter [`/graphql`](http://141.95.127.73:4000/graphql) betrachtet werden. Diev zwei wichtigsten für diese Anwendung sind:
  - offers_by_filter: Erhlate von jedem Hotel das billigste Angebot abhängig von einer vollständigen Nutzereingabe
  - offers_by_hotel_by_filter: Erhalte von einem Hotel alle Angebote die für den Nutzer infrage kommen
 
 ### Optimierungen:
-Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere an Technicken verwendet, die wichtigsten werden hier gelistet zusammen mit dem Drawback der dadurch kommt.
+Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere an Technicken verwendet, die wichtigsten werden hier gelistet zusammen mit dem Drawback der dadurch entsteht.
 
 <details>
   <summary><a href="https://www.mongodb.com/docs/manual/core/query-optimization/#covered-query">Covered Query</a></summary>
@@ -104,7 +105,7 @@ Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere
     🔴 Längeres Setup. Das Erstellen der Indizes dauert eine beträchtliche Zeit.
   
     Bei allen Queries wurde darauf geachtet, dass für diese ein Index existiert. Dadurch kann dieser geprüft werden 
-    und die 100 Millionen Dokumente müssen nicht durchsucht werdne. Dies hat eine Signifikante Verbesserung der Lesegeschwindigkeit zur Folge
+    und die 100 Millionen Dokumente müssen nicht durchsucht werden. Dies hat eine signifikante Verbesserung der Lesegeschwindigkeit zur Folge.
   
 </details>
 
@@ -113,7 +114,7 @@ Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere
      
     🟢 Schnellere Lesegeschwindigkeit
   
-    Die einzelnen Schritte der aggregate Funktion sind so angeordnet, um die Lesezeit zu minimieren.
+    Die einzelnen Schritte der aggregate Funktion sind angeordnet um die Lesezeit zu minimieren.
     So wird erst nach initialem Filtern die Länge des Urlaubs berechnet (duration), um das an möglichst wenig Dokumenten machen zu müssen.
   
 </details>
@@ -124,7 +125,7 @@ Der Server wurde entwickelt mit Fokus auf Geschwindigkeit. Dafür wurden mehrere
   
     🟢 Konstante Zugriffszeit
   
-    🔴 Nicht Skalierbar für Millionen von Hotels
+    🔴 Nicht skalierbar für Millionen von Hotels
   
     Die Hotels werden nicht aus der MongoDb Datenbank ausgelesen, sondern aus einer Liste.
     Die Liste wird zu Beginn des Servers initialisiert indem die Hotels aus einer JSON Datei geladen werden.
@@ -161,7 +162,7 @@ Für das Frontend wurde das zur Verfügung gestellte Projekt mit NextJs (React) 
   🟢 Geringere Wartezeiten
   
   Dank der Pagination im Backend, kann nur ein Subset von alle Angeboten & Hotels geladen werden.
-  Sobald der Nutzer bestimmt weiter runtergescrollt ist, werden weitere Angebote bzw. Hotels geladen.
+  Sobald der Nutzer beim Scrollen eine bestimmte Grenze erreicht hat, werden weitere Angebote bzw. Hotels geladen.
   Indem die Anzahl der geladenen Objekte / des loading thresholds optimiert wird, kann man die Illusion wahren,
   dass alle Objekte in so kurzer Zeit geladen wurden.
   
@@ -188,24 +189,25 @@ Diese sollen in dieser Sektion aufgelistet werden und kurz erwähnt werden, waru
 <details>
   <summary>SSL Encryption</summary>
   
-  Momentan ist die Kommunikation mit der Website nicht verschlüsselt und läuft über http.
-  Diese Verbindung müsste noch mit einem Service with *Let's Encrypt* zu https gebracht werden.
+    Momentan ist die Kommunikation mit der Website nicht verschlüsselt und läuft über http.
+    Diese Verbindung müsste noch mit einem Service with *Let's Encrypt* zu https gebracht werden.
   
  </details>
  
  <details>
   <summary>CI/CD Pipeline</summary>
   
-  Momentan muss bei Veränderung des Codes, dieser manuell gebuilded werden, auf dem Server gecloned und docker compose neu 
-  ausgeführt werden. Dies sollte automatisiert werden und der build code nicht mehr auf GitHub hochgeladen werden.
-  Außerdem sollte in Zuge dessen das Projekt eine Test pipeline durchlaufe.
+    Momentan muss bei Veränderung des Codes, dieser manuell gebuilded, auf dem Server gecloned und docker compose neu 
+    ausgeführt werden. Dies sollte automatisiert werden und der build code nicht mehr auf GitHub hochgeladen werden.
+    Außerdem sollte in Zuge dessen das Projekt eine Test pipeline durchlaufen.
+  
  </details>
  
  <details>
   <summary>Tests</summary>
   
-  Momentan wurden keine Tests geschrieben um die Funktionalitäten des Projekts zu prüfen.
-  Dies wäre noch unabdinglich, wenn man das Projekt weiter entwickeln und skalieren wollte.
+    Momentan wurden keine Tests geschrieben um die Funktionalitäten des Projekts zu prüfen.
+    Dies wäre noch unabdinglich, wenn man das Projekt weiter entwickeln und skalieren wollte.
   
  </details>
  
@@ -213,9 +215,9 @@ Diese sollen in dieser Sektion aufgelistet werden und kurz erwähnt werden, waru
  <details>
   <summary>Mehr Type safety</summary>
   
-  Obwohl Typescript verwendet wurde, wurde oft der `any` type verwendet, um die Entwicklung zu beschleunigen.
-  Da dies jedoch auf Lange sich die Entwicklung potentiell verlangsamt, wäre es noch wichtig, Typescript im vollen Umfang 
-  im Projekt zu verwenden.
+    Obwohl Typescript verwendet wurde, wurde oft der `any` type verwendet, um die Entwicklung zu beschleunigen.
+    Da dies jedoch auf Lange sich die Entwicklung potentiell verlangsamt, wäre es noch wichtig, Typescript im vollen Umfang 
+    im Projekt zu verwenden.
   
  </details>
 
@@ -223,7 +225,7 @@ Diese sollen in dieser Sektion aufgelistet werden und kurz erwähnt werden, waru
 ## Outro
 
 Ich hoffe ich konnte mit diesem Projekt aussagekräftig demonstrieren, warum ich für das Stipendium geeignet bin.
-Sollten sie noch irgendwelche Fragen zum Projekt haben, lassen sie es mich gerne wissen: `hoppe.florian02@gmail.com`
+Bei weiteren Fragen zum Projekt stehe ich jederzeit sehr gerne zur Verfügung: `hoppe.florian02@gmail.com`
 
 
 
