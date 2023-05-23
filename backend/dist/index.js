@@ -56,8 +56,8 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
         })
     
     */
-    const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n";
-    //    const URI = "mongodb://mongodb:27017/test"
+    //const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n"
+    const URI = "mongodb://mongodb:27017/test";
     yield mongoose_1.default.connect(URI);
     //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({

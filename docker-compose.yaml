@@ -8,8 +8,6 @@ services:
       - '80:3000'
     depends_on:
       - api
-    networks:
-      - webappnetwork
 
   api:
     build: ./backend
@@ -18,8 +16,6 @@ services:
       - '4000:4000'
     depends_on:
       - mongodb
-    networks:
-      - webappnetwork
 
   mongodb:
     image: mongo:latest
@@ -28,14 +24,6 @@ services:
     ports:
       - '27017:27017'
     volumes:
-      - ./data-node:/data/db
-    networks:
-      - webappnetwork
-
-
-volumes:
-  mongo_db_data2: {}
-
-networks:
-  webappnetwork:
-    driver: bridge
+      - type: bind
+        source: "/data"
+        target: "/data/db"

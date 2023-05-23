@@ -51,8 +51,8 @@ const startServer = async () => {
     })
 
 */
-    const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n"
-//    const URI = "mongodb://mongodb:27017/test"
+    //const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n"
+    const URI = "mongodb://mongodb:27017/test"
     await mongoose.connect(URI)
     //await mongoose.connect("mongodb://localhost:27017/test")
 
