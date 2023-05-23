@@ -22,7 +22,7 @@ services:
       - webappnetwork
 
   mongodb:
-    build: ./database
+    image: mongo:latest
     restart: always
     command: mongod --noauth
     ports:
