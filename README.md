@@ -1,4 +1,5 @@
 # ☀️check24-holiday-challenge☀️
+🚧 WORK IN PROGRESS 🚧
 
 <h3 align="center">
   <a href="http://141.95.127.73/?departureAirports=MUC&countChildren=0&countAdults=2&duration=3&earliestDepartureDate=2023-05-16&latestReturnDate=2023-05-30&mealType=NONE&roomType=DOUBLE&maxPrice=900">✨ LIVE WEBSITE ✨</a> 
@@ -48,18 +49,8 @@ Danach sollten folgende Docker container gestartet werden:
 
 Um die mitgelieferten `.csv` Dateien in die MongoDb Datei zu laden, sind drei weitere Befehle notwendig:
 
-Um die Offers in die Datenbank laden zu können, muss zuvor das ';' als Trennzeichen mit ',' ersetzt werden
-``
-
-# TODO: Fix command
-
-Offers laden: 
-
-`mongoimport --db test --collection offers --type csv --headerline --file /path/to/your/csv/offers.csv --delimiter ";"`
-
-Hotels laden:
-
-``mongoimport --db test --collection hotels --type csv --headerline --file /path/to/your/csv/hotels.csv --delimiter ";"``
+Um die Offers in die Datenbank zu laden, kann entweder die Anwendung `MongoDb Compass` verwendet werden, oder das command line tool
+`mongoimport`. Ich empfehle `MongoDb Compass` da hier nicht zuerst die `;` zu `,` konvertiert werden müssen.
 
 
 Da jedoch der Import der Daten sehr lange dauert, ist auch eine [Live Website](http://141.95.127.73/) bereit gestellt, wo die Anwendung genutzt werden kann.
