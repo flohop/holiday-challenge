@@ -89,7 +89,7 @@ const startServer = async () => {
 
     const corsOptions = {
         origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80",
-        "https://studio.apollographql.com/sandbox/explorer", "*"]
+        "https://studio.apollographql.com/sandbox/explorer", "http://check24.flohop.com"]
     };
 
 

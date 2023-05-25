@@ -90,7 +90,7 @@ const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     yield apolloServer.start();
     const corsOptions = {
         origin: ['http://localhost:3000', "https://studio.apollographql.com", "http://141.95.127.73", "http://141.95.127.73:80",
-            "https://studio.apollographql.com/sandbox/explorer", "*"]
+            "https://studio.apollographql.com/sandbox/explorer", "http://check24.flohop.com"]
     };
     yield apolloServer.applyMiddleware({ app, cors: corsOptions });
     app.listen(4000, () => {
