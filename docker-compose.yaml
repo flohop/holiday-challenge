@@ -24,6 +24,4 @@ services:
     ports:
       - '27017:27017'
     volumes:
-      - type: bind
-        source: "/data"
-        target: "/data/db"
+      - ./data:data/db
