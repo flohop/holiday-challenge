@@ -27,7 +27,7 @@ services:
       - 6c5b347b24032bf7c7532bf28a256c0aca53b23cc34ed8631ccea5277a347d4b/data/db
 
 volumes:
-  mongodbdata:
+  mongodbdata2:
     external: true
 
   3e824eced3f97051c25e07abb28ee224f94741cb0493358e6f87a9507cb5122e:
