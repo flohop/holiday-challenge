@@ -24,9 +24,8 @@ services:
     ports:
       - '27017:27017'
     volumes:
-      - type: volume
-        source: mongodbdata
-        target: /data/db
+      - mongodb:/data/db
+
 volumes:
   mongodbdata:
     external: true
