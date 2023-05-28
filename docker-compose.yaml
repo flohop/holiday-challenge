@@ -18,7 +18,7 @@ services:
       - mongodb
 
   mongodb:
-    image: mongo:latest
+    image: mongo:jammy
     # restart: always
     command: mongod --noauth
     ports:
