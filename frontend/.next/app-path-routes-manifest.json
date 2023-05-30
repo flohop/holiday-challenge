@@ -1,8 +1,0 @@
-{
-  "/hotel_offers/[id]/page": "/hotel_offers/[id]",
-  "/hotels/[id]/page": "/hotels/[id]",
-  "/offers/page": "/offers",
-  "/hotels/page": "/hotels",
-  "/saved_offers/page": "/saved_offers",
-  "/page": "/"
-}

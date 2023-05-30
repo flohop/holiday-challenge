@@ -1,8 +1,0 @@
-{
-  "/hotel_offers/[id]/page": "app/hotel_offers/[id]/page.js",
-  "/hotels/[id]/page": "app/hotels/[id]/page.js",
-  "/offers/page": "app/offers/page.js",
-  "/hotels/page": "app/hotels/page.js",
-  "/saved_offers/page": "app/saved_offers/page.js",
-  "/page": "app/page.js"
-}
