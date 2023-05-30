@@ -29,7 +29,7 @@ export default function Page() {
 
     const {data: hotelData, error: hotelError, loading: hotelLoading, fetchMore} = useQuery(ALL_HOTELS_QUERY, {
         variables: {input: {
-            "pageSize": 10,
+            "pageSize": 25,
             "pageNumber": 1
         }}
     })
@@ -52,12 +52,12 @@ export default function Page() {
         const response = await fetchMore({
             variables: {input: {
                 pageNumber: pageNumber,
-                pageSize: 10
+                pageSize: 25
             }}
         })
         const newHotels = response.data.hotels
 
-        if (newHotels.length == 0) {
+        if (newHotels.length < 25) {
             setCanLoadMore(false)
         }
 
@@ -74,6 +74,7 @@ export default function Page() {
             pageStart={1}
             loadMore={loadMore}
             hasMore={canLoadMore}
+            threshold={1500}
             loader={<LinearProgress />}
         >
             <Stack gap={3}>

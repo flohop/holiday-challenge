@@ -89,7 +89,7 @@ export default function Page() {
                     input: {
                         hotelId: Number.parseInt(cookies.selected_hotelid),
                         pageNumber: 1,
-                        pageSize: 25,
+                        pageSize: 15,
                         earliestDepartureDate: cookies.queryInput.earliestDepartureDate,
                         countAdults: cookies.queryInput.countAdults,
                         departureAirports: cookies.queryInput.departureAirports,
@@ -157,7 +157,7 @@ export default function Page() {
         })
         const newOffers = response.data.offers_by_hotel_by_filter
 
-        if (newOffers.length < 10) {
+        if (newOffers.length < 15) {
             setCanLoadMore(false)
         }
 
