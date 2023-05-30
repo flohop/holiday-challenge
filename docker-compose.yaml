@@ -14,18 +14,3 @@ services:
     container_name: "check24-backend_container"
     ports:
       - '4000:4000'
-    depends_on:
-      - mongodb
-
-  mongodb:
-    image: mongo:jammy
-    # restart: always
-    command: mongod --noauth
-    ports:
-      - '27017:27017'
-    volumes:
-      - mongodbdata2/data/db
-
-volumes:
-  mongodbdata2:
-    external: false
