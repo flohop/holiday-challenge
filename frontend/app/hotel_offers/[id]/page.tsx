@@ -89,7 +89,7 @@ export default function Page() {
                     input: {
                         hotelId: Number.parseInt(cookies.selected_hotelid),
                         pageNumber: 1,
-                        pageSize: 10,
+                        pageSize: 25,
                         earliestDepartureDate: cookies.queryInput.earliestDepartureDate,
                         countAdults: cookies.queryInput.countAdults,
                         departureAirports: cookies.queryInput.departureAirports,
@@ -134,16 +134,34 @@ export default function Page() {
             return []
         }
 
+        console.log("Page number: ", pageNumber)
+
         const response = await fetchMore({
             variables: {
-                pageNumber: pageNumber
+                input: {
+                    hotelId: Number.parseInt(cookies.selected_hotelid),
+                    pageNumber: pageNumber,
+                    pageSize: 25,
+                    earliestDepartureDate: cookies.queryInput.earliestDepartureDate,
+                    countAdults: cookies.queryInput.countAdults,
+                    departureAirports: cookies.queryInput.departureAirports,
+                    countChildren: cookies.queryInput.countChildren,
+                    price: cookies.queryInput.price,
+                    duration: cookies.queryInput.duration,
+                    latestReturnDate: cookies.queryInput.latestReturnDate,
+                    mealType: cookies.queryInput.mealType,
+                    oceanView: cookies.queryInput.oceanView,
+                    roomType: cookies.queryInput.roomType,
+                }
             }
         })
         const newOffers = response.data.offers_by_hotel_by_filter
 
-        if (newOffers.length == 0) {
+        if (newOffers.length < 10) {
             setCanLoadMore(false)
         }
+
+        console.log("New offers: ", newOffers)
 
         setOffers(prevState => [...prevState, ...newOffers])
     }

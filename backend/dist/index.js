@@ -39,52 +39,16 @@ exports.INDEX_SCHEMA = {
     roomtype: 1,
 };
 exports.savedOffers = [];
-/*export const dataSource = new DataSource({
-    type: "mongodb",
-    // host: "localhost",
-    // host: "mongodb://141.95.127.73",
-
-    // host: "mongo",
-    // port: 27017,
-    // database: "test",
-    entities: [Hotel, Offer]
-})*/
 const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
-    /*
-        await dataSource.initialize().catch((err) => {
-            console.log("Error: ", err)
-        })
-    
-    */
-    //const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n"
-    const URI = "mongodb://mongodb:27017/test";
+    // const URI = "mongodb+srv://user1:sleiper1@cluster0.rppntnn.mongodb.net/?retryWrites=true&w=majority\";\n"
+    // const URI = "mongodb://localhost:27017/test"
+    //await mongoose.connect(URI)
+    const URI = "mongodb+srv://flohop:Sleiper1@serverlessinstance0.p3zwsdc.mongodb.net/test";
     yield mongoose_1.default.connect(URI);
-    //await mongoose.connect("mongodb://localhost:27017/test")
     const schema = yield (0, type_graphql_1.buildSchema)({
         resolvers: [HotelResolver_1.HotelResolver, OfferResolver_1.OfferResolver],
         validate: { forbidUnknownValues: false }
     });
-    // Index the data
-    //
-    // console.log("Creating index")
-    // @ts-ignore
-    /*    OfferSchema.index({
-            hotelid: 1,
-            price: 1,
-            countadults: 1,
-            countchildren: 1,
-            inbounddepartureairport: 1,
-            inbounddeparturedatetime: 1,
-            inboundarrivalairport: 1,
-            inboundarrivaldatetime: 1,
-            outbounddepartureairport: 1,
-            outbounddeparturedatetime: 1,
-            outboundarrivalairport: 1,
-            outboundarrivaldatetime: 1,
-            mealtype: 1,
-            oceanview: 1,
-            roomtype: 1,
-        })*/
     const app = (0, express_1.default)();
     const apolloServer = new apollo_server_express_1.ApolloServer({ schema, csrfPrevention: false });
     yield apolloServer.start();

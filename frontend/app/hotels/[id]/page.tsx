@@ -96,7 +96,7 @@ export default function Page() {
             "input": {
                 "hotelid": hotelId,
                 "pageNumber": pageNumber,
-                "pageSize": 10
+                "pageSize": 25
             }
         }
     })
@@ -131,7 +131,7 @@ export default function Page() {
         })
         const newOffers = response.data.offers_by_hotel
 
-        if (newOffers.length == 0) {
+        if (newOffers.length < 25) {
             setCanLoadMore(false)
         }
 
@@ -211,7 +211,7 @@ export default function Page() {
             pageStart={1}
             loadMore={loadMore}
             hasMore={canLoadMore}
-            loader={<p>Loading...</p>}
+            loader={<LinearProgress />}
         >
 
         <Stack gap={3}>

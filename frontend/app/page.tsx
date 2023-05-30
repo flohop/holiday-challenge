@@ -72,9 +72,11 @@ export default function HomePage() {
             return []
         }
 
+        const nextPage = pageNumber + 1;
+
         const response = await fetchMore({
             variables: {
-                pageNumber: pageNumber
+                pageNumber: nextPage
             }
         })
         const newOffers = response.data.offers_by_filter

@@ -179,7 +179,7 @@ let OfferResolver = class OfferResolver {
                 {
                     $limit: input.pageSize
                 }
-            ]).hint(index_1.INDEX_SCHEMA).exec();
+            ]).exec();
             // @ts-ignore
             return result;
         });
@@ -243,14 +243,26 @@ let OfferResolver = class OfferResolver {
                 {
                     $group: {
                         _id: '$hotelid',
-                        price: { $min: '$price' },
-                        document: { $first: "$$ROOT" },
+                        documents: { $push: '$$ROOT' }
                     }
                 },
                 {
-                    $replaceRoot: {
-                        newRoot: "$document"
+                    // this is needed to sort items in $sessions array
+                    $unwind: '$documents',
+                },
+                {
+                    $sort: {
+                        // specify $sessions sort params here
+                        'documents.price': 1,
                     }
+                },
+                {
+                    $group: {
+                        _id: '$_id',
+                        documents: {
+                            $first: '$documents',
+                        }
+                    },
                 },
                 // Pagination
                 {
@@ -260,8 +272,9 @@ let OfferResolver = class OfferResolver {
                     $limit: input.pageSize
                 }
             ]).exec();
+            const documentsArray = result.map(obj => obj.documents);
             // @ts-ignore
-            return result;
+            return documentsArray;
         });
     }
     hotel(offer) {
