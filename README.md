@@ -212,4 +212,10 @@ Diese sollen in dieser Sektion aufgelistet werden und kurz erwähnt werden, waru
 Ich hoffe ich konnte mit diesem Projekt aussagekräftig demonstrieren, warum ich für das Stipendium geeignet bin.
 Bei weiteren Fragen zum Projekt stehe ich jederzeit sehr gerne zur Verfügung: `hoppe.florian02@gmail.com`
 
+Um mehr über mich zu erfahren, besuchen sie gerne meine:
+
+<h3 align="center">
+  <a href="https://www.flohop.com/" target="_blank">💻Persönliche Website💻</a> 
+</h3>
+
 
