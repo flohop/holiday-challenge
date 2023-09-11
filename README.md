@@ -1,12 +1,7 @@
 <h1 align="center">☀️check24-holiday-challenge☀️</h1>️
 
 <h3 align="center">
-  <a href="http://check24.flohop.com/?departureAirports=MUC&countChildren=0&countAdults=2&duration=3&earliestDepartureDate=2023-05-16&latestReturnDate=2023-05-30&mealType=NONE&roomType=DOUBLE&maxPrice=900" target="_blank">✨ LIVE WEBSITE ✨</a> 
-  
-  <br />
-  
   <a href="https://www.youtube.com/watch?v=7rjEdkcC5QM" target="_blank">🎥Demo Video🎥</a>
-
 </h3>
 
 <p>
